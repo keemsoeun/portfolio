@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김소은 | 웹디자인/웹퍼블리셔 포트폴리오</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+    <link rel="stylesheet" href="../../../../common/style/reset.css">
+    <link rel="stylesheet" href="../../../style/common/font.css">
+    <link rel="stylesheet" href="../../../style/common/common.css">
+
+    <script src="../../../script/common.js"></script>
+    <script src="../../../script/portfolio.js"></script>
+</head>
+<body>
+    <div class="toast">
+        <p></p>
+    </div>
+    <div class="wrap">
+        <header>
+            <div class="inner">
+                <h1><a href="../../../../index.html">KEEMSOEUN PORTFOLIO</a></h1>
+                <nav class="gnb">
+                    <ul class="gnb-li">
+                        <li><a href="../portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="../../about.html">ABOUT</a></li>
+                        <li><a href="../../contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="menu-view__btn">MENU</button>
+            </div>
+        </header>
+        <div class="menu-view">
+            <div class="inner">
+                <div class="menu-view__top">
+                    <button type="button" class="menu-view__close">CLOSE</button>
+                </div>
+                <div class="menu-view__menu">
+                    <ul>
+                        <li><a href="../../../../index.html">HOME</a></li>
+                        <li><a href="../portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="../../about.html">ABOUT</a></li>
+                        <li><a href="../../contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menu-view__btm">
+                    <ul>
+                        <li><span>E-Mail.</span>keeemsoeun@gmail.com</li>
+                        <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                        <li><span>Phone.</span>010-7919-9791</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="detail-tit">
+                <div class="inner">
+                    <h2 class="detail-tit__tit">로지텍 G</h2>
+                    <div class="detail-tit__info"><span>기여도</span>디자인 100% / 퍼블리싱 100%</div>
+                    <div class="detail-tit__desc">
+                        <p>웹 퍼블리싱을 빠삭하게 다룹니다. React/TypeScript 등 프레임워크 환경에서 컴포넌트 단위의 마크업 작업을 능숙하게 할 수 있어요.  어디에서도 잘 보이는 반응형, 웹 접근성과 웹 표준을 고려한 웹 페이지를 그려냅니다.</p>
+                    </div>
+                    <a class="btn bk hover-move" href="../../../../publishing/logitech/page/index.html" target="_blank">
+                        <span>GO SITE</span>
+                        <i>
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                            </svg>
+                            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>
+            <div class="detail-img">
+                <div class="detail-top">
+                    <div class="img-area pc"><img src="../../../images/portfolio/detail/detail_01/top_img_pc.png" alt=""></div>
+                    <div class="img-area mo"><img src="../../../images/portfolio/detail/detail_01/top_img_mo.png" alt=""></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="inner">
+                <div class="ft-top">
+                    <div class="ft-top__lft">
+                        <button type="button" class="email-copy" id="copyEmail" data-clipboard-text="keeemsoeun@gmail.com">
+                            <span>KEEEMSOEUN@</span>
+                            <br/>
+                            <span>
+                                GMAIL.COM
+                                <i>
+                                    <img src="../../../images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                    <img src="../../../images/common/arrow_top_right_wh_ico.svg" alt="">
+                                </i>
+                            </span>
+                        </button>
+                        <ul class="ft-contact">
+                            <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                            <li><span>Phone.</span>010-7919-9791</li>
+                        </ul>
+                    </div>
+                    <div class="ft-top__rgt">
+                        <button type="button" class="top-btn" aria-label="맨 위로 이동">
+                            <img src="../../../images/common/arrow_top_wh_ico.svg" alt="">
+                            <img src="../../../images/common/arrow_top_wh_ico.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="ft-btm">
+                    <p class="copy">©2024 Keem-SoEun All Rights Reserved</p>
+                    <div class="update"><span>UPDATE.</span>2024.11</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

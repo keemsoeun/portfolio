@@ -1,0 +1,38 @@
+// responsive
+$breakpoint-desktop: 1280px;
+$breakpoint-min-desktop: 1024px;
+$breakpoint-laptop: 768px;
+$breakpoint-tablet: 480px;
+$breakpoint-mobile: 380px;
+
+// size
+$width-desktop: 1280;
+$width-min-desktop: 1024;
+$width-laptop: 768;
+$width-tablet: 480;
+$width-mobile: 380;
+
+$inner-width-px: 1760px;
+$width-inner: 1720;
+$inner-padding-desktop: 20px;
+$inner-padding-tablet: 16px;
+$inner-padding-minus-desktop: -20px;
+$inner-padding-minus-tablet: -16px;
+
+// color
+$color-primary-normal: #33FFA7;
+$label-neutral: #2F2F2F;
+$label-alternative: #606060;
+$label-assistive: #818181;
+$label-disabled: #BDBDBD;
+$label-dark-neutral: #E3E3E3;
+$label-dark-alternative: #BEBEBE;
+$label-dark-assistive: #949494;
+$label-dark-disabled: #787878;
+$background-normal: #ededed;
+$background-light: #f3f3f3;
+$background-dark-strong: #1A1A1A;
+$background-dark-normal: #232323;
+$border-strong: #BBBBBB;
+$border-normal: #D2D2D2;
+$border-dark-normal: rgba(255, 255, 255, 0.2);

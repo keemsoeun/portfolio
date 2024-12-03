@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김소은 | 웹디자인/웹퍼블리셔 포트폴리오</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+    <link rel="stylesheet" href="../../../common/style/reset.css">
+    <link rel="stylesheet" href="../../style/common/font.css">
+    <link rel="stylesheet" href="../../style/common/common.css">
+
+    <script src="../../script/common.js"></script>
+    <script src="../../script/portfolio.js"></script>
+</head>
+<body>
+    <div class="toast">
+        <p></p>
+    </div>
+    <div class="wrap">
+        <header>
+            <div class="inner">
+                <h1><a href="../../../index.html">KEEMSOEUN PORTFOLIO</a></h1>
+                <nav class="gnb">
+                    <ul class="gnb-li">
+                        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                        <li><a href="../contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="menu-view__btn">MENU</button>
+            </div>
+        </header>
+        <div class="menu-view">
+            <div class="inner">
+                <div class="menu-view__top">
+                    <button type="button" class="menu-view__close">CLOSE</button>
+                </div>
+                <div class="menu-view__menu">
+                    <ul>
+                        <li><a href="../../../index.html">HOME</a></li>
+                        <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                        <li><a href="../contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menu-view__btm">
+                    <ul>
+                        <li><span>E-Mail.</span>keeemsoeun@gmail.com</li>
+                        <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                        <li><span>Phone.</span>010-7919-9791</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="inner">
+                <div class="sub-head">
+                    <div class="sub-tit__area col">
+                        <h2 class="sub-head__tit"><span>Portfolio</span></h2>
+                        <div class="prj-length"><span></span></div>
+                    </div>
+                    <ul class="sub-head__cate">
+                        <li><a href="javscript:void(0);" class="all" rel="all">All Project</a></li>
+                        <li><a href="javscript:void(0);" rel="main">Main Project</a></li>
+                        <li><a href="javscript:void(0);" rel="sub">Sub Project</a></li>
+                    </ul>
+                </div>
+                <div class="sub-cont">
+                    <ul class="prj-li">
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_12.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_12.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">easy PM 프로젝트관리프로그램</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_11.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_11.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">2023 대구대학교 시각디자인전공 졸업작품전시회</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_10.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_10.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">TNT AH-QR</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_09.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_09.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">2023 ㈜삼인시스템</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_08.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_08.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">2022 대구대학교 시각디자인전공 졸업작품전시회</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-sub">
+                            <a href="../portfolio/detail/detail_07.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_07.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">링크밸류</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_06.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_06.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">한국물기술인증원</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_05.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_05.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">한국물기술인증원 통합인증정보망</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-main">
+                            <a href="../portfolio/detail/detail_04.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_04.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">콩쿨링크</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-sub">
+                            <a href="../portfolio/detail/detail_03.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_03.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">롯데호텔월드</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-sub">
+                            <a href="../portfolio/detail/detail_02.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_02.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">HP 코리아</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="cate-sub">
+                            <a href="../portfolio/detail/detail_01.html">
+                                <div class="img-area"><img src="../../images/portfolio/list/prj_li_img_01.png" alt=""></div>
+                                <div class="prj-tit">
+                                    <h3 class="prj-tit__tit">로지텍 G</h3>
+                                    <div class="prj-tit__info">
+                                        <span>디자인</span>
+                                        <span>퍼블리싱</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="inner">
+                <div class="ft-top">
+                    <div class="ft-top__lft">
+                        <button type="button" class="email-copy" id="copyEmail" data-clipboard-text="keeemsoeun@gmail.com">
+                            <span>KEEEMSOEUN@</span>
+                            <br/>
+                            <span>
+                                GMAIL.COM
+                                <i>
+                                    <img src="../../images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                    <img src="../../images/common/arrow_top_right_wh_ico.svg" alt="">
+                                </i>
+                            </span>
+                        </button>
+                        <ul class="ft-contact">
+                            <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                            <li><span>Phone.</span>010-7919-9791</li>
+                        </ul>
+                    </div>
+                    <div class="ft-top__rgt">
+                        <button type="button" class="top-btn" aria-label="맨 위로 이동">
+                            <img src="../../images/common/arrow_top_wh_ico.svg" alt="">
+                            <img src="../../images/common/arrow_top_wh_ico.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="ft-btm">
+                    <p class="copy">©2024 Keem-SoEun All Rights Reserved</p>
+                    <div class="update"><span>UPDATE.</span>2024.11</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>

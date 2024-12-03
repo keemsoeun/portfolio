@@ -1,0 +1,88 @@
+.contact-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    .copy-txt {
+        display: inline-flex;
+        align-items: center;
+        width: auto;
+        padding: rem(6) rem(10);
+        background: #000;
+        img {
+            width: rem(22);
+            height: rem(22);
+        }
+        span {
+            display: inline-block;
+            margin-left: 4px;
+            font-size: rem(22);
+            font-weight: 500;
+            color: $color-primary-normal;
+        }
+    }
+
+
+    .contact-btn {
+        margin: rem(40) 0;
+        button {
+            position: relative;
+            display: inline-block;
+            line-height: 1;
+            span {
+                &:first-of-type {
+                    font-size: rem(118);
+                    font-weight: 600;
+                    &.italic {
+                        font-style: italic;
+                        font-weight: 500;
+                    }
+                }
+                &:last-of-type {
+                    position: absolute;
+                    display: none;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    white-space: nowrap;
+                    font-style: italic;
+                    font-size: rem(92);
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+@media (hover: hover) {
+    .contact-btn {
+        button {
+            &:hover {
+                span {
+                    &:first-of-type {
+                        opacity: 0;
+                    }
+                    &:last-of-type {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+@include desktop {
+    .contact-area {
+        .contact-btn {
+            button {
+                span {
+                    &:first-of-type {
+                        font-size: calc((128/$width-desktop)*100vw);
+                    }
+                    &:last-of-type {
+                        font-size: calc((96/$width-desktop)*100vw);
+                    }
+                }
+            }
+        }
+    }
+}

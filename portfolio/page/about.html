@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김소은 | 웹디자인/웹퍼블리셔 포트폴리오</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+    <link rel="stylesheet" href="../../common/style/reset.css">
+    <link rel="stylesheet" href="../style/common/font.css">
+    <link rel="stylesheet" href="../style/common/common.css">
+
+    <script src="../script/common.js"></script>
+</head>
+<body>
+    <div class="toast">
+        <p></p>
+    </div>
+    <div class="wrap">
+        <header>
+            <div class="inner">
+                <h1><a href="../../index.html">KEEMSOEUN PORTFOLIO</a></h1>
+                <nav class="gnb">
+                    <ul class="gnb-li">
+                        <li><a href="./portfolio/portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="menu-view__btn">MENU</button>
+            </div>
+        </header>
+        <div class="menu-view">
+            <div class="inner">
+                <div class="menu-view__top">
+                    <button type="button" class="menu-view__close">CLOSE</button>
+                </div>
+                <div class="menu-view__menu">
+                    <ul>
+                        <li><a href="../../index.html">HOME</a></li>
+                        <li><a href="./portfolio/portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menu-view__btm">
+                    <ul>
+                        <li><span>E-Mail.</span>keeemsoeun@gmail.com</li>
+                        <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                        <li><span>Phone.</span>010-7919-9791</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="inner">
+                <div class="sub-head">
+                    <div class="sub-tit__area">
+                        <h2 class="sub-head__tit"><span>About</span></h2>
+                    </div>
+                </div>
+                <div class="sub-cont">
+                    <div class="sub-sec">
+                        <div class="sub-itm col-2">
+                            <h3 class="sec-tit"><span>Introduce</span></h3>
+                        </div>
+                        <div class="sub-itm col-4 introduce-tit">
+                            <strong>좋아하면 더 잘한다는 마음으로  UI 개발 일을 하고 있습니다</strong>
+                            <p>웹 퍼블리싱을 빠삭하게 다룹니다. React/TypeScript 등 프레임워크 환경에서 컴포넌트 단위의 마크업 작업을 능숙하게 할 수 있어요.  어디에서도 잘 보이는 반응형, 웹 접근성과 웹 표준을 고려한 웹 페이지를 그려냅니다.</p>
+                        </div>
+                        <div class="sub-itm col-6 introduce-info">
+                            <div class="sub-box">
+                                <h4 class="sub-box__tit">Profile</h4>
+                                <ul class="introduce-li">
+                                    <li><b>Name</b><span>김소은</span></li>
+                                    <li><b>Birth Date</b><span>1998.12.25</span></li>
+                                    <li><b>Phone</b><span>010-7919-9791</span></li>
+                                    <li><b>E-Mail</b><span>keeemsoeun@gmail.com / dobermannn@naver.com</span></li>
+                                    <li><b>Address</b><span>대구광역시 북구 도남길 96</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4 class="sub-box__tit">Education</h4>
+                                <ul class="introduce-li large">
+                                    <li><b>2017.03 ~ 2017.03</b><span>대구대학교 시각디자인학과 졸업</span></li>
+                                    <li><b>2017.03 ~ 2017.03</b><span>군위고등학교 졸업</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4 class="sub-box__tit">License</h4>
+                                <ul class="introduce-li">
+                                    <li><b>2023.11</b><span>웹디자인기능사</span></li>
+                                </ul>
+                            </div>
+                            <div class="sub-box">
+                                <h4 class="sub-box__tit">Used Tools</h4>
+                                <ul class="txt-li">
+                                    <li>Photoshop, Illustrator를 이용한 디자인 및 편집 작업이 가능합니다.</li>
+                                    <li>Xd, Figma를 이용한 UI/UX 디자인 및 프로토타이핑이 가능합니다.</li>
+                                    <li>After Effects를 이용한 간단한 모션그래픽 작업이 가능합니다.</li>
+                                    <li>HTML, CSS, SCSS를 이용한 퍼블리싱이 가능합니다.</li>
+                                    <li>웹 표준, 웹 접근성, 크로스 브라우징 마크업이 가능합니다.</li>
+                                    <li>반응형, 모바일 웹 제작이 가능합니다.</li>
+                                    <li>Javascript, jQuery를 이용한 동적인 웹 구현이 가능합니다.</li>
+                                    <li>Gsap을 이용한 스크롤 애니메이션 구현이 가능합니다.</li>
+                                </ul>
+                                <ul class="logo-li">
+                                    <li><img src="../images/about/about_logo_01.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_02.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_03.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_04.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_05.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_06.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_07.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_08.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_09.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_10.png" alt=""></li>
+                                    <li><img src="../images/about/about_logo_11.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-sec">
+                        <div class="sub-itm col-2">
+                            <h3 class="sec-tit"><span>Work Experience</span></h3>
+                        </div>
+                        <div class="sub-itm col-10 work-info">
+                            <div class="accordion">
+                                <div class="accordion-itm">
+                                    <div class="accordion-tit">
+                                        <div class="work-tit">
+                                            <span class="work-company">(주)삼인시스템</span>
+                                            <div class="work-info">
+                                                <span>사원, 주임</span>
+                                                <span>2021.11.01 ~ 현재</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-cont">
+                                        <ul class="txt-li">
+                                            <li>한국전력공사 스마트 도서관 홈페이지, 관리자 페이지 디자인 및 퍼블리싱</li>
+                                            <li>게시판관리 프로그램 디자인 및 퍼블리싱(자체)</li>
+                                            <li>easy PM 프로젝트관리프로그램 디자인 및 퍼블리싱(자체)</li>
+                                            <li>충청남도교육청 장애관리 시스템 디자인 및 퍼블리싱</li>
+                                            <li>경상북도교육청 유지관리 시스템 디자인 및 퍼블리싱</li>
+                                            <li>2023 대구대학교 시각디자인전공 졸업작품전시회 홈페이지 디자인 및 퍼블리싱</li>
+                                            <li>TNT AH-QR 홈페이지 디자인 및 퍼블리싱</li>
+                                            <li>엠파파 PMO 디자인 및 퍼블리싱</li>
+                                            <li>2023 삼인시스템 홈페이지 디자인 및 퍼블리싱</li>
+                                            <li>스마트 보행보조기 관리자 페이지, 어플리케이션 디자인 및 퍼블리싱(자체)</li>
+                                            <li>2022 대구대학교 시각디자인전공 졸업작품전시회 홈페이지 디자인 및 퍼블리싱</li>
+                                            <li>경상북도교육청 정보화장비 관리 사이트 디자인 및 퍼블리싱</li>
+                                            <li>한국물기술인증원 홈페이지 디자인 및 퍼블리싱</li>
+                                            <li>한국물기술인증원 통합인증정보망 홈페이지, 관리자페이지 디자인 및 퍼블리싱</li>
+                                            <li>콩쿨링크 홈페이지, 관리자 페이지 디자인 및 퍼블리싱</li>
+                                            <li>삼인시스템 클라우드컴퓨터 소개페이지 디자인 및 퍼블리싱</li>
+                                            <li>도산서원선비문화수련원 홈페이지, 관리자 페이지 디자인 및 퍼블리싱</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="accordion-itm">
+                                    <div class="accordion-tit">
+                                        <div class="work-tit">
+                                            <span class="work-company">(주)케이앤와이</span>
+                                            <div class="work-info">
+                                                <span>인턴</span>
+                                                <span>2021.11.01 ~ 현재</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-cont">
+                                        <ul class="txt-li">
+                                            <li>한국어 교육 플랫폼 Baro 어플리케이션 디자인</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="inner">
+                <div class="ft-top">
+                    <div class="ft-top__lft">
+                        <button type="button" class="email-copy" id="copyEmail" data-clipboard-text="keeemsoeun@gmail.com">
+                            <span>KEEEMSOEUN@</span>
+                            <br/>
+                            <span>
+                                GMAIL.COM
+                                <i>
+                                    <img src="../images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                    <img src="../images/common/arrow_top_right_wh_ico.svg" alt="">
+                                </i>
+                            </span>
+                        </button>
+                        <ul class="ft-contact">
+                            <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                            <li><span>Phone.</span>010-7919-9791</li>
+                        </ul>
+                    </div>
+                    <div class="ft-top__rgt">
+                        <button type="button" class="top-btn" aria-label="맨 위로 이동">
+                            <img src="../images/common/arrow_top_wh_ico.svg" alt="">
+                            <img src="../images/common/arrow_top_wh_ico.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="ft-btm">
+                    <p class="copy">©2024 Keem-SoEun All Rights Reserved</p>
+                    <div class="update"><span>UPDATE.</span>2024.11</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
