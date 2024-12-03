@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로지텍 G</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../../../common/style/reset.css">
+    <link rel="stylesheet" href="../style/common/font.css">
+    <link rel="stylesheet" href="../style/common/common.css">
+
+    <script src="../script/common.js"></script>
+    <script src="../script/product.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header></header>
+        <main>
+            <section class="sub-head">
+                <div class="inner">
+                    <div class="sub-tit">
+                        <p class="sub-tit__sub">GAMING MOUSE</p>
+                        <h2 class="sub-tit__tit">게이밍 마우스</h2>
+                        <p class="sub-tit__desc">
+                            로지텍 G는 수상 경력에 빛나는 무선 및 유선 게이밍 마우스를 개발하고 있습니다. <br/>
+                            센서부터 디자인에 이르기까지 지속적인 혁신으로 사용자에게 적합한 제품을 추구합니다.
+                        </p>
+                    </div>
+                    <div class="scroll-ani">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="img-area"><img src="../images/product/sub_head_img.png" alt=""></div>
+            </section>
+            <section class="sub-main">
+                <div class="inner">
+                    <div class="product-container">
+                        <div class="top-filter">
+                            <div class="filter-btn">
+                                <button class="btn-hide" type="button">필터 숨기기</button>
+                                <button class="btn-show" type="button">필터 표시</button>
+                            </div>
+                            <div class="list-filter">
+                                <div class="select">
+                                    <div class="current">
+                                        <span>추천순</span>
+                                        <img src="../images/common/arrow_down_gray_ico.svg" alt="">
+                                    </div>
+                                    <ul>
+                                        <li><button type="button">추천순</button></li>
+                                        <li><button type="button">신규순</button></li>
+                                        <li><button type="button">이름순</button></li>
+                                        <li><button type="button">베스트셀러</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="filter-li">
+                            <li>
+                                <div class="filter-tit">출력전달</div>
+                                <ul>
+                                    <li>
+                                        <label for="c1F1">
+                                            <input type="checkbox" id="c1F1">
+                                            <span>POWERPLAY Compatibility</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c1F2">
+                                            <input type="checkbox" id="c1F2">
+                                            <span>유선</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c1F3">
+                                            <input type="checkbox" id="c1F3">
+                                            <span>충전식</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c1F4">
+                                            <input type="checkbox" id="c1F4">
+                                            <span>Powerplay</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="filter-tit">조명</div>
+                                <ul>
+                                    <li>
+                                        <label for="c2F1">
+                                            <input type="checkbox" id="c2F1">
+                                            <span>라이트싱크 RGB</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="filter-tit">연결</div>
+                                <ul>
+                                    <li>
+                                        <label for="c3F1">
+                                            <input type="checkbox" id="c3F1">
+                                            <span>Wired</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c3F2">
+                                            <input type="checkbox" id="c3F2">
+                                            <span>Bluetooth</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c3F3">
+                                            <input type="checkbox" id="c3F3">
+                                            <span>LIGHTSPEED 무선</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="filter-tit">센서 유형</div>
+                                <ul>
+                                    <li>
+                                        <label for="c4F1">
+                                            <input type="checkbox" id="c4F1">
+                                            <span>광학 센서</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c4F2">
+                                            <input type="checkbox" id="c4F2">
+                                            <span>HERO 센서</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="filter-tit">컬러</div>
+                                <ul class="color-li">
+                                    <li>
+                                        <label for="c5F1">
+                                            <input type="checkbox" id="c5F1">
+                                            <span style="border: 1px solid #D9D9D9; background: #fff;">화이트</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c5F2">
+                                            <input type="checkbox" id="c5F2">
+                                            <span style="background: #000000;">블랙</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c5F3">
+                                            <input type="checkbox" id="c5F3">
+                                            <span style="background: #53A365;">그린</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c5F4">
+                                            <input type="checkbox" id="c5F4">
+                                            <span style="background: #4181E6;">블루</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c5F5">
+                                            <input type="checkbox" id="c5F5">
+                                            <span style="background: #E85F5F;">레드</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c5F6">
+                                            <input type="checkbox" id="c5F6">
+                                            <span style="background: #7A51B1;">퍼플</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="c5F7">
+                                            <input type="checkbox" id="c5F7">
+                                            <span style="background: #FFD1E6;">핑크</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="product-wrap">
+                            <ul class="selected-li"></ul>
+                            <ul class="product-area">
+                                <li class="c1F1 c1F3 c1F4 c2F1 c3F3 c4F1 c4F1 c4F2 c5F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_23_01.png" alt="">
+                                            <img src="../images/product/product_list_23_02.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G502 X LIGHTSPEED 무선 게이밍 마우스</a></div>
+                                    <ul class="product-color">
+                                        <li><button class="wh" type="button"></button></li>
+                                        <li><button class="bk" type="button"></button></li>
+                                    </ul>
+                                </li>
+                                <li class="c1F1 c1F3 c1F4 c2F1 c3F3 c4F2 c5F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_22_01.png" alt="">
+                                            <img src="../images/product/product_list_22_02.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G502 X PLUS 게이밍 마우스</a></div>
+                                    <ul class="product-color">
+                                        <li><button class="wh" type="button"></button></li>
+                                        <li><button class="bk" type="button"></button></li>
+                                    </ul>
+                                </li>
+                                <li class="c1F2 c3F1 c4F2 c5F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_21_01.png" alt="">
+                                            <img src="../images/product/product_list_21_02.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G502 X 게이밍 마우스</a></div>
+                                    <ul class="product-color">
+                                        <li><button class="wh" type="button"></button></li>
+                                        <li><button class="bk" type="button"></button></li>
+                                    </ul>
+                                </li>
+                                <li class="c1F3 c2F1 c3F1 c3F2 c3F3 c4F1 c5F1">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_20.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G705</a></div>
+                                    <p class="product-desc">무선 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F3 c3F1 c3F3 c4F1 c4F2 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_19.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G303 SHROUD</a></div>
+                                    <p class="product-desc">로지텍 에디션 무선 게이밍 마우스</p>
+                                </li>
+                                <li>
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_18.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">PRO 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">PRO 무선 마우스</a></div>
+                                    <p class="product-desc">League of Legends 에디션</p>
+                                </li>
+                                <li class="c1F3 c1F4 c3F3 c4F1 c4F2 c5F1 c5F2 c5F5 c5F7">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_17_01.png" alt="">
+                                            <img src="../images/product/product_list_17_02.png" alt="">
+                                            <img src="../images/product/product_list_17_03.png" alt="">
+                                            <img src="../images/product/product_list_17_04.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">PRO 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">PRO X</a></div>
+                                    <p class="product-desc">SUPERLIGHT</p>
+                                    <ul class="product-color">
+                                        <li><button class="wh" type="button"></button></li>
+                                        <li><button class="bk" type="button"></button></li>
+                                        <li><button class="red" type="button"></button></li>
+                                        <li><button class="pink" type="button"></button></li>
+                                    </ul>
+                                </li>
+                                <li class="c1F2 c2F1 c3F1 c4F1 c5F1 c5F2 c5F4 c5F6">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_16_01.png" alt="">
+                                            <img src="../images/product/product_list_16_02.png" alt="">
+                                            <img src="../images/product/product_list_16_03.png" alt="">
+                                            <img src="../images/product/product_list_16_04.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G203</a></div>
+                                    <p class="product-desc">LISGHTSYNC</p>
+                                    <ul class="product-color">
+                                        <li><button class="purple" type="button"></button></li>
+                                        <li><button class="wh" type="button"></button></li>
+                                        <li><button class="bk" type="button"></button></li>
+                                        <li><button class="blue" type="button"></button></li>
+                                    </ul>
+                                </li>
+                                <li class="c1F2 c2F1 c3F1 c4F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_15.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G403</a></div>
+                                    <p class="product-desc">HERO 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F1 c1F4 c2F1 c3F1 c3F3 c4F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_14.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G703</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스 HERO 센서 장착</p>
+                                </li>
+                                <li class="c1F1 c1F3 c1F4 c2F1 c3F1 c3F3 c4F1 c4F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_13.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G903</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스 HERO 센서 장착</p>
+                                </li>
+                                <li class="c1F1 c1F2 c1F3 c1F4 c3F1 c3F3 c4F2 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_12.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G502</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F2 c2F1 c3F1 c4F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_11.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G502 HERO</a></div>
+                                    <p class="product-desc">고성능 게이밍 마우스</p>
+                                </li>
+                                <li>
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_10.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G502 K/DA 고성능 게이밍 마우스 - KDA</a></div>
+                                    <p class="product-desc">고성능 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F1 c1F3 c1F4 c2F1 c3F1 c3F3 c4F1 c4F2 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_09.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">PRO 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">PRO</a></div>
+                                    <p class="product-desc">무선 게이밍 마우스</p>
+                                </li>
+                                <li class="c2F1 c3F1 c3F3 c4F1 c4F2 c5F1 c5F2 c5F3 c5F4 c5F6">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_08_01.png" alt="">
+                                            <img src="../images/product/product_list_08_02.png" alt="">
+                                            <img src="../images/product/product_list_08_03.png" alt="">
+                                            <img src="../images/product/product_list_08_04.png" alt="">
+                                            <img src="../images/product/product_list_08_05.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G305</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스</p>
+                                    <ul class="product-color">
+                                        <li><button class="purple" type="button"></button></li>
+                                        <li><button class="wh" type="button"></button></li>
+                                        <li><button class="bk" type="button"></button></li>
+                                        <li><button class="blue" type="button"></button></li>
+                                        <li><button class="green" type="button"></button></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_07.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G304 K/DA LIGHTSPEED 무선 게이밍 마우스 - DKA</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F3 c4F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_06.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G703</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F1 c1F3 c1F4 c2F1 c3F1 c3F3 c4F2 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_05.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G903</a></div>
+                                    <p class="product-desc">LIGHTSPEED 무선 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F2 c2F1 c3F1 c4F1 c4F2 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_04.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                            <li class="dark">베스트셀러</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G403</a></div>
+                                    <p class="product-desc">유선 게이밍 마우스</p>
+                                </li>
+                                <li class="c1F2 c2F1 c3F1 c4F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_03.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G102 PRODIGY</a></div>
+                                    <p class="product-desc">게이밍 마우스</p>
+                                </li>
+                                <li class="c3F1 c4F1 c5F2">
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_02.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G302 DAEDALUS PRIME</a></div>
+                                    <p class="product-desc">전문적인 게임에 맞게 조정</p>
+                                </li>
+                                <li>
+                                    <div class="img-area">
+                                        <a href="../page/detail.html">
+                                            <img src="../images/product/product_list_01.png" alt="">
+                                        </a>
+                                        <ul class="product-tag">
+                                            <li class="gray">G 시리즈</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-tit"><a href="">G402 HYPERION FURY</a></div>
+                                    <p class="product-desc">Ultra Fast FPS 게이밍 마우스</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-banner">
+                        <div class="txt-area">
+                            <b class="banner-sub">최신 기술</b>
+                            <b class="banner-tit">LIGHTSPEED 무선</b>
+                            <p class="banner-desc">
+                                무선의 혁명이란 바로 이것입니다. <br/>
+                                앤드두앤드 혁명 덕택에, 이제 선 없이도 1ms 보고율 및 지연 없이 견고한 연결성을  경험할 수 있습니다.
+                            </p>
+                            <a class="btn wh" href="../page/light.html">LIGHTSPEED 무선 보러가기 <img src="../images/common/arrow_right_bk_ico.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+</body>

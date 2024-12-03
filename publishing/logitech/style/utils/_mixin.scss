@@ -1,0 +1,33 @@
+@import './variable';
+
+// responsive
+@mixin desktop {
+    @media (max-width: #{$breakpoint-desktop}) {
+        @content;
+    }
+}
+@mixin minDesktop {
+    @media (max-width: #{$breakpoint-min-desktop}) {
+        @content;
+    }
+}
+@mixin laptop {
+    @media (max-width: #{$breakpoint-laptop}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (max-width: #{$breakpoint-tablet}) {
+        @content;
+    }
+}
+@mixin mobile {
+    @media (max-width: #{$breakpoint-mobile}) {
+        @content;
+    }
+}
+
+// rem size
+@function rem($pxSize) {
+    @return ($pxSize / 16) + rem;
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김소은 | 웹디자인/웹퍼블리셔 포트폴리오</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./common/style/reset.css">
+    <link rel="stylesheet" href="./portfolio/style/common/font.css">
+    <link rel="stylesheet" href="./portfolio/style/common/common.css">
+
+    <script src="./portfolio/script/common.js"></script>
+    <script src="./portfolio/script/index.js"></script>
+</head>
+<body>
+    <div class="pointer">
+        <i class="ico"><img src="./portfolio/images/common/add_wh_ico.svg" alt=""></i>
+        <span class="txt">VIEW DETAIL</span>
+    </div>
+    <div class="toast">
+        <p></p>
+    </div>
+    <div class="wrap">
+        <header>
+            <div class="inner">
+                <h1><a href="./index.html">KEEMSOEUN PORTFOLIO</a></h1>
+                <nav class="gnb">
+                    <ul class="gnb-li">
+                        <li><a href="./portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="./portfolio/page/about.html">ABOUT</a></li>
+                        <li><a href="./portfolio/page/contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="menu-view__btn">MENU</button>
+            </div>
+        </header>
+        <div class="menu-view">
+            <div class="inner">
+                <div class="menu-view__top">
+                    <button type="button" class="menu-view__close">CLOSE</button>
+                </div>
+                <div class="menu-view__menu">
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="./portfolio/page/about.html">ABOUT</a></li>
+                        <li><a href="./portfolio/page/contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menu-view__btm">
+                    <ul>
+                        <li><span>E-Mail.</span>keeemsoeun@gmail.com</li>
+                        <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                        <li><span>Phone.</span>010-7919-9791</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <main>
+            <!-- <section class="visual">
+                <div class="inner">
+                    <div class="visual-tit">
+                        <h2 class="visual-tit__tit">
+                            <div>
+                                <p>
+                                    <span>WEB DESIGNER</span>
+                                    <span>PUBLISHER</span>
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <span class="txt-box__bk">PORTFOLIO</span>
+                                    <span class="txt-box__prm">2024</span>
+                                </p>
+                            </div>
+                        </h2>
+                        <p class="visual-tit__desc">맡은 프로젝트의 목적을 우선적으로 고려하며, 원활한 협업을 중요하게 생각해요. 다양한 직군과 함께 멋지고 즐거운 UX를 만드는 데 관심이 많습니다.</p>
+                    </div>
+                    <div class="visual-btm">
+                        <div class="scroll-down">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">SCROLL DOWN <img src="./portfolio/images/common/arrow_down_gray_ico.svg" alt=""></div>
+                                <div class="swiper-slide">SCROLL DOWN <img src="./portfolio/images/common/arrow_down_gray_ico.svg" alt=""></div>
+                                <div class="swiper-slide">SCROLL DOWN <img src="./portfolio/images/common/arrow_down_gray_ico.svg" alt=""></div>
+                                <div class="swiper-slide">SCROLL DOWN <img src="./portfolio/images/common/arrow_down_gray_ico.svg" alt=""></div>
+                                <div class="swiper-slide">SCROLL DOWN <img src="./portfolio/images/common/arrow_down_gray_ico.svg" alt=""></div>
+                                <div class="swiper-slide">SCROLL DOWN <img src="./portfolio/images/common/arrow_down_gray_ico.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <ul class="contact">
+                            <li><span>E-Mail</span>keeemsoeun@gmail.com</li>
+                            <li><span>Phone</span>010-7919-9791</li>
+                        </ul>
+                    </div>
+                </div>
+            </section> -->
+
+
+            <section class="visual">
+                <div class="inner">
+                    <div class="visual-contact">
+                        <dl>
+                            <dt>E-Mail.</dt>
+                            <dd>keeemsoeun@gmail.com</dd>
+                        </dl>
+                        <dl>
+                            <dt>Phone.</dt>
+                            <dd>010-7919-9791</dd>
+                        </dl>
+                    </div>
+                    <div class="visual-tit">
+                        <h2 class="visual-tit__tit">Portfolio</h2>
+                        <p class="visual-tit__desc">맡은 프로젝트의 목적을 우선적으로 고려하며, 원활한 협업을 중요하게 생각해요. 다양한 직군과 함께 멋지고 즐거운 UX를 만드는 데 관심이 많습니다.</p>
+                    </div>
+                    <div class="visual-btm">
+                        <span>Web Designer</span>
+                        <span>Publisher</span>
+                        <span>Portfolio 2024</span>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="inner">
+                    <h3 class="sec-tit"><span>About</span></h3>
+                    <div class="txt-area">
+                        <h4 class="about-tit__tit">
+                            <p>좋아하면 더 잘한다는 마음으로</p>
+                            <p>UI 개발 일을 하고 있습니다</p>
+                        </h4>
+                        <div class="about-tit__desc">
+                            <p>
+                                웹 퍼블리싱을 빠삭하게 다룹니다. React/TypeScript 등 프레임워크 환경에서 컴포넌트 단위의 마크업 작업을 능숙하게 할 수 있어요.  어디에서도 잘 보이는 반응형, 웹 접근성과 웹 표준을 고려한 웹 페이지를 그려냅니다.
+                                <br><br>
+                                맡은 프로젝트의 목적을 우선적으로 고려하며, 원활한 협업을 중요하게 생각해요. 다양한 직군과 함께 멋지고 즐거운 UX를 만드는 데 관심이 많습니다.
+                            </p>
+                            <a class="btn bk-secondary hover-show" href="./portfolio/page/about.html">
+                                <span>MORE VIEW</span>
+                                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M61.3337 11.751H53.8337C53.8337 26.0426 61.0003 38.6676 71.9587 46.251H4.16699V53.751H71.917C61.0003 61.3343 53.8337 73.9593 53.8337 88.251H61.3337C61.3337 69.2093 76.792 53.751 95.8337 53.751V46.251C76.792 46.251 61.3337 30.7926 61.3337 11.751Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-prj">
+                <div class="main-prj__itm main-prj__itm1">
+                    <div class="inner">
+                        <div class="txt-area">
+                            <h3 class="sec-tit"><span>Main Project</span></h3>
+                            <h4 class="prj-tit sm">DVCD <br/>GRADUATE EXHIBITION</h4>
+                            <p class="prj-tit__ko">대구대학교 시각디자인전공 2023 온라인 졸업작품 전시회</p>
+                            <div class="prj-info"><span>기여도</span>디자인 100% / 퍼블리싱 100%</div>
+                            <p class="prj-desc">이전 졸업작품전시회 홈페이지와 동일한 레이아웃 구조를 원하신 바 있어 동일한 구조로 진행하되, 졸업작품 컨셉에 맞도록 디자인을 수정하였습니다.</p>
+                            <div class="btn-area">
+                                <a class="btn primary hover-move" href="http://daegudegreeshow.com/main.do;jsessionid=7826D126F2DF17FF86436AE864B50AB5" target="_blank">
+                                    <span>GO SITE</span>
+                                    <i>
+                                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                                        </svg>
+                                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                                        </svg>
+                                    </i>
+                                </a>
+                                <a class="btn bk-opacity hover-show" href="./portfolio/page/portfolio/detail/detail_11.html">
+                                    <span>VIEW DETAIL</span>
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M61.3337 11.751H53.8337C53.8337 26.0426 61.0003 38.6676 71.9587 46.251H4.16699V53.751H71.917C61.0003 61.3343 53.8337 73.9593 53.8337 88.251H61.3337C61.3337 69.2093 76.792 53.751 95.8337 53.751V46.251C76.792 46.251 61.3337 30.7926 61.3337 11.751Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="pagination">
+                                <span>01</span>
+                                <span>03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-prj__itm main-prj__itm2">
+                    <div class="inner">
+                        <div class="txt-area">
+                            <h3 class="sec-tit"><span>Main Project</span></h3>
+                            <h4 class="prj-tit">KIWATEC</h4>
+                            <p class="prj-tit__ko">한국물기술인증원 통합인증 정보망</p>
+                            <div class="prj-info"><span>기여도</span>디자인 70% / 퍼블리싱 20%</div>
+                            <p class="prj-desc">물 키워드에 맞는 컬러를 사용하고 한국물기술인증원 로고를 사용하여 패턴화하였습니다.</p>
+                            <div class="btn-area">
+                                <a class="btn primary hover-move" href="https://portal.kiwatec.or.kr/" target="_blank">
+                                    <span>GO SITE</span>
+                                    <i>
+                                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                                        </svg>
+                                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                                        </svg>
+                                    </i>
+                                </a>
+                                <a class="btn bk-opacity hover-show" href="./portfolio/page/portfolio/detail/detail_05.html">
+                                    <span>VIEW DETAIL</span>
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M61.3337 11.751H53.8337C53.8337 26.0426 61.0003 38.6676 71.9587 46.251H4.16699V53.751H71.917C61.0003 61.3343 53.8337 73.9593 53.8337 88.251H61.3337C61.3337 69.2093 76.792 53.751 95.8337 53.751V46.251C76.792 46.251 61.3337 30.7926 61.3337 11.751Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="pagination">
+                                <span>01</span>
+                                <span>03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-prj__itm main-prj__itm3">
+                    <div class="inner">
+                        <div class="txt-area">
+                            <h3 class="sec-tit"><span>Main Project</span></h3>
+                            <h4 class="prj-tit">SAMIN SYSTEM</h4>
+                            <p class="prj-tit__ko">(주)삼인시스템 홈페이지</p>
+                            <div class="prj-info"><span>기여도</span>디자인 100% / 퍼블리싱 100%</div>
+                            <p class="prj-desc">신뢰감을 주는 이미지를 보여주는 데에 중점을 두었습니다. 다소 심심할 수 있는 섹션에 배경 이미지를 활용하여 디자인하였습니다.</p>
+                            <div class="btn-area">
+                                <a class="btn primary hover-move" href="" target="_blank">
+                                    <span>GO SITE</span>
+                                    <i>
+                                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                                        </svg>
+                                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.3694 14.5352V21.2018H54.936L12.3027 63.8018L17.0361 68.5352L59.6361 25.9018V63.5018H66.3027V14.5352H17.3694Z" fill="white"/>
+                                        </svg>
+                                    </i>
+                                </a>
+                                <a class="btn bk-opacity hover-show" href="./portfolio/page/portfolio/detail/detail_09.html">
+                                    <span>VIEW DETAIL</span>
+                                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M61.3337 11.751H53.8337C53.8337 26.0426 61.0003 38.6676 71.9587 46.251H4.16699V53.751H71.917C61.0003 61.3343 53.8337 73.9593 53.8337 88.251H61.3337C61.3337 69.2093 76.792 53.751 95.8337 53.751V46.251C76.792 46.251 61.3337 30.7926 61.3337 11.751Z" fill="white"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="pagination">
+                                <span>01</span>
+                                <span>03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sub-prj">
+                <div class="inner">
+                    <div class="sticky-area">
+                        <h3>SUB PROJECT</h3>
+                    </div>
+                    <ul class="sub-prj__li">
+                        <li class="sub-prj__itm sub-prj__itm1">
+                            <a href="./portfolio/page/portfolio/detail/detail_07.html">
+                                <div class="txt-area">
+                                    <h4 class="prj-tit">링크밸류</h4>
+                                    <ul class="tag">
+                                        <li>Design</li>
+                                        <li>Publishing</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sub-prj__itm sub-prj__itm2">
+                            <a href="./portfolio/page/portfolio/detail/detail_01.html">
+                                <div class="txt-area">
+                                    <h4 class="prj-tit">로지텍 G</h4>
+                                    <ul class="tag">
+                                        <li>Design</li>
+                                        <li>Publishing</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sub-prj__itm sub-prj__itm3">
+                            <a href="./portfolio/page/portfolio/detail/detail_03.html">
+                                <div class="txt-area">
+                                    <h4 class="prj-tit">롯데호텔월드</h4>
+                                    <ul class="tag">
+                                        <li>Design</li>
+                                        <li>Publishing</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sub-prj__itm sub-prj__itm4">
+                            <a href="./portfolio/page/portfolio/detail/detail_02.html">
+                                <div class="txt-area">
+                                    <h4 class="prj-tit">HP 코리아</h4>
+                                    <ul class="tag">
+                                        <li>Design</li>
+                                        <li>Publishing</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="all-prj">
+                <div class="inner">
+                    <div class="all-prj__cont">
+                        <a href="./portfolio/page/portfolio/portfolio.html">
+                            <div>
+                                <p>ALL<span>(12)</span></p>
+                            </div>
+                            <div>
+                                <p>
+                                    PROJECT
+                                    <i>
+                                        <img src="./portfolio/images/common/arrow_right_wh_ico.svg" alt="">
+                                        <img src="./portfolio/images/common/arrow_right_wh_ico.svg" alt="">
+                                    </i>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="inner">
+                <div class="ft-top">
+                    <div class="ft-top__lft">
+                        <button type="button" class="email-copy" id="copyEmail" data-clipboard-text="keeemsoeun@gmail.com">
+                            <span>KEEEMSOEUN@</span>
+                            <br/>
+                            <span>
+                                GMAIL.COM
+                                <i>
+                                    <img src="./portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                    <img src="./portfolio/images/common/arrow_top_right_wh_ico.svg" alt="">
+                                </i>
+                            </span>
+                        </button>
+                        <ul class="ft-contact">
+                            <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                            <li><span>Phone.</span>010-7919-9791</li>
+                        </ul>
+                    </div>
+                    <div class="ft-top__rgt">
+                        <button type="button" class="top-btn" aria-label="맨 위로 이동">
+                            <img src="./portfolio/images/common/arrow_top_wh_ico.svg" alt="">
+                            <img src="./portfolio/images/common/arrow_top_wh_ico.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="ft-btm">
+                    <p class="copy">©2024 Keem-SoEun All Rights Reserved</p>
+                    <div class="update"><span>UPDATE.</span>2024.11</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

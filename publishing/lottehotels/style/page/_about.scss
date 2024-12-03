@@ -1,0 +1,425 @@
+// about, facilties
+.about-club, .about-facilties {
+    .inner {
+        position: relative;
+    }
+    .btn-area {
+        &.abs {
+            position: absolute;
+            top: 0;
+            right: rem(20);
+        }
+    }
+    .txt-area {
+        display: flex;
+        gap: rem(20);
+        margin-top: rem(32);
+        .txt-area__lft, .txt-area__rgt {
+            width: 50%;
+        }
+        .txt-area__lft {
+            padding-right: rem(105);
+        }
+        .sec-tit__itm {
+            margin-bottom: rem(12);
+        }
+    }
+}
+@include laptop {
+    .about-club, .about-facilties {
+        .txt-area {
+            display: block;
+            .txt-area__lft, .txt-area__rgt {
+                width: 100%;
+            }
+            .txt-area__lft {
+                margin-bottom: rem(20);
+                padding-right: 0;
+            }
+        }
+        .inner {
+            .btn-area {
+                margin-top: 2rem;
+                text-align: center;
+                &.abs {
+                    position: unset;
+                }
+            }
+        }
+    }
+}
+
+// intro
+.about-intro {
+    padding: rem(80) 0;
+    .txt-area {
+        margin-bottom: rem(48);
+    }
+}
+@include laptop {
+    .about-intro {
+        padding: rem(60) 0;
+    }
+}
+@include tablet {
+    .about-intro {
+        .txt-area {
+            margin-bottom: rem(28);
+        }
+        .img-area {
+            height: rem(320);
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+// dining
+.about-dining {
+    padding: rem(100) 0;
+    background: url(../../images/about/dining_bg_img.png) center /cover no-repeat;
+    .inner {
+        position: relative;
+    }
+    .txt-area {
+        position: absolute;
+        width: calc((605/$inner-width)*100%);
+        padding-top: rem(100);
+        top: 0;
+        left: rem(20);
+        .sec-tit__tit {
+            color: #fff;
+        }
+        .sec-tit__itm {
+            margin-bottom: rem(16);
+            color: #fff;
+        }
+        .sec-tit__desc {
+            line-height: 1.5;
+            color: #E1E1E1;
+        }
+        .txt-li {
+            margin-top: rem(24);
+        }
+        .btn {
+            margin-top: rem(40);
+        }
+    }
+    .img-area {
+        width: calc((950/1920)*100%);
+        height: rem(600);
+        margin-left: auto;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+@include minDesktop {
+    .about-dining {
+        .txt-area {
+            position: unset;
+            width: 100%;
+            padding-top: 0;
+        }
+        .img-area {
+            width: calc(100% - rem(40));
+            height: unset;
+            margin: rem(48) rem(20) 0;
+        }
+    }
+}
+@include laptop {
+    .about-dining {
+        padding: rem(60) 0;
+    }
+}
+@include tablet {
+    .about-dining {
+        .txt-area {
+            .btn {
+                margin-top: rem(28);
+            }
+        }
+        .img-area {
+            margin: rem(28) rem(20) 0;
+        }
+    }
+}
+
+// club
+.about-club {
+    padding: rem(80) 0 rem(100);
+    .img-hover__area {
+        display: flex;
+        .img-area {
+            width: calc((100% - (1105/$inner-width)*100%)/2);
+            height: rem(600);
+            opacity: .5;
+            transition: width ease .5s, opacity ease .5s, height ease .5s;
+            &.on {
+                width: calc((1105/$inner-width)*100%);
+                opacity: 1;
+            }
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+@include laptop {
+    .about-club {
+        padding: rem(60) 0 rem(72);
+        .img-hover__area {
+            .img-area {
+                height: rem(400);
+            }
+        }
+    }
+}
+@include tablet {
+    .about-club {
+        .img-hover__area {
+            gap: rem(12);
+            margin: 0 rem(-20);
+            padding: 0 rem(20);
+            overflow-x: auto;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            .img-area {
+                flex-shrink: 0;
+                width: 100% !important;
+                height: unset;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// wedding
+.about-wedding {
+    overflow: hidden;
+    .wedding-lft {
+        width: calc((1075/1920)*100%);
+    }
+    .wedding-lft__itm {
+        display: none;
+        &:first-of-type {
+            display: block;
+        }
+        .controls {
+            justify-content: flex-end;
+            margin-top: rem(12);
+        }
+    }
+    .wedding-slide__itm {
+        position: relative;
+        .img-area {
+            height: rem(660);
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .img-desc {
+            position: absolute;
+            width: 100%;
+            padding: rem(16);
+            bottom: 0;
+            left: 0;
+            text-align: right;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+            color: #fff;
+            span {
+                position: relative;
+                margin-right: rem(20);
+                color: $label-primary-light;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 1px;
+                    height: rem(16);
+                    top: rem(2);
+                    right: rem(-10);
+                    background: rgba(255, 255, 255, .4);
+                }
+            }
+        }
+    }
+    .inner {
+        position: relative;
+    }
+    .tab-area {
+        position: absolute;
+        width: calc((605/$inner-width)*100%);
+        top: 0;
+        right: rem(20);
+        .sec-tit__tit {
+            padding-top: rem(72);
+            text-align: center;
+        }
+    }
+    .tab-btn {
+        li {
+            a {
+                font-size: rem(16);
+                font-weight: 500;
+            }
+        }
+    }
+    .tab-cont {
+        text-align: center;
+    }
+    .sec-tit__itm {
+        margin-bottom: rem(12);
+    }
+    .txt-li {
+        margin: rem(20) 0 rem(40);
+        > li {
+            &:not(:last-of-type) {
+                margin-bottom: rem(4);
+            }
+            &::before {
+                display: none;
+            }
+        }
+    }
+}
+@include desktop {
+    .about-wedding {
+        .tab-area {
+            position: unset;
+            width: 100%;
+            margin-bottom: rem(52);
+        }
+        .tab-area {
+            .sec-tit__tit {
+                padding-top: rem(20);
+            }
+        }
+        .wedding-lft {
+            width: calc(100% - rem(40));
+            margin: 0 rem(20);
+        }
+        .wedding-slide__itm {
+            .img-area {
+                height: rem(460);
+            }
+        }
+    }
+}
+@include laptop {
+    .about-wedding {
+        .tab-area {
+            margin-bottom: rem(40);
+            .sec-tit__tit {
+                padding: rem(16) 0 0;
+                text-align: left;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        .tab-cont {
+            text-align: left;
+        }
+        .wedding-slide__itm {
+            .img-area {
+                height: auto;
+            }
+        }
+        .txt-li {
+            > li {
+                &::before {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+@include tablet {
+    .about-wedding {
+        .txt-li {
+            margin: rem(16) 0 rem(28);
+        }
+        .tab-area {
+            margin-bottom: rem(28);
+        }
+    }
+}
+
+// facilties
+.about-facilties {
+    padding: rem(80) 0;
+}
+@include laptop {
+    .about-facilties {
+        padding: rem(60) 0;
+    }
+}
+@include tablet {
+    .about-facilties {
+        .img-area {
+            height: rem(240);
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+// kids
+.about-kids {
+    padding: rem(140) 0;
+    background: url(../../images/about/kids_bg_img.png) center /cover no-repeat;
+    .txt-area {
+        text-align: center;
+    }
+    .sec-tit__tit {
+        color: #fff;
+    }
+    .sec-tit__itm {
+        margin-bottom: rem(16);
+        color: #fff;
+    }
+    .sec-tit__desc {
+        color: #E1E1E1;
+    }
+}
+@include laptop {
+    .about-kids {
+        padding: rem(60) 0;
+    }
+}
+
+// information
+.about-information {
+    padding: rem(120) 0;
+    .txt-area {
+        text-align: center;
+    }
+    .sec-tit__tit {
+        &.underline {
+            &::after {
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+    .helper-txt {
+        margin-top: rem(4);
+    }
+    .btn-area {
+        margin-top: rem(40);
+    }
+}
+@include laptop {
+    .about-information {
+        padding: rem(60) 0;
+    }
+}

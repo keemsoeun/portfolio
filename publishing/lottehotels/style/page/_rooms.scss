@@ -1,0 +1,107 @@
+.rooms-cate {
+    overflow: hidden;
+    .inner {
+        position: relative;
+    }
+    .rooms-cate__itm {
+        padding: rem(60) 0;
+        &:nth-of-type(even) {
+            background: $bg-primary-normal;
+        }
+        .sec-tit__tit {
+            margin-bottom: rem(16);
+        }
+    }
+    .rooms-lft {
+        position: absolute;
+        width: calc((605/$inner-width)*100%);
+        padding: rem(80) rem(60) 0 0;
+        top: 0;
+        left: rem(20);
+        .rooms-info {
+            margin-top: rem(32);
+            .rooms-info__tit {
+                margin-bottom: rem(8);
+                font-size: rem(20);
+                font-weight: 500;
+            }
+            .info-area {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .info-itm {
+                width: 50%;
+                &:nth-child(odd) {
+                    padding: rem(16) rem(16) rem(16) 0;
+                    border-right: 1px solid $border-normal;
+                }
+                &:nth-child(even) {
+                    padding: rem(16) 0 rem(16) rem(16);
+                }
+                &:nth-of-type(-n+2) {
+                    border-bottom: 1px solid $border-normal;
+                }
+                h5 {
+                    display: flex;
+                    align-items: center;
+                    gap: rem(8);
+                    margin-bottom: rem(10);
+                    font-size: rem(16);
+                    font-weight: 500;
+                    i {
+                        width: rem(18);
+                        height: rem(18);
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                p {
+                    line-height: 1.2;
+                    color: $label-alternative;
+                }
+            }
+        }
+        .btn {
+            margin-top: rem(24);
+        }
+    }
+    .rooms-rgt {
+        width: calc((1075/1920)*100%);
+        margin-left: auto;
+        .img-area {
+            width: 100%;
+            height: rem(680);
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .controls {
+            margin-top: rem(16);
+        }
+    }
+}
+@include minDesktop {
+    .rooms-cate {
+        .rooms-lft {
+            position: unset;
+            width: 100%;
+            padding: 0;
+        }
+        .rooms-rgt {
+            width: calc(100% - rem(40));
+            margin: rem(32) auto 0;
+            .img-area {
+                height: auto;
+            }
+        }
+    }
+}
+@include tablet {
+    .rooms-cate {
+        .rooms-cate__itm {
+            padding: rem(48) 0 rem(36);
+        }
+    }
+}

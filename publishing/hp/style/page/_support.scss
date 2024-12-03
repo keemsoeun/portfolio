@@ -1,0 +1,109 @@
+// sub cont 1
+.sub-cont1 {
+    .support-menu__btn {
+        display: inline-block;
+        margin-top: rem(12);
+        padding-right: rem(20);
+        color: $label-alternative;
+        background: url(../../images/common/arrow_right_gray_ico.svg) 100% 50%/ rem(16) rem(16) no-repeat;
+    }
+    .top-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: rem(20);
+    }
+    .top-menu__itm {
+        width: calc(100%/3 - rem(14));
+        height: rem(280);
+        .txt-area {
+            padding: rem(40) rem(40) rem(80);
+            background: linear-gradient(to bottom, rgba(45, 45, 45, .8), rgba(45, 45, 45, 0));
+            .itm-tit {
+                color: #fff;
+            }
+            .support-menu__btn {
+                background: url(../../images/common/arrow_right_wh_ico.svg) 100% 50%/ rem(16) rem(16) no-repeat;
+                color: $lable-dark-neutral;
+            }
+        }
+    }
+    .btm-menu {
+        display: flex;
+        gap: rem(20);
+        margin-top: rem(80);
+    }
+    .btm-menu__tit {
+        width: rem(220);
+        margin-right: auto;
+    }
+    .btm-menu__area {
+        display: flex;
+        gap: rem(20);
+        width: calc(100% - rem(240));
+    }
+    .btm-menu__itm {
+        width: calc(100%/4 - rem(15));
+        padding: rem(26);
+        border-radius: rem(16);
+        background: $bg-light-strong;
+    }
+}
+@for $i from 1 through 6 {
+    .sub-cont1 {
+        .top-menu__itm#{$i} {
+            background: url(../../images/support/support_menu_img_0#{$i}.png);
+        }
+    }
+}
+@include desktop {
+    .sub-cont1 {
+        .top-menu__itm {
+            width: calc(50% - rem(10));
+        }
+        .btm-menu__area {
+            flex-wrap: wrap;
+        }
+        .btm-menu__itm {
+            width: calc(50% - rem(10));
+        }
+    }
+}
+@include laptop {
+    .sub-cont1 {
+        .top-menu__itm {
+            .txt-area {
+                padding: rem(32) rem(32) rem(120);
+                .itm-tit {
+                    font-size: rem(24);
+                }
+            }
+        }
+        .btm-menu {
+            display: block;
+        }
+        .btm-menu__tit {
+            width: 100%;
+            margin-bottom: rem(20);
+        }
+        .btm-menu__area {
+            width: 100%;
+        }
+    }
+}
+@include tablet {
+    .sub-cont1 {
+        .top-menu {
+            gap: rem(10);
+        }
+        .top-menu__itm {
+            width: 100%;
+            height: unset;
+        }
+        .btm-menu__area {
+            gap: rem(10);
+        }
+        .btm-menu__itm {
+            width: 100%;
+        }
+    }
+}

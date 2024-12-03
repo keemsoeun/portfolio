@@ -1,0 +1,30 @@
+// responsive
+$breakpoint-desktop: 1280px;
+$breakpoint-min-desktop: 1024px;
+$breakpoint-laptop: 768px;
+$breakpoint-tablet: 480px;
+$breakpoint-mobile: 360px;
+
+// size
+$inner-width-px: 1520px;
+$inner-width: 1520;
+$breakpoint-desktop-size: 1280;
+$breakpoint-min-desktop-size: 1024;
+$breakpoint-laptop-size: 768;
+$breakpoint-tablet-size: 480;
+$breakpoint-mobile-size: 360;
+
+// color
+$color-primary: #AD9E87;
+$label-primary-normal: #A2875C;
+$label-primary-light: #d7be95;
+$label-neutral: #272727;
+$label-alternative: #636363;
+$label-disabled: #949494;
+$bg-gray-normal: #f1f1f1;
+$bg-primary-normal: #FBF5F1;
+$border-strong: #c7c7c7;
+$border-normal: #E9E9E9;
+
+// font
+$font-en: "Lora", "Montserrat", "Pretendard Variable", Pretendard, "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
