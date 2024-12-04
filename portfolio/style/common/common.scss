@@ -50,6 +50,8 @@ header {
     top: 0;
     z-index: 998;
     mix-blend-mode: difference;
+    transform: translateY(-100%);
+    animation: header forwards ease .8s .2s;
     > .inner {
         display: flex;
         align-items: center;
@@ -76,6 +78,10 @@ header {
             }
         }
     }
+}
+@keyframes header {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0);}
 }
 .menu-view__btn {
     display: none;
@@ -457,6 +463,13 @@ footer {
         }
     }
 }
+.split-area {
+    overflow: hidden;
+    .word {
+        display: inline-block;
+        transform: translateY(100%);
+    }
+}
 
 // button
 .btn-area {
@@ -643,37 +656,26 @@ footer {
 }
 .sub-head__tit {
     position: relative;
-    height: rem(140);
-    overflow: hidden;
     span {
-        position: absolute;
-        display: inline-block;
-        top: 100%;
-        left: 0;
         font-size: rem(140);
-        font-weight: 500;
-        animation: subHeadTit ease forwards .8s;
+        font-weight: 600;
     }
 }
 .prj-length {
-    position: relative;
     display: inline-block;
     width: calc((560/$width-inner)*100%);
-    height: rem(140);
     overflow: hidden;
     span {
-        position: absolute;
         display: inline-block;
-        top: 100%;
-        left: 0;
         font-size: rem(140);
-        font-weight: 500;
-        animation: subHeadTit ease forwards .8s .2s;
+        font-weight: 600;
+        transform: translateY(100%);
+        animation: prjLength forwards ease .8s .6s;
     }
 }
-@keyframes subHeadTit {
-    0% {top: 100%;}
-    100% {top: 0%;}
+@keyframes prjLength {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(0);}
 }
 .sub-head__cate {
     display: flex;

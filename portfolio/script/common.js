@@ -51,7 +51,7 @@ $(document).ready(function() {
                         <span>
                             GMAIL.COM
                             <i>
-                                <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                <img src="portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
                                 <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="">
                             </i>
                         </span>
@@ -148,5 +148,23 @@ $(document).ready(function() {
     // footer top btn
     $('.top-btn').click(function() {
         $('html, body').animate({scrollTop:0}, '300');
+    });
+
+
+    // split
+    $('.split').each(function(i) {
+        const words = $(this).text().split('');
+        for(var i = 0; i < words.length; i++) {
+            if (words[i].length > 0) {
+                $(this).parent().append('<span class="word">' + words[i] + '</span>');
+            }
+        }
+        $(this).remove();
+    });
+
+    gsap.to('.split-area .word', {
+        y: 0,
+        stagger: .04,
+        duration: 1,
     });
 });

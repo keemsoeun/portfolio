@@ -1,178 +1,4 @@
-// // visual
-// .visual {
-//     height: 100vh;
-//     > .inner {
-//         display: flex;
-//         flex-direction: column;
-//         height: 100%;
-//     }
-// }
-// .visual-tit__tit {
-//     padding-top: rem(160);
-//     div {
-//         &:first-of-type {
-//             margin-bottom: rem(16);
-//             p {
-//                 span {
-//                     &:first-of-type {
-//                         position: relative;
-//                         padding-right: rem(160);
-//                         &::after {
-//                             content: '';
-//                             position: absolute;
-//                             width: rem(80);
-//                             height: rem(10);
-//                             top: 50%;
-//                             right: rem(40);
-//                             transform: translate(0, -50%);
-//                             background: #000;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//         p {
-//             span {
-//                 display: inline-block;
-//                 font-size: rem(112);
-//                 font-weight: 700;
-//                 &.txt-box__bk, &.txt-box__prm {
-//                     position: relative;
-//                     padding: rem(2) rem(6);
-//                 }
-//                 &.txt-box__bk {
-//                     margin-right: rem(8);
-//                     background: #000;
-//                     color: #fff;
-//                 }
-//                 &.txt-box__prm {
-//                     background: $color-primary-normal;
-//                     color: #000;
-//                 }
-//             }
-//         }
-//     }
-// }
-// .visual-tit__desc {
-//     width: min(rem(415), 100%);
-//     margin: rem(62) 0 0 calc((580/$width-inner)*100%);
-//     line-height: 1.4;
-//     font-size: rem(18);
-//     font-weight: 500;
-//     color: $label-neutral;
-// }
-// .visual-btm {
-//     display: flex;
-//     align-items: flex-end;
-//     justify-content: space-between;
-//     margin-top: auto;
-//     padding-bottom: rem(40);
-//     .scroll-down {
-//         width: rem(160);
-//         padding: rem(10) 0;
-//         border-radius: 36px;
-//         background: #e1e1e1;
-//         overflow: hidden;
-//         .swiper-wrapper {
-//             -webkit-transition-timing-function: linear !important;
-//             transition-timing-function: linear !important;
-//         }
-//         .swiper-slide {
-//             display: flex;
-//             align-items: center;
-//             gap: 2px;
-//             width: auto;
-//             margin-right: rem(8);
-//             color: $label-alternative;
-//         }
-//     }
-//     .contact {
-//         li {
-//             font-weight: 500;
-//             color: $label-neutral;
-//             &:not(:last-of-type) {
-//                 margin-bottom: rem(8);
-//             }
-//             span {
-//                 display: inline-block;
-//                 margin-right: rem(8);
-//                 padding: rem(4) rem(10);
-//                 border-radius: rem(24);
-//                 background: #e1e1e1;
-//                 color: $label-alternative;
-//             }
-//         }
-//     }
-// }
-// @include minDesktop {
-//     .visual-tit__tit {
-//         div {
-//             &:first-of-type {
-//                 p {
-//                     span {
-//                         &:first-of-type {
-//                             padding-right: calc((80/$width-min-desktop)*100vw);
-//                             &::after {
-//                                 width: calc((56/$width-min-desktop)*100vw);
-//                                 height: calc((8/$width-min-desktop)*100vw);
-//                                 right: 0;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//             p {
-//                 span {
-//                     font-size: calc((80/$width-min-desktop)*100vw);
-//                 }
-//             }
-//         }
-//     }
-//     .visual-tit__desc {
-//         margin: rem(40) 0 0 0;
-//         font-size: rem(18);
-//     }
-// }
-// @include laptop {
-//     .visual-tit__tit {
-//         div {
-//             &:first-of-type {
-//                 margin-bottom: rem(4);
-//                 p {
-//                     span {
-//                         &:first-of-type {
-//                             padding-right: calc((80/$width-laptop)*100vw);
-//                             &::after {
-//                                 width: calc((56/$width-laptop)*100vw);
-//                                 height: calc((8/$width-laptop)*100vw);
-//                                 right: 0;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//             p {
-//                 span {
-//                     font-size: calc((80/$width-laptop)*100vw);
-//                 }
-//             }
-//         }
-//     }
-// }
-// @include tablet {
-//     .visual-btm {
-//         flex-wrap: wrap-reverse;
-//         padding-bottom: rem(24);
-//         .scroll-down {
-//             width: 100%;
-//         }
-//         .contact {
-//             width: 100%;
-//             margin-bottom: rem(24);
-//         }
-//     }
-// }
-
+// visual
 .visual {
     height: 100vh;
     background: #E8E8E8;
@@ -191,6 +17,9 @@
         width: min(rem(415), 100%);
         font-size: rem(18);
         color: $label-neutral;
+        filter: blur(10px);
+        opacity: 0;
+        animation: visualBlur forwards ease 1s .6s;
         dt {
             margin-bottom: rem(8);
             font-weight: 600;
@@ -203,19 +32,23 @@
     justify-content: space-between;
 }
 .visual-tit__tit {
-    position: relative;
     display: inline-block;
-    padding-right: rem(36);
-    font-size: calc((240/1920)*100vw);
-    font-weight: 700;
-    &::after {
-        content: '';
-        position: absolute;
-        width: rem(32);
-        height: rem(32);
-        right: 0;
-        bottom: rem(28);
-        background: $color-primary-normal;
+    .word {
+        font-size: min(calc((240/1920)*100vw), 240px);
+        font-weight: 700;
+        &:last-of-type {
+            position: relative;
+            padding-right: calc((36/1920)*100vw);
+            &::after {
+                content: '';
+                position: absolute;
+                width: calc((32/1920)*100vw);
+                height: calc((32/1920)*100vw);
+                right: 0;
+                bottom: rem(28);
+                background: $color-primary-normal;
+            }
+        }
     }
 }
 .visual-tit__desc {
@@ -225,6 +58,13 @@
     font-size: rem(18);
     font-weight: 500;
     color: $label-neutral;
+    filter: blur(10px);
+    opacity: 0;
+    animation: visualBlur forwards ease 1s .8s;
+}
+@keyframes visualBlur {
+    0% {filter: blur(10px); opacity: 0;}
+    100% {filter: blur(0); opacity: 1;}
 }
 .visual-btm {
     display: flex;
@@ -241,7 +81,16 @@
         display: block;
     }
     .visual-tit__tit {
-        font-size: calc((240/$width-desktop)*100vw);
+        .word {
+            font-size: calc((240/$width-desktop)*100vw);
+            &:last-of-type {
+                padding-right: calc((48/$width-desktop)*100vw);
+                &::after {
+                    width: calc((36/$width-desktop)*100vw);
+                    height: calc((36/$width-desktop)*100vw);
+                }
+            }
+        }
     }
     .visual-tit__desc {
         width: min(rem(600), 100%);
@@ -258,7 +107,17 @@
         }
     }
     .visual-tit__tit {
-        font-size: calc((172/$width-laptop)*100vw);
+        .word {
+            font-size: calc((164/$width-laptop)*100vw);
+            &:last-of-type {
+                padding-right: calc((36/$width-laptop)*100vw);
+                &::after {
+                    width: calc((28/$width-laptop)*100vw);
+                    height: calc((28/$width-laptop)*100vw);
+                    bottom: calc((20/$width-laptop)*100vw);
+                }
+            }
+        }
     }
 }
 
