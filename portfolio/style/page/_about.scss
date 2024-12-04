@@ -48,7 +48,7 @@
     strong {
         line-height: 1.3;
         font-size: rem(28);
-        font-weight: 600;
+        font-weight: 700;
     }
     p {
         margin-top: rem(28);
@@ -72,7 +72,7 @@
     .introduce-li {
         li {
             display: flex;
-            line-height: 1.3;
+            line-height: 1.4;
             &:not(:last-of-type) {
                 margin-bottom: rem(14);
             }
@@ -143,6 +143,23 @@
         }
         .logo-li {
             margin-top: rem(24);
+        }
+    }
+}
+@include mobile {
+    .introduce-info {
+        .introduce-li {
+            li {
+                display: block;
+                b {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 4px;
+                }
+                span {
+                    width: 100%;
+                }
+            }
         }
     }
 }

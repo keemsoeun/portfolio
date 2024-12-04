@@ -593,7 +593,7 @@
 .introduce-tit strong {
   line-height: 1.3;
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .introduce-tit p {
   margin-top: 1.75rem;
@@ -613,7 +613,7 @@
 }
 .introduce-info .introduce-li li {
   display: flex;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 .introduce-info .introduce-li li:not(:last-of-type) {
   margin-bottom: 0.875rem;
@@ -676,6 +676,19 @@
   }
   .introduce-info .logo-li {
     margin-top: 1.5rem;
+  }
+}
+@media (max-width: 380px) {
+  .introduce-info .introduce-li li {
+    display: block;
+  }
+  .introduce-info .introduce-li li b {
+    display: block;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .introduce-info .introduce-li li span {
+    width: 100%;
   }
 }
 .work-info .work-tit {
@@ -1727,7 +1740,7 @@ footer {
 .txt-li li {
   position: relative;
   padding-left: 1rem;
-  line-height: 1.3;
+  line-height: 1.4;
   color: #2F2F2F;
 }
 .txt-li li::before {
