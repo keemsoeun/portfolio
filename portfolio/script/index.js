@@ -106,46 +106,50 @@ $(document).ready(function() {
 
 
     // sub prj pointer
-    gsap.set('.pointer .ico', {
-        xPercent: 0,
-        yPercent: 0,
-    });
-    let xIco = gsap.quickTo('.pointer .ico', 'x', {
-        duration: 0.6,
-        ease: 'power3',
-    });
-    let yIco = gsap.quickTo('.pointer .ico', 'y', {
-        duration: 0.6,
-        ease: 'power3',
-    });
-    window.addEventListener('mousemove', e => {
-        xIco(e.clientX);
-        yIco(e.clientY);
-    });
 
-    gsap.set('.pointer .txt', {
-        xPercent: 0,
-        yPercent: 0,
-    });
-    let xTxt = gsap.quickTo('.pointer .txt', 'x', {
-        duration: 1,
-        ease: 'power3',
-    });
-    let yTxt = gsap.quickTo('.pointer .txt', 'y', {
-        duration: 1,
-        ease: 'power3',
-    });
-    window.addEventListener('mousemove', e => {
-        xTxt(e.clientX);
-        yTxt(e.clientY);
-    });
-
-    $('.sub-prj__itm a').on('mouseover', function() {
-        $('.pointer').css('opacity', '1');
-    });
-    $('.sub-prj__itm a').on('mouseleave', function() {
-        $('.pointer').css('opacity', '0');
-    });
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+    if(!isMobile) {
+        gsap.set('.pointer .ico', {
+            xPercent: 0,
+            yPercent: 0,
+        });
+        let xIco = gsap.quickTo('.pointer .ico', 'x', {
+            duration: 0.6,
+            ease: 'power3',
+        });
+        let yIco = gsap.quickTo('.pointer .ico', 'y', {
+            duration: 0.6,
+            ease: 'power3',
+        });
+        window.addEventListener('mousemove', e => {
+            xIco(e.clientX);
+            yIco(e.clientY);
+        });
+    
+        gsap.set('.pointer .txt', {
+            xPercent: 0,
+            yPercent: 0,
+        });
+        let xTxt = gsap.quickTo('.pointer .txt', 'x', {
+            duration: 1,
+            ease: 'power3',
+        });
+        let yTxt = gsap.quickTo('.pointer .txt', 'y', {
+            duration: 1,
+            ease: 'power3',
+        });
+        window.addEventListener('mousemove', e => {
+            xTxt(e.clientX);
+            yTxt(e.clientY);
+        });
+    
+        $('.sub-prj__itm a').on('mouseover', function() {
+            $('.pointer').css('opacity', '1');
+        });
+        $('.sub-prj__itm a').on('mouseleave', function() {
+            $('.pointer').css('opacity', '0');
+        });
+    }
 
 
     // all prj animation
