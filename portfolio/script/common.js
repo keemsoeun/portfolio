@@ -1,7 +1,8 @@
 $(document).ready(function() {
+    // header
     $('header').append(`
         <div class="inner">
-            <h1><a href="/index.html">KEEMSOEUN PORTFOLIO</a></h1>
+            <h1><a href="/">KEEMSOEUN PORTFOLIO</a></h1>
             <nav class="gnb">
                 <ul class="gnb-li">
                     <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
@@ -14,6 +15,65 @@ $(document).ready(function() {
     `);
 
 
+    // menu view
+    $('.menu-view').append(`
+        <div class="inner">
+            <div class="menu-view__top">
+                <button type="button" class="menu-view__close">CLOSE</button>
+            </div>
+            <div class="menu-view__menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="/portfolio_2024/portfolio/page/about.html">ABOUT</a></li>
+                    <li><a href="/portfolio_2024/portfolio/page/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="menu-view__btm">
+                <ul>
+                    <li><span>E-Mail.</span>keeemsoeun@gmail.com</li>
+                    <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                    <li><span>Phone.</span>010-7919-9791</li>
+                </ul>
+            </div>
+        </div>
+    `);
+
+
+    // footer
+    $('footer').append(`
+        <div class="inner">
+            <div class="ft-top">
+                <div class="ft-top__lft">
+                    <button type="button" class="email-copy" id="copyEmail" data-clipboard-text="keeemsoeun@gmail.com">
+                        <span>KEEEMSOEUN@</span>
+                        <br/>
+                        <span>
+                            GMAIL.COM
+                            <i>
+                                <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="">
+                            </i>
+                        </span>
+                    </button>
+                    <ul class="ft-contact">
+                        <li><span>Another E-Mail.</span>dobermannn@naver.com</li>
+                        <li><span>Phone.</span>010-7919-9791</li>
+                    </ul>
+                </div>
+                <div class="ft-top__rgt">
+                    <button type="button" class="top-btn" aria-label="맨 위로 이동">
+                        <img src="/portfolio_2024/portfolio/images/common/arrow_top_wh_ico.svg" alt="">
+                        <img src="/portfolio_2024/portfolio/images/common/arrow_top_wh_ico.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="ft-btm">
+                <p class="copy">©2024 Keem-SoEun All Rights Reserved</p>
+                <div class="update"><span>UPDATE.</span>2024.11</div>
+            </div>
+        </div>
+    `);
 
 
     gsap.registerPlugin(ScrollTrigger);
