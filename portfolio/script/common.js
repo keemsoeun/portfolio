@@ -51,7 +51,7 @@ $(document).ready(function() {
                         <span>
                             GMAIL.COM
                             <i>
-                                <img src="portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
                                 <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="">
                             </i>
                         </span>
