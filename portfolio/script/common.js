@@ -4,9 +4,9 @@ $(document).ready(function() {
             <h1><a href="/index.html">KEEMSOEUN PORTFOLIO</a></h1>
             <nav class="gnb">
                 <ul class="gnb-li">
-                    <li><a href="/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="/portfolio/page/about.html">ABOUT</a></li>
-                    <li><a href="/portfolio/page/contact.html">CONTACT</a></li>
+                    <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="/portfolio_2024/portfolio/page/about.html">ABOUT</a></li>
+                    <li><a href="/portfolio_2024/portfolio/page/contact.html">CONTACT</a></li>
                 </ul>
             </nav>
             <button type="button" class="menu-view__btn">MENU</button>
