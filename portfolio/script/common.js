@@ -2,7 +2,7 @@ $(document).ready(function() {
     // header
     $('header').append(`
         <div class="inner">
-            <h1><a href="/">KEEMSOEUN PORTFOLIO</a></h1>
+            <h1><a href="/portfolio_2024/index.html">KEEMSOEUN PORTFOLIO</a></h1>
             <nav class="gnb">
                 <ul class="gnb-li">
                     <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
@@ -23,7 +23,7 @@ $(document).ready(function() {
             </div>
             <div class="menu-view__menu">
                 <ul>
-                    <li><a href="/">HOME</a></li>
+                    <li><a href="/portfolio_2024/index.html">HOME</a></li>
                     <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
                     <li><a href="/portfolio_2024/portfolio/page/about.html">ABOUT</a></li>
                     <li><a href="/portfolio_2024/portfolio/page/contact.html">CONTACT</a></li>
