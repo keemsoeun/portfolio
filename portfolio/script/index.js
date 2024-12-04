@@ -73,8 +73,8 @@ $(document).ready(function() {
         scrollTrigger: {
             trigger: '.sub-prj .sticky-area',
             scrub: true,
-            start: '-50% 50%',
-            end: '-50% top',
+            start: '0 50%',
+            end: '0 top',
             invalidateOnRefresh: true,
         },
     });
