@@ -58,7 +58,7 @@ $(document).ready(function() {
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>호텔 소개</span></div>
                                     <ul class="dep2-li">
-                                        <li class="dep2-itm underline"><a href="/publishing/lottehotels/page/about.html">롯데호텔 월드 소개</a></li>
+                                        <li class="dep2-itm underline"><a href="/portfolil_2024/publishing/lottehotels/page/about.html">롯데호텔 월드 소개</a></li>
                                         <li class="dep2-itm"><a href="/portfolil_2024/publishing/lottehotels/page/about.html">롯데호텔 월드 위치</a></li>
                                         <li class="dep2-itm"><a href="/portfolil_2024/publishing/lottehotels/page/about.html">주요명소</a></li>
                                         <li class="dep2-itm"><a href="/portfolil_2024/publishing/lottehotels/page/about.html">공지사항</a></li>
