@@ -20,7 +20,7 @@ $(document).ready(function() {
             el: '.keyboard .product-pagination',
             clickable: true,
             renderBullet: function(index, className) {
-                return '<div class="' + className + '"><img src="/publishing/logitech/images/index/' + (bullet[index]) + '"></img></div>';
+                return '<div class="' + className + '"><img src="../images/index/' + (bullet[index]) + '"></img></div>';
             },
         },
         on: {
