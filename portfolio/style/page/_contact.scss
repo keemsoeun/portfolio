@@ -1,90 +1,84 @@
 .contact-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    .copy-txt {
-        display: inline-flex;
-        align-items: center;
-        width: auto;
-        padding: rem(6) rem(10);
-        background: #000;
-        img {
-            width: rem(22);
-            height: rem(22);
-        }
-        span {
-            display: inline-block;
-            margin-left: 4px;
-            font-size: rem(22);
-            font-weight: 500;
-            color: $color-primary-normal;
-        }
-    }
-    .contact-btn {
-        margin: rem(40) 0;
-        li {
-            &:not(:last-of-type) {
-                margin-bottom: rem(8);
-            }
+    min-height: 100vh;
+    padding-top: 142px;
+}
+.btn-li {
+    margin-bottom: rem(40);
+    li {
+        &:not(:last-of-type) {
+            margin-bottom: rem(20);
         }
         button {
             position: relative;
             display: inline-block;
+            padding-right: rem(24);
             line-height: 1;
-            span {
-                &:first-of-type {
-                    font-size: rem(118);
-                    font-weight: 600;
-                    &.italic {
-                        font-style: italic;
-                        font-weight: 500;
-                    }
-                }
-                &:last-of-type {
-                    position: absolute;
-                    display: none;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    white-space: nowrap;
-                    font-style: italic;
-                    font-size: rem(92);
-                    font-weight: 600;
-                }
+            font-size: rem(100);
+            font-weight: 700;
+            transition: opacity ease .2s;
+            &::after {
+                content: '';
+                position: absolute;
+                width: rem(16);
+                height: rem(16);
+                right: 0;
+                bottom: rem(12);
+                background: $color-primary-strong;
             }
         }
     }
 }
-@media (hover: hover) {
-    .contact-btn {
-        button {
-            &:hover {
-                span {
-                    &:first-of-type {
-                        opacity: 0;
-                    }
-                    &:last-of-type {
-                        display: block;
-                    }
-                }
-            }
+.contact-txt__copy {
+    margin-bottom: rem(24);
+    padding-left: rem(28);
+    font-size: rem(20);
+    font-weight: 600;
+    background: url(../../images/common/copy_primary_ico.svg) 0 50%/ rem(22) rem(22) no-repeat;
+}
+.contact-txt__li {
+    li {
+        color: $label-neutral;
+        &:not(:last-of-type) {
+            margin-bottom: rem(12);
+        }
+        span {
+            display: inline-block;
+            margin-right: rem(4);
+            font-weight: 500;
+            color: $label-alternative;
         }
     }
 }
-@include desktop {
-    .contact-area {
-        .contact-btn {
+@include laptop {
+    .btn-li {
+        li {
+            &:not(:last-of-type) {
+                margin-bottom: calc((12/$width-laptop)*100vw);
+            }
             button {
-                span {
-                    &:first-of-type {
-                        font-size: calc((128/$width-desktop)*100vw);
-                    }
-                    &:last-of-type {
-                        font-size: calc((96/$width-desktop)*100vw);
-                    }
+                padding-right: calc((24/$width-laptop)*100vw);
+                font-size: calc((96/$width-laptop)*100vw);
+                &::after {
+                    width: calc((16/$width-laptop)*100vw);
+                    height: calc((16/$width-laptop)*100vw);
+                    bottom: calc((12/$width-laptop)*100vw);
                 }
+            }
+        }
+    }
+}
+@include mobile {
+    .contact-txt__copy {
+        margin-bottom: rem(32);
+    }
+    .contact-txt__li {
+        li {
+            &:not(:last-of-type) {
+                margin-bottom: rem(20);
+            }
+            span {
+                display: block;
+                margin-bottom: rem(6);
             }
         }
     }

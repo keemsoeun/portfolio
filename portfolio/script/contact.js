@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // 토스트 메시지 표시 함수
     function showToast(message, isError = false) {
         const $toast = $('.toast');
         $toast.removeClass('red show')
@@ -12,7 +11,6 @@ $(document).ready(function() {
         setTimeout(() => $toast.removeClass('show'), 3000);
     }
 
-    // 클립보드 초기화 함수
     function initClipboard(id, successMessage) {
         const clipboard = new ClipboardJS(`#${id}`);
         
@@ -26,8 +24,16 @@ $(document).ready(function() {
         });
     }
 
-    // 각 버튼 초기화
     initClipboard('contactEmail', '이메일 주소가 복사되었어요');
     initClipboard('contactAnother', '이메일 주소가 복사되었어요');
     initClipboard('contactPhone', '휴대폰 번호가 복사되었어요');
+
+
+    // hover
+    $('.btn-li li button').hover(function() {
+        $('.btn-li li button').css('opacity', '.2');
+        $(this).css('opacity', '1');
+    }, function() {
+        $('.btn-li li button').css('opacity', '1');
+    });
 });
