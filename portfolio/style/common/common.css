@@ -767,6 +767,9 @@
 .contact-area .contact-btn {
   margin: 2.5rem 0;
 }
+.contact-area .contact-btn li:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
 .contact-area .contact-btn button {
   position: relative;
   display: inline-block;

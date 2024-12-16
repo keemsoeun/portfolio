@@ -22,10 +22,13 @@
             color: $color-primary-normal;
         }
     }
-
-
     .contact-btn {
         margin: rem(40) 0;
+        li {
+            &:not(:last-of-type) {
+                margin-bottom: rem(8);
+            }
+        }
         button {
             position: relative;
             display: inline-block;
