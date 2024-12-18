@@ -228,7 +228,6 @@
     }
     > .inner {
         height: 100%;
-        padding: 0 rem(40);
     }
     .txt-area {
         display: flex;
@@ -341,9 +340,6 @@
 }
 @include tablet {
     .main-prj__itm {
-        > .inner {
-            padding: 0 rem(20);
-        }
         .prj-tit {
             font-size: calc((46/$width-tablet)*100vw);
             &.sm {

@@ -228,7 +228,6 @@
 }
 .main-prj__itm > .inner {
   height: 100%;
-  padding: 0 2.5rem;
 }
 .main-prj__itm .txt-area {
   display: flex;
@@ -349,9 +348,6 @@
   }
 }
 @media (max-width: 480px) {
-  .main-prj__itm > .inner {
-    padding: 0 1.25rem;
-  }
   .main-prj__itm .prj-tit {
     font-size: 9.5833333333vw;
   }
