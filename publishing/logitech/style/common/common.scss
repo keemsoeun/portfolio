@@ -147,9 +147,11 @@ header {
     position: absolute;
     display: none;
     width: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
     background: #fff;
+    overflow-y: auto;
     &::-webkit-scrollbar {
         display: none;
     }
@@ -297,8 +299,7 @@ header {
 @include desktop {
     .menu-view__li {
         display: block;
-        padding-top: rem(64);
-        padding-bottom: rem(12);
+        padding: rem(72) 0 rem(12);
         > li {
             &:not(:last-of-type) {
                 border-bottom: 1px dashed $border-light-normal;
@@ -338,8 +339,6 @@ header {
         padding-top: rem(80);
     }
     .menu-view {
-        height: 100vh;
-        overflow-y: auto;
         &::-webkit-scrollbar {
             display: none;
         }

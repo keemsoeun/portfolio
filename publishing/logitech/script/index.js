@@ -47,5 +47,9 @@ $(document).ready(function() {
             nextEl: '.audio .slide-navigation .next',
             prevEl: '.audio .slide-navigation .prev',
         },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
     });
 });

@@ -207,7 +207,7 @@
         gap: rem(20);
     }
     .section-left, .section-right {
-        width: 50%;
+        width: calc(50% - rem(40));
     }
     .product-desc {
         width: min(580px, 100%);
@@ -286,15 +286,13 @@
 @include desktop {
     .keyboard {
         position: relative;
-        .inner {
+        > .inner {
             display: block;
         }
         .section-left {
-            position: relative;
             width: 100%;
-            z-index: 9;
             .section-tit {
-                width: 50%;
+                width: calc(50% - rem(40));
             }
         }
         .section-right {
@@ -311,16 +309,22 @@
 @include laptop {
     .keyboard {
         padding: rem(80) 0;
+        > .inner {
+            display: flex;
+            flex-direction: column-reverse;
+        }
         .section-left {
+            width: 100%;
             .section-tit {
                 width: 100%;
             }
         }
-        .section-right {
-            opacity: 0;
-        }
         .product-desc {
             width: 100%;
+        }
+        .product-slide {
+            visibility: hidden;
+            opacity: 0;
         }
         .product-pagination {
             gap: rem(12);

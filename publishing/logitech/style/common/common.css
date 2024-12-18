@@ -200,7 +200,7 @@
   gap: 1.25rem;
 }
 .keyboard .section-left, .keyboard .section-right {
-  width: 50%;
+  width: calc(50% - 2.5rem);
 }
 .keyboard .product-desc {
   width: min(580px, 100%);
@@ -266,16 +266,14 @@
   .keyboard {
     position: relative;
   }
-  .keyboard .inner {
+  .keyboard > .inner {
     display: block;
   }
   .keyboard .section-left {
-    position: relative;
     width: 100%;
-    z-index: 9;
   }
   .keyboard .section-left .section-tit {
-    width: 50%;
+    width: calc(50% - 2.5rem);
   }
   .keyboard .section-right {
     position: absolute;
@@ -291,14 +289,22 @@
   .keyboard {
     padding: 5rem 0;
   }
+  .keyboard > .inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .keyboard .section-left {
+    width: 100%;
+  }
   .keyboard .section-left .section-tit {
     width: 100%;
   }
-  .keyboard .section-right {
-    opacity: 0;
-  }
   .keyboard .product-desc {
     width: 100%;
+  }
+  .keyboard .product-slide {
+    visibility: hidden;
+    opacity: 0;
   }
   .keyboard .product-pagination {
     gap: 0.75rem;
@@ -2321,9 +2327,11 @@ header > .inner {
   position: absolute;
   display: none;
   width: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   background: #fff;
+  overflow-y: auto;
 }
 .menu-view::-webkit-scrollbar {
   display: none;
@@ -2461,8 +2469,7 @@ header > .inner {
 @media (max-width: 1280px) {
   .menu-view__li {
     display: block;
-    padding-top: 4rem;
-    padding-bottom: 0.75rem;
+    padding: 4.5rem 0 0.75rem;
   }
   .menu-view__li > li:not(:last-of-type) {
     border-bottom: 1px dashed #E6E6E6;
@@ -2496,10 +2503,6 @@ header > .inner {
   }
   .menu-view__form {
     padding-top: 5rem;
-  }
-  .menu-view {
-    height: 100vh;
-    overflow-y: auto;
   }
   .menu-view::-webkit-scrollbar {
     display: none;

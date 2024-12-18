@@ -314,10 +314,8 @@ $(document).ready(function() {
         });
     } else if (window.innerWidth <= 1280) {
         $('.dep1-arrow').on('click', function() {
-            $('.dep1-arrow').removeClass('on');
-            $('.menu-view__li .dep2').stop().slideUp();
-            $(this).parents('li').find('.dep2').stop().slideDown();
             $(this).toggleClass('on');
+            $(this).parents('li').find('.dep2').stop().slideToggle();
         });
     }
 
