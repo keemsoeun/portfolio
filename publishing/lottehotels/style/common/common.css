@@ -175,6 +175,11 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 480px) {
+  .visual .main-tit__tit {
+    font-size: 2rem;
+  }
+}
 .intro {
   padding: 5rem 0;
 }
@@ -270,7 +275,7 @@
 }
 @media (max-width: 480px) {
   .intro-slide .intro-slide__itm {
-    width: calc(100% - 0.75rem);
+    width: 100%;
   }
 }
 .rooms {
@@ -674,7 +679,7 @@
 .detail-slide__area .controls {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: calc(50% - 1rem);
   left: 0;
   transform: translate(0, -50%);
   z-index: 1;
@@ -839,6 +844,25 @@
   .detail-info .detail-info__cont {
     width: 100%;
     padding-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .detail-info .amenities-cont {
+    display: block;
+  }
+  .detail-info .amenities-cont__itm {
+    width: 100%;
+  }
+  .detail-info .amenities-cont__itm:not(:last-of-type) {
+    margin-bottom: 1.25rem;
+  }
+}
+@media (max-width: 360px) {
+  .detail-info .info-area {
+    gap: 1.25rem;
+  }
+  .detail-info .info-itm {
+    width: calc(50% - 0.625rem);
   }
 }
 .itm-li__area {

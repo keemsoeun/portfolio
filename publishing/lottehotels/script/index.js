@@ -45,6 +45,10 @@ $(document).ready(function() {
         fadeEffect: { 
             crossFade: true,
         },
+        autoplay: {
+            delay: 20000,
+            disableOnInteraction: false,
+        },
         loop: true,
         slidesPerView: 'auto',
         pagination: {

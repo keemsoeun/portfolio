@@ -23,7 +23,7 @@
     .controls {
         position: absolute;
         width: 100%;
-        top: 50%;
+        top: calc(50% - rem(16));
         left: 0;
         transform: translate(0, -50%);
         z-index: 1;
@@ -199,6 +199,29 @@
         .detail-info__cont {
             width: 100%;
             padding-top: 0;
+        }
+    }
+}
+@include tablet {
+    .detail-info {
+        .amenities-cont {
+            display: block;
+        }
+        .amenities-cont__itm {
+            width: 100%;
+            &:not(:last-of-type) {
+                margin-bottom: rem(20);
+            }
+        }
+    }
+}
+@include mobile {
+    .detail-info {
+        .info-area {
+            gap: rem(20);
+        }
+        .info-itm {
+            width: calc(50% - rem(10));
         }
     }
 }

@@ -175,6 +175,13 @@
         }
     }
 }
+@include tablet {
+    .visual {
+        .main-tit__tit {
+            font-size: rem(32);
+        }
+    }
+}
 
 // intro
 .intro {
@@ -277,7 +284,7 @@
 @include tablet {
     .intro-slide {
         .intro-slide__itm {
-            width: calc(100% - rem(12));
+            width: 100%;
         }
     }
 }
