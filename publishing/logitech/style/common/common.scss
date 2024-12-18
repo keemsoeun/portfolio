@@ -893,7 +893,7 @@ label.checkbox {
     }
     .sub-tit__desc {
         margin-top: rem(32);
-        line-height: 1.6;
+        line-height: 1.4;
         color: $label-dark-neutral;
     }
     .btn-area {
@@ -902,6 +902,15 @@ label.checkbox {
 }
 @include tablet {
     .sub-head {
+        .sub-tit__sub {
+            margin-bottom: rem(12);
+        }
+        .sub-tit__tit {
+            font-size: rem(40);
+        }
+        .sub-tit__desc {
+            margin-top: rem(20);
+        }
         .btn-area {
             flex-wrap: wrap;
             .btn {

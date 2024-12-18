@@ -3037,7 +3037,7 @@ label.checkbox span {
 }
 .sub-head .sub-tit__desc {
   margin-top: 2rem;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #B9B9B9;
 }
 .sub-head .btn-area {
@@ -3045,6 +3045,15 @@ label.checkbox span {
 }
 
 @media (max-width: 480px) {
+  .sub-head .sub-tit__sub {
+    margin-bottom: 0.75rem;
+  }
+  .sub-head .sub-tit__tit {
+    font-size: 2.5rem;
+  }
+  .sub-head .sub-tit__desc {
+    margin-top: 1.25rem;
+  }
   .sub-head .btn-area {
     flex-wrap: wrap;
   }
