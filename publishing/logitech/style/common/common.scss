@@ -703,8 +703,9 @@ label.checkbox {
         display: inline-block;
         width: rem(50);
         height: rem(18);
-        opacity: .5;
+        opacity: .4;
         cursor: pointer;
+        transition: opacity ease .2s;
     }
     .prev {
         background: url(../../images/common/btm_navigation_prev_ico.svg) center /cover no-repeat;
@@ -731,6 +732,13 @@ label.checkbox {
                 &::after {
                     animation: naviNext infinite linear 10s;
                 }
+            }
+        }
+    }
+    .btm-navigation {
+        .prev, .next {
+            &:hover {
+                opacity: 1;
             }
         }
     }
@@ -1049,5 +1057,21 @@ label.checkbox {
                 font-size: rem(18);
             }
         }
+    }
+}
+
+// scroll event
+.s-event {
+    transform: translateY(rem(20));
+    opacity: 0;
+    transition: transform ease .6s, opacity ease .6s;
+    &.on {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@for $i from 1 to 6 {
+    .d-#{$i} {
+        transition-delay: $i * 0.25s;
     }
 }

@@ -1,7 +1,11 @@
 $(document).ready(function() {
-    footerLink();
     $(window).resize(function() {
         footerLink();
+    });
+
+
+    $(window).scroll(function() {
+        scroll();
     });
 
 
@@ -232,7 +236,7 @@ $(document).ready(function() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="v">
+                                        <a href="javascript:void(0);">
                                             <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_03.png" alt=""></div>
                                             Logi ID 생성
                                         </a>
@@ -440,4 +444,16 @@ $(document).ready(function() {
             },
         });
     });
+
+    // scroll event
+    function scroll() {
+        $('.s-event').each(function() {
+            const bottom_of_elm = $(this).offset().top + $(this).outerHeight() / 3;
+            const bottom_of_window = $(window).scrollTop() + $(window).height();
+            if(bottom_of_window > bottom_of_elm) {
+                $(this).addClass('on');
+            }
+        });
+    }
+    scroll();
 });

@@ -113,6 +113,7 @@
             border: $box-border;
             border-radius: $box-border-radius;
             background: $box-bg;
+            cursor: pointer;
             img {
                 width: 100%;
             }
@@ -301,6 +302,13 @@
         }
         .product-info {
             width: 100%;
+        }
+    }
+}
+@include tablet {
+    .detail-1 {
+        .product-gallery__thumbs {
+            gap: rem(6);
         }
     }
 }

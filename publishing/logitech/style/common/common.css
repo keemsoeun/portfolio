@@ -1112,6 +1112,7 @@
   border: 1px solid #2E2E2E;
   border-radius: 8px;
   background: #171717;
+  cursor: pointer;
 }
 .detail-1 .product-gallery__thumbs li img {
   width: 100%;
@@ -1284,6 +1285,11 @@
   }
   .detail-1 .product-info {
     width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .detail-1 .product-gallery__thumbs {
+    gap: 0.375rem;
   }
 }
 .detail-2 {
@@ -1845,7 +1851,7 @@
 }
 .light-6 {
   padding: 7.5rem 0;
-  background: #000;
+  background: #202020;
 }
 .light-6 .product-slide__tit {
   margin-bottom: 1.25rem;
@@ -2837,8 +2843,9 @@ label.checkbox span {
   display: inline-block;
   width: 3.125rem;
   height: 1.125rem;
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: pointer;
+  transition: opacity ease 0.2s;
 }
 .btm-navigation .prev {
   background: url(../../images/common/btm_navigation_prev_ico.svg) center/cover no-repeat;
@@ -2865,6 +2872,9 @@ label.checkbox span {
   }
   .slide-navigation .next:hover::after {
     animation: naviNext infinite linear 10s;
+  }
+  .btm-navigation .prev:hover, .btm-navigation .next:hover {
+    opacity: 1;
   }
 }
 @keyframes naviPrev {
@@ -3186,4 +3196,33 @@ label.checkbox span {
   .product-li .product-li__item .product-name {
     font-size: 1.125rem;
   }
+}
+.s-event {
+  transform: translateY(1.25rem);
+  opacity: 0;
+  transition: transform ease 0.6s, opacity ease 0.6s;
+}
+.s-event.on {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.d-1 {
+  transition-delay: 0.25s;
+}
+
+.d-2 {
+  transition-delay: 0.5s;
+}
+
+.d-3 {
+  transition-delay: 0.75s;
+}
+
+.d-4 {
+  transition-delay: 1s;
+}
+
+.d-5 {
+  transition-delay: 1.25s;
 }/*# sourceMappingURL=common.css.map */
