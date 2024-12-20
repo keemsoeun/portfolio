@@ -457,6 +457,9 @@
   }
 }
 @media (max-width: 480px) {
+  .sub-prj__li {
+    width: calc(100% - 32px);
+  }
   .sub-prj__itm:not(:last-of-type) {
     margin-bottom: 1.25rem;
   }

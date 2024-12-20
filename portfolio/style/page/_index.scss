@@ -448,6 +448,9 @@
     }
 }
 @include tablet {
+    .sub-prj__li {
+        width: calc(100% - 32px);
+    }
     .sub-prj__itm {
         &:not(:last-of-type) {
             margin-bottom: rem(20);

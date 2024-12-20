@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
 	fullpage();
 
     $(window).scroll(function() {
@@ -88,18 +88,18 @@ $(function() {
   });
 
   // userchk
-  $('.userchk-btn').click(function () {
-    $('.modal-userchk').addClass('on');
-    $('body').addClass('scroll').on('scroll touchmove mousewheel', function (e) {
-      event.preventDefault();
-      event.stopPropagation();
-      return false;
-    });
-  });
-  $('.modal-close').on('click', function() {
-    $(this).parents('.modal').removeClass('on');
-    $('body').removeClass('scroll').off('scroll touchmove mousewheel');
-  });
+	$('.userchk-btn').click(function () {
+			$('.modal-userchk').addClass('on');
+			$('body').addClass('scroll').on('scroll touchmove mousewheel', function (e) {
+				event.preventDefault();
+				event.stopPropagation();
+				return false;
+			});
+		});
+	$('.modal-close').on('click', function() {
+		$(this).parents('.modal').removeClass('on');
+		$('body').removeClass('scroll').off('scroll touchmove mousewheel');
+	});
 });
 
 function fullpage() {
