@@ -2511,10 +2511,10 @@ header > .inner {
     padding-top: 1.25rem;
   }
   .menu-view__li .dep2 {
-    padding: 1.5rem;
+    padding: 0;
   }
   .menu-view__li .dep2 .inner {
-    padding: 0;
+    padding: 1.5rem;
   }
   .menu-view__li .dep2-li {
     display: block;

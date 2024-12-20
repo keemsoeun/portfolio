@@ -346,9 +346,9 @@ header {
     .menu-view__li {
         padding-top: rem(20);
         .dep2 {
-            padding: rem(24);
+            padding: 0;
             .inner {
-                padding: 0;
+                padding: rem(24);
             }
         }
         .dep2-li {

@@ -288,7 +288,6 @@ $(document).ready(function() {
 
     // menu view
     $('.menu-view__li .dep2').hide();
-    $('.dep1-arrow').first().addClass('on');
     $('.menu-view__btn').on('click', function() {
         $('.hd-search').hide(0);
         $('.menu-view').fadeIn(200);
