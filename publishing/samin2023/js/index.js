@@ -23,8 +23,8 @@ $(document).ready(function() {
 		direction: "vertical",
 		touchRatio: 0,
 		autoplay: {
-		  delay: 3000,
-		  disableOnInteraction: false,
+			delay: 3000,
+			disableOnInteraction: false,
 		},
 	});
 
@@ -120,13 +120,12 @@ function responsive() {
 		$('header').removeClass('on');
 	} else {
 		$('section').each(function() {
-			const bottom_of_elm = $(this).offset().top + $(this).outerHeight() / 3;
+			const bottom_of_elm = $(this).offset().top + $(this).outerHeight() / 6;
 			const bottom_of_window = $(window).scrollTop() + $(window).height();
 			if(bottom_of_window > bottom_of_elm) {
 				$(this).addClass('on');
 			}
 		});
-
 
 		
 		$('header').addClass('on');
