@@ -1461,9 +1461,9 @@ footer p {
     .business .tab-list {
         display: flex;
         gap: 20px;
-        width: 100vw;
-        margin-left: calc(-50vw + 50% + 5%);
-        padding-right: 5px;
+        width: calc(100% + 10%);
+        margin: 0 -5%;
+        padding: 0 5%;
         overflow-x: auto;
         overflow-Y: hidden;
     }
