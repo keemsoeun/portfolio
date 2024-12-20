@@ -1,26 +1,19 @@
 $(document).ready(function() {
-	fullpage();
+	responsive();
 
     $(window).scroll(function() {
-		fullpage();
+		responsive();
     });
 
-	$(window).resize(function(){ 
-		if (window.innerWidth > 960) {
-			$('header').removeClass('on');
+	// header
+	var st = 0;
+	$(window).scroll(function(){
+		if(st < $(window).scrollTop()){
+			$('header').css('transform', 'translateY(-100%)');
+			st = $(window).scrollTop();
 		} else {
-			$('header').addClass('on');
-
-			var st = 0;
-			$(window).scroll(function(){
-				if(st < $(window).scrollTop()){
-					$('header').css('transform', 'translateY(-100%)');
-					st = $(window).scrollTop();
-				} else {
-					$('header').css('transform', 'translateY(0)');
-					st = $(window).scrollTop();
-				}
-			});
+			$('header').css('transform', 'translateY(0)');
+			st = $(window).scrollTop();
 		}
 	});
 
@@ -102,7 +95,7 @@ $(document).ready(function() {
 	});
 });
 
-function fullpage() {
+function responsive() {
 	if(window.innerWidth > 960) {
 		$('#fullpage').fullpage({
 			licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
@@ -122,6 +115,9 @@ function fullpage() {
 				}
 			},
 		});
+
+		
+		$('header').removeClass('on');
 	} else {
 		$('section').each(function() {
 			const bottom_of_elm = $(this).offset().top + $(this).outerHeight() / 3;
@@ -130,5 +126,9 @@ function fullpage() {
 				$(this).addClass('on');
 			}
 		});
+
+
+		
+		$('header').addClass('on');
 	}
 }
