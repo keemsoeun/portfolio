@@ -426,6 +426,10 @@ header.on .hd-logo {
 
 
 /* visual */
+.visual {
+    position: relative;
+    overflow: hidden;
+}
 .visual .inner {
     position: relative;
     height: 100%;
