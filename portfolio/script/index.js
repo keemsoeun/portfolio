@@ -56,30 +56,9 @@ $(document).ready(function() {
                 if (i >= mainPrjItm.length - 1) {
                     return null;
                 }
-                return 'brightness(0.4)'
-            },
-            'transform': function() {
-                if (i >= mainPrjItm.length - 1) {
-                    return null;
-                }
-                return 'scale(0.95)'
+                return 'brightness(0.2)'
             },
         });
-    });
-
-
-    // sub prj background
-    const subPrjBg = gsap.timeline({
-        scrollTrigger: {
-            trigger: '.sub-prj .sticky-area',
-            scrub: true,
-            start: '0 50%',
-            end: '0 top',
-            invalidateOnRefresh: true,
-        },
-    });
-    subPrjBg.to('main', {
-        'background': '#232323'
     });
 
 

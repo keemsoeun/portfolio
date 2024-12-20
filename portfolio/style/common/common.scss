@@ -422,6 +422,11 @@ footer {
             }
         }
     }
+    .ft-contact {
+        li {
+            font-size: rem(15);
+        }
+    }
 }
 @include mobile {
     .ft-contact {

@@ -35,7 +35,12 @@
         }
         .col {
             display: flex;
-            gap: rem(12);
+            gap: rem(8);
+        }
+        .sec-tit {
+            span {
+                font-size: rem(14);
+            }
         }
     }
 }
@@ -78,7 +83,7 @@
 }
 @include desktop {
     .detail-tit__tit {
-        margin-bottom: rem(12);
+        margin-bottom: rem(16);
         font-size: rem(36);
     }
     .detail-tit__info {
@@ -146,6 +151,16 @@
         align-items: center;
     }
 }
+@include tablet {
+    .detail-sub {
+        .col {
+            display: block;
+        }
+        .img-area {
+            margin-bottom: rem(12);
+        }
+    }
+}
 
 // grid
 .detail-grid {
@@ -165,7 +180,7 @@
     .detail-grid {
         .col {
             &:first-of-type {
-                margin-bottom: rem(12);
+                margin-bottom: rem(8);
             }
         }
     }

@@ -120,6 +120,14 @@
         }
     }
 }
+@include tablet {
+    .visual-tit__desc {
+        font-size: rem(16);
+    }
+    .visual-btm {
+        font-size: rem(14);
+    }
+}
 
 
 
@@ -207,11 +215,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    width: calc(100% - rem(16));
-    height: calc(100% - rem(16));
-    margin: rem(8);
     top: 100%;
-    background: #999;
     filter: brightness(1);
     &:first-of-type {
         top: 0;
@@ -334,7 +338,7 @@
     }
     @for $i from 1 through 3 {
         .main-prj__itm#{$i} {
-            background: linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%), url(../../images/index/main_prj_img_0#{$i}_mo.png) center /cover no-repeat;
+            background: linear-gradient(to right, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .6) 100%), url(../../images/index/main_prj_img_0#{$i}_mo.png) center /cover no-repeat;
         }
     }
 }
@@ -352,6 +356,7 @@
 // sub prj
 .sub-prj {
     overflow: hidden;
+    background: $background-dark-normal;
     > .inner {
         position: relative;
     }
@@ -447,12 +452,16 @@
         &:not(:last-of-type) {
             margin-bottom: rem(20);
         }
+        a {
+            padding: rem(24);
+        }
     }
 }
 
 // all prj
 .all-prj {
     padding: rem(200) 0;
+    background: $background-dark-normal;
 }
 .all-prj__cont {
     text-align: center;
@@ -536,6 +545,9 @@
     }
 }
 @include tablet {
+    .all-prj {
+        padding: rem(120) 0;
+    }
     .all-prj__cont {
         a {
             p {
