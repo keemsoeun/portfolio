@@ -387,6 +387,9 @@ header {
     visibility: hidden;
     transform: translateX(100%);
     transition: visibility ease .6s, transform ease .6s;
+    &::-webkit-scrollbar {
+        display: none;
+    }
     .gnb-top {
         padding: rem(20) rem(20) 0;
         background: #333;
