@@ -21,7 +21,7 @@ body {
     padding: 0 $inner-padding-desktop;
 }
 main {
-    background: $background-light;
+    background: #fff;
 }
 .img-area {
     img {
@@ -887,7 +887,7 @@ footer {
         }
     }
     &:not(:last-of-type) {
-        border-bottom: 1px dashed $border-strong;
+        border-bottom: 1px dashed $border-normal;
     }
 }
 .accordion-tit {

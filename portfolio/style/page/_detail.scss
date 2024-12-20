@@ -2,7 +2,7 @@
 .detail-img__itm {
     padding: rem(92) 0;
     &:nth-child(odd) {
-        background: $background-normal;
+        background: $background-light;
     }
     .sec-tit {
         span {
@@ -24,7 +24,11 @@
     }
     .col {
         display: flex;
+        align-items: flex-start;
         gap: rem(20);
+    }
+    .img-area {
+        border: 1px solid #f3f3f3;
     }
 }
 @include laptop {
@@ -73,7 +77,7 @@
 .detail-tit__desc {
     margin-top: rem(32);
     padding-top: rem(28);
-    border-top: 1px dashed $border-strong;
+    border-top: 1px dashed $border-normal;
     p {
         width: min(rem(910), 100%);
         line-height: 1.6;

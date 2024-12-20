@@ -1,7 +1,7 @@
 // visual
 .visual {
     height: 100vh;
-    background: #E8E8E8;
+    background: $background-normal;
     .inner {
         display: flex;
         flex-direction: column;
@@ -71,7 +71,7 @@
     justify-content: space-between;
     margin-top: rem(28);
     padding: rem(20) 0 rem(32);
-    border-top: 1px solid $border-strong;
+    border-top: 1px solid $border-normal;
     span {
         color: $label-alternative;
     }
