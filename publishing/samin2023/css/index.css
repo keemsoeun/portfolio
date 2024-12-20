@@ -1531,7 +1531,7 @@ footer p {
     .scroll-ico {
         display: block;
     }
-    .visual > div > .line {
+    .visual > .line {
         display: none;
     }
 
