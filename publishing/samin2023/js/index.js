@@ -1,25 +1,10 @@
 $(function() {
-	// fullpage
-	$('#fullpage').fullpage({
-		licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-		responsiveWidth: 961,
-		navigation: true,
-		normalScrollElements: '.contact .sec-right',
-		menu: '#menu',
-		anchors: ['Visual', 'About', 'Business', 'Solution', 'Address', 'Reference', 'Contact'],
-			'afterLoad': function() {
-			$(this).addClass('on');
-		},
-		'onLeave': function (anchorLink, index) {
-			if (index == 2 || index == 4 || index == 6 || index == 7){
-				$('header, .scroll-animation, #fp-nav').addClass('enter');
-			} else if (index == 1 || index == 3 || index == 5) {
-				$('header, .scroll-animation, #fp-nav').removeClass('enter');
-			}
-		},
-	});
+	fullpage();
 
-	// header
+    $(window).scroll(function() {
+		fullpage();
+    });
+
 	$(window).resize(function(){ 
 		if (window.innerWidth > 960) {
 			$('header').removeClass('on');
@@ -37,7 +22,7 @@ $(function() {
 				}
 			});
 		}
-	}).resize();
+	});
 
 	// visual
 	const visual = new Swiper('.txt-rolling', {
@@ -116,3 +101,34 @@ $(function() {
     $('body').removeClass('scroll').off('scroll touchmove mousewheel');
   });
 });
+
+function fullpage() {
+	if(window.innerWidth > 960) {
+		$('#fullpage').fullpage({
+			licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+			navigation: true,
+			responsiveWidth: 961,
+			normalScrollElements: '.contact .sec-right',
+			menu: '#menu',
+			anchors: ['Visual', 'About', 'Business', 'Solution', 'Address', 'Reference', 'Contact'],
+				'afterLoad': function() {
+				$(this).addClass('on');
+			},
+			'onLeave': function (anchorLink, index) {
+				if (index == 2 || index == 4 || index == 6 || index == 7){
+					$('header, .scroll-animation, #fp-nav').addClass('enter');
+				} else if (index == 1 || index == 3 || index == 5) {
+					$('header, .scroll-animation, #fp-nav').removeClass('enter');
+				}
+			},
+		});
+	} else {
+		$('section').each(function() {
+			const bottom_of_elm = $(this).offset().top + $(this).outerHeight() / 3;
+			const bottom_of_window = $(window).scrollTop() + $(window).height();
+			if(bottom_of_window > bottom_of_elm) {
+				$(this).addClass('on');
+			}
+		});
+	}
+}
