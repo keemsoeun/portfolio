@@ -485,7 +485,7 @@ header.on .hd-logo {
 .visual .txt-rolling span {
     display: block;
 }
-.visual > div > .line {
+.visual > .line {
     position: absolute;
     display: flex;
     width: 100%;
