@@ -852,7 +852,7 @@
     display: block;
   }
   .detail-info .amenities-cont__itm {
-    width: 100%;
+    width: 100% !important;
   }
   .detail-info .amenities-cont__itm:not(:last-of-type) {
     margin-bottom: 1.25rem;

@@ -208,7 +208,7 @@
             display: block;
         }
         .amenities-cont__itm {
-            width: 100%;
+            width: 100% !important;
             &:not(:last-of-type) {
                 margin-bottom: rem(20);
             }
