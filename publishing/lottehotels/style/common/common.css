@@ -271,7 +271,7 @@
     padding: 0 1.25rem;
   }
   .intro-slide .intro-slide__itm {
-    width: calc(50% - 0.75rem);
+    width: calc(70% - 0.75rem);
   }
 }
 @media (max-width: 480px) {

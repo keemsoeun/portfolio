@@ -162,7 +162,7 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="">다이닝</a>
+                            <a class="dep1-link" href="javascript:void(0);">다이닝</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>다이닝</span></div>
@@ -170,26 +170,26 @@ $(document).ready(function() {
                                         <li class="dep2-itm">
                                             <p>레스토랑</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">도림 더 칸톤 테이블</a></li>
-                                                <li class="dep3-itm"><a href="">라세느</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">도림 더 칸톤 테이블</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">라세느</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>베이커리</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">델리카한스</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">델리카한스</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>바&라운지</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">더 라운지 앤 바</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">더 라운지 앤 바</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>룸서비스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">인룸다이닝</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">인룸다이닝</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -197,7 +197,7 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="">부대시설</a>
+                            <a class="dep1-link" href="javascript:void(0);">부대시설</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>부대시설</span></div>
@@ -205,40 +205,40 @@ $(document).ready(function() {
                                         <li class="dep2-itm underline">
                                             <p>스파&피트니스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">피트니스센터</a></li>
-                                                <li class="dep3-itm"><a href="">호텔 사우나</a></li>
-                                                <li class="dep3-itm"><a href="">호텔 수영장</a></li>
-                                                <li class="dep3-itm"><a href="">골프 연습장</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">피트니스센터</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">호텔 사우나</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">호텔 수영장</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">골프 연습장</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>비즈니스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">비즈니스 라운지</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">비즈니스 라운지</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>서비스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">윈더도어</a></li>
-                                                <li class="dep3-itm"><a href="">키즈 랴운지</a></li>
-                                                <li class="dep3-itm"><a href="">발렛 라운지</a></li>
-                                                <li class="dep3-itm"><a href="">웨이팅 라운지</a></li>
-                                                <li class="dep3-itm"><a href="">수유실</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">윈더도어</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">키즈 랴운지</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">발렛 라운지</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">웨이팅 라운지</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">수유실</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>클리닉</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">SMEDICI 치과 클리닉</a></li>
-                                                <li class="dep3-itm"><a href="">김기준 한의원 봄</a></li>
-                                                <li class="dep3-itm"><a href="">메이린의원</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">SMEDICI 치과 클리닉</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">김기준 한의원 봄</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">메이린의원</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>쇼핑</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">롯데면세점</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">롯데면세점</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -246,7 +246,7 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="">웨딩&컨벤션</a>
+                            <a class="dep1-link" href="javascript:void(0);">웨딩&컨벤션</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>웨딩&컨벤션</span></div>
@@ -257,18 +257,18 @@ $(document).ready(function() {
                                                 <li class="dep3-itm">
                                                     <a href="">웨딩홀</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="">크리스탈볼룸</a></li>
-                                                        <li class="dep4-itm"><a href="">사파이어볼룸</a></li>
-                                                        <li class="dep4-itm"><a href="">에메랄드룸</a></li>
-                                                        <li class="dep4-itm"><a href="">기타 부대시설</a></li>
-                                                        <li class="dep4-itm"><a href="">웨딩 컨셉</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">기타 부대시설</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">웨딩 컨셉</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dep3-itm">
                                                     <a href="">웨딩 문의</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="">컨설팅</a></li>
-                                                        <li class="dep4-itm"><a href="">FAQ</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">컨설팅</a></li>
+                                                        <li class="dep4-itm"><a href="javascript:void(0);">FAQ</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -276,11 +276,11 @@ $(document).ready(function() {
                                         <li class="dep2-itm wd50">
                                             <p>호텔 컨벤션</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="">크리스탈볼룸</a></li>
-                                                <li class="dep3-itm"><a href="">사파이어볼룸</a></li>
-                                                <li class="dep3-itm"><a href="">에메랄드룸</a></li>
-                                                <li class="dep3-itm"><a href="">소규모연회</a></li>
-                                                <li class="dep3-itm"><a href="">컨벤션 문의</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">소규모연회</a></li>
+                                                <li class="dep3-itm"><a href="javascript:void(0);">컨벤션 문의</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -421,26 +421,26 @@ $(document).ready(function() {
                                     <li class="dep2-itm">
                                         <p>레스토랑</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">도림 더 칸톤 테이블</a></li>
-                                            <li class="dep3-itm"><a href="">라세느</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">도림 더 칸톤 테이블</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">라세느</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>베이커리</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">델리카한스</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">델리카한스</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>바&라운지</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">더 라운지 앤 바</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">더 라운지 앤 바</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>룸서비스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">인룸다이닝</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">인룸다이닝</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -455,40 +455,40 @@ $(document).ready(function() {
                                     <li class="dep2-itm">
                                         <p>스파&피트니스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">피트니스센터</a></li>
-                                            <li class="dep3-itm"><a href="">호텔 사우나</a></li>
-                                            <li class="dep3-itm"><a href="">호텔 수영장</a></li>
-                                            <li class="dep3-itm"><a href="">골프 연습장</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">피트니스센터</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">호텔 사우나</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">호텔 수영장</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">골프 연습장</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>비즈니스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">비즈니스 라운지</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">비즈니스 라운지</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>서비스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">윈더도어</a></li>
-                                            <li class="dep3-itm"><a href="">키즈 랴운지</a></li>
-                                            <li class="dep3-itm"><a href="">발렛 라운지</a></li>
-                                            <li class="dep3-itm"><a href="">웨이팅 라운지</a></li>
-                                            <li class="dep3-itm"><a href="">수유실</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">윈더도어</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">키즈 랴운지</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">발렛 라운지</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">웨이팅 라운지</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">수유실</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>클리닉</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">SMEDICI 치과 클리닉</a></li>
-                                            <li class="dep3-itm"><a href="">김기준 한의원 봄</a></li>
-                                            <li class="dep3-itm"><a href="">메이린의원</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">SMEDICI 치과 클리닉</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">김기준 한의원 봄</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">메이린의원</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>쇼핑</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">롯데면세점</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">롯데면세점</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -506,18 +506,18 @@ $(document).ready(function() {
                                             <li class="dep3-itm">
                                                 <a href="">웨딩홀</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="">크리스탈볼룸</a></li>
-                                                    <li class="dep4-itm"><a href="">사파이어볼룸</a></li>
-                                                    <li class="dep4-itm"><a href="">에메랄드룸</a></li>
-                                                    <li class="dep4-itm"><a href="">기타 부대시설</a></li>
-                                                    <li class="dep4-itm"><a href="">웨딩 컨셉</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">기타 부대시설</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">웨딩 컨셉</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dep3-itm">
                                                 <a href="">웨딩 문의</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="">컨설팅</a></li>
-                                                    <li class="dep4-itm"><a href="">FAQ</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">컨설팅</a></li>
+                                                    <li class="dep4-itm"><a href="javascript:void(0);">FAQ</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -525,11 +525,11 @@ $(document).ready(function() {
                                     <li class="dep2-itm">
                                         <p>호텔 컨벤션</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="">크리스탈볼룸</a></li>
-                                            <li class="dep3-itm"><a href="">사파이어볼룸</a></li>
-                                            <li class="dep3-itm"><a href="">에메랄드룸</a></li>
-                                            <li class="dep3-itm"><a href="">소규모연회</a></li>
-                                            <li class="dep3-itm"><a href="">컨벤션 문의</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">소규모연회</a></li>
+                                            <li class="dep3-itm"><a href="javascript:void(0);">컨벤션 문의</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -586,6 +586,7 @@ $(document).ready(function() {
             return;
         } else if ((st > lastScrollTop) && (lastScrollTop > 0)) {
             $('header').css('top', -$('header').outerHeight());
+            $('.lang ul, .currency ul').hide();
         } else {
             $('header').css('top', '0');
         }
