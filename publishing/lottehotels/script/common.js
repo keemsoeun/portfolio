@@ -6,40 +6,40 @@ $(document).ready(function() {
                 <div class="hd-quick__lft">
                     <div class="hd-quick__lang">
                         <div class="lang">
-                            <a class="current" href="javascript:void(0);">한국어</a>
+                            <a class="current" href="#" onclick="event.preventDefault()">한국어</a>
                             <ul>
-                                <li><a href="javascript:void(0);">English</a></li>
-                                <li><a href="javascript:void(0);">日本語</a></li>
-                                <li><a href="javascript:void(0);">中文(简体字)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">English</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">日本語</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">中文(简体字)</a></li>
                             </ul>
                         </div>
                         <div class="currency">
-                            <a class="current" href="javascript:void(0);">KRW</a>
+                            <a class="current" href="#" onclick="event.preventDefault()">KRW</a>
                             <ul>
-                                <li><a href="javascript:void(0);">대한민국(KRW)</a></li>
-                                <li><a href="javascript:void(0);">Australia(AUD)</a></li>
-                                <li><a href="javascript:void(0);">Canada(CAD)</a></li>
-                                <li><a href="javascript:void(0);">中國(CNY)</a></li>
-                                <li><a href="javascript:void(0);">EU(EUR)</a></li>
-                                <li><a href="javascript:void(0);">Hong Kong(HKD)</a></li>
-                                <li><a href="javascript:void(0);">日本(JPY)</a></li>
-                                <li><a href="javascript:void(0);">Россия(RUB)</a></li>
-                                <li><a href="javascript:void(0);">USA(USD)</a></li>
-                                <li><a href="javascript:void(0);">Việt Nam(VND)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">대한민국(KRW)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">Australia(AUD)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">Canada(CAD)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">中國(CNY)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">EU(EUR)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">Hong Kong(HKD)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">日本(JPY)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">Россия(RUB)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">USA(USD)</a></li>
+                                <li><a href="#" onclick="event.preventDefault()">Việt Nam(VND)</a></li>
                             </ul>
                         </div>
                     </div>
                     <ul class="hd-quick__link">
-                        <li><a class="global" href="javascript:void(0);">글로벌</a></li>
-                        <li><a href="javascript:void(0);">호텔찾기</a></li>
-                        <li><a href="javascript:void(0);">멤버십</a></li>
-                        <li><a href="javascript:void(0);">예약조회</a></li>
+                        <li><a class="global" href="#" onclick="event.preventDefault()">글로벌</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">호텔찾기</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">멤버십</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">예약조회</a></li>
                     </ul>
                 </div>
                 <div class="hd-quick__rgt">
                     <ul class="sign">
-                        <li><a href="javascript:void(0);">로그인</a></li>
-                        <li><a href="javascript:void(0);">회원가입</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">로그인</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">회원가입</a></li>
                     </ul>
                 </div>
             </div>
@@ -162,7 +162,7 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="javascript:void(0);">다이닝</a>
+                            <a class="dep1-link" href="#" onclick="event.preventDefault()">다이닝</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>다이닝</span></div>
@@ -170,26 +170,26 @@ $(document).ready(function() {
                                         <li class="dep2-itm">
                                             <p>레스토랑</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">도림 더 칸톤 테이블</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">라세느</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">도림 더 칸톤 테이블</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">라세느</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>베이커리</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">델리카한스</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">델리카한스</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>바&라운지</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">더 라운지 앤 바</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">더 라운지 앤 바</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>룸서비스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">인룸다이닝</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">인룸다이닝</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -197,7 +197,7 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="javascript:void(0);">부대시설</a>
+                            <a class="dep1-link" href="#" onclick="event.preventDefault()">부대시설</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>부대시설</span></div>
@@ -205,40 +205,40 @@ $(document).ready(function() {
                                         <li class="dep2-itm underline">
                                             <p>스파&피트니스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">피트니스센터</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">호텔 사우나</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">호텔 수영장</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">골프 연습장</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">피트니스센터</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">호텔 사우나</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">호텔 수영장</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">골프 연습장</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>비즈니스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">비즈니스 라운지</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">비즈니스 라운지</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>서비스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">윈더도어</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">키즈 랴운지</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">발렛 라운지</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">웨이팅 라운지</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">수유실</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">윈더도어</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">키즈 랴운지</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">발렛 라운지</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">웨이팅 라운지</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">수유실</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>클리닉</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">SMEDICI 치과 클리닉</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">김기준 한의원 봄</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">메이린의원</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">SMEDICI 치과 클리닉</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">김기준 한의원 봄</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">메이린의원</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm">
                                             <p>쇼핑</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">롯데면세점</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">롯데면세점</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -246,7 +246,7 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="javascript:void(0);">웨딩&컨벤션</a>
+                            <a class="dep1-link" href="#" onclick="event.preventDefault()">웨딩&컨벤션</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>웨딩&컨벤션</span></div>
@@ -257,18 +257,18 @@ $(document).ready(function() {
                                                 <li class="dep3-itm">
                                                     <a href="">웨딩홀</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">기타 부대시설</a></li>
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">웨딩 컨셉</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">크리스탈볼룸</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">사파이어볼룸</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">에메랄드룸</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">기타 부대시설</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">웨딩 컨셉</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dep3-itm">
                                                     <a href="">웨딩 문의</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">컨설팅</a></li>
-                                                        <li class="dep4-itm"><a href="javascript:void(0);">FAQ</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">컨설팅</a></li>
+                                                        <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">FAQ</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -276,11 +276,11 @@ $(document).ready(function() {
                                         <li class="dep2-itm wd50">
                                             <p>호텔 컨벤션</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">소규모연회</a></li>
-                                                <li class="dep3-itm"><a href="javascript:void(0);">컨벤션 문의</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">크리스탈볼룸</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">사파이어볼룸</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">에메랄드룸</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">소규모연회</a></li>
+                                                <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">컨벤션 문의</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -296,18 +296,18 @@ $(document).ready(function() {
             <div class="gnb-top">
                 <button class="menu-view__close" type="button"></button>
                 <div class="sign">
-                    <a class="login" href="javascript:void(0);">로그인</a>
-                    <a class="join" href="javascript:void(0);">회원가입</a>
+                    <a class="login" href="#" onclick="event.preventDefault()">로그인</a>
+                    <a class="join" href="#" onclick="event.preventDefault()">회원가입</a>
                 </div>
                 <div class="gnb-top__btn">
-                    <a class="btn-check" href="javascript:void(0);">예약조회</a>
+                    <a class="btn-check" href="#" onclick="event.preventDefault()">예약조회</a>
                     <button class="btn-reservation" type="button">객실예약</button>
                 </div>
             </div>
             <div class="gnb-menu">
                 <ul class="dep1-li">
                     <li class="dep1-itm">
-                        <a class="dep1-tit" href="javascript:void(0);">호텔 소개</a>
+                        <a class="dep1-tit" href="#" onclick="event.preventDefault()">호텔 소개</a>
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
@@ -323,7 +323,7 @@ $(document).ready(function() {
                         </div>
                     </li>
                     <li class="dep1-itm">
-                        <a class="dep1-tit" href="javascript:void(0);">객실</a>
+                        <a class="dep1-tit" href="#" onclick="event.preventDefault()">객실</a>
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
@@ -394,7 +394,7 @@ $(document).ready(function() {
                         </div>
                     </li>
                     <li class="dep1-itm">
-                        <a class="dep1-tit" href="javascript:void(0);">스페셜 오퍼</a>
+                        <a class="dep1-tit" href="#" onclick="event.preventDefault()">스페셜 오퍼</a>
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
@@ -414,33 +414,33 @@ $(document).ready(function() {
                         </div>
                     </li>
                     <li class="dep1-itm">
-                        <a class="dep1-tit" href="javascript:void(0);">다이닝</a>
+                        <a class="dep1-tit" href="#" onclick="event.preventDefault()">다이닝</a>
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
                                     <li class="dep2-itm">
                                         <p>레스토랑</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">도림 더 칸톤 테이블</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">라세느</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">도림 더 칸톤 테이블</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">라세느</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>베이커리</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">델리카한스</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">델리카한스</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>바&라운지</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">더 라운지 앤 바</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">더 라운지 앤 바</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>룸서비스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">인룸다이닝</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">인룸다이닝</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -448,47 +448,47 @@ $(document).ready(function() {
                         </div>
                     </li>
                     <li class="dep1-itm">
-                        <a class="dep1-tit" href="javascript:void(0);">부대시설</a>
+                        <a class="dep1-tit" href="#" onclick="event.preventDefault()">부대시설</a>
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
                                     <li class="dep2-itm">
                                         <p>스파&피트니스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">피트니스센터</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">호텔 사우나</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">호텔 수영장</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">골프 연습장</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">피트니스센터</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">호텔 사우나</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">호텔 수영장</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">골프 연습장</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>비즈니스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">비즈니스 라운지</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">비즈니스 라운지</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>서비스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">윈더도어</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">키즈 랴운지</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">발렛 라운지</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">웨이팅 라운지</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">수유실</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">윈더도어</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">키즈 랴운지</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">발렛 라운지</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">웨이팅 라운지</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">수유실</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>클리닉</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">SMEDICI 치과 클리닉</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">김기준 한의원 봄</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">메이린의원</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">SMEDICI 치과 클리닉</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">김기준 한의원 봄</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">메이린의원</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>쇼핑</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">롯데면세점</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">롯데면세점</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -496,7 +496,7 @@ $(document).ready(function() {
                         </div>
                     </li>
                     <li class="dep1-itm">
-                        <a class="dep1-tit" href="javascript:void(0);">웨딩&컨벤션</a>
+                        <a class="dep1-tit" href="#" onclick="event.preventDefault()">웨딩&컨벤션</a>
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
@@ -506,18 +506,18 @@ $(document).ready(function() {
                                             <li class="dep3-itm">
                                                 <a href="">웨딩홀</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">기타 부대시설</a></li>
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">웨딩 컨셉</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">크리스탈볼룸</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">사파이어볼룸</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">에메랄드룸</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">기타 부대시설</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">웨딩 컨셉</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dep3-itm">
                                                 <a href="">웨딩 문의</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">컨설팅</a></li>
-                                                    <li class="dep4-itm"><a href="javascript:void(0);">FAQ</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">컨설팅</a></li>
+                                                    <li class="dep4-itm"><a href="#" onclick="event.preventDefault()">FAQ</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -525,11 +525,11 @@ $(document).ready(function() {
                                     <li class="dep2-itm">
                                         <p>호텔 컨벤션</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="javascript:void(0);">크리스탈볼룸</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">사파이어볼룸</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">에메랄드룸</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">소규모연회</a></li>
-                                            <li class="dep3-itm"><a href="javascript:void(0);">컨벤션 문의</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">크리스탈볼룸</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">사파이어볼룸</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">에메랄드룸</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">소규모연회</a></li>
+                                            <li class="dep3-itm"><a href="#" onclick="event.preventDefault()">컨벤션 문의</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -540,40 +540,40 @@ $(document).ready(function() {
             </div>
             <div class="gnb-btm">
                 <ul class="quick-link">
-                    <li><a href="javascript:void(0);">LOTTE HOTEL REWARDS</a></li>
-                    <li><a href="javascript:void(0);">글로벌</a></li>
-                    <li><a href="javascript:void(0);">멤버십</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">LOTTE HOTEL REWARDS</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">글로벌</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">멤버십</a></li>
                 </ul>
                 <div class="quick-lang">
                     <div class="lang">
-                        <a class="current" href="javascript:void(0);">한국어</a>
+                        <a class="current" href="#" onclick="event.preventDefault()">한국어</a>
                         <ul>
-                            <li><a href="javascript:void(0);">English</a></li>
-                            <li><a href="javascript:void(0);">日本語</a></li>
-                            <li><a href="javascript:void(0);">中文(简体字)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">English</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">日本語</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">中文(简体字)</a></li>
                         </ul>
                     </div>
                     <div class="currency">
-                        <a class="current" href="javascript:void(0);">KRW</a>
+                        <a class="current" href="#" onclick="event.preventDefault()">KRW</a>
                         <ul>
-                            <li><a href="javascript:void(0);">대한민국(KRW)</a></li>
-                            <li><a href="javascript:void(0);">Australia(AUD)</a></li>
-                            <li><a href="javascript:void(0);">Canada(CAD)</a></li>
-                            <li><a href="javascript:void(0);">中國(CNY)</a></li>
-                            <li><a href="javascript:void(0);">EU(EUR)</a></li>
-                            <li><a href="javascript:void(0);">Hong Kong(HKD)</a></li>
-                            <li><a href="javascript:void(0);">日本(JPY)</a></li>
-                            <li><a href="javascript:void(0);">Россия(RUB)</a></li>
-                            <li><a href="javascript:void(0);">USA(USD)</a></li>
-                            <li><a href="javascript:void(0);">Việt Nam(VND)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">대한민국(KRW)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">Australia(AUD)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">Canada(CAD)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">中國(CNY)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">EU(EUR)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">Hong Kong(HKD)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">日本(JPY)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">Россия(RUB)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">USA(USD)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">Việt Nam(VND)</a></li>
                         </ul>
                     </div>
                 </div>
                 <ul class="btm-link">
-                    <li><a href="javascript:void(0);">호텔찾기</a></li>
-                    <li><a href="javascript:void(0);">고객의 소리</a></li>
-                    <li><a href="javascript:void(0);">신문고(제보)</a></li>
-                    <li><a href="javascript:void(0);">컴플라이언스</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">호텔찾기</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">고객의 소리</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">신문고(제보)</a></li>
+                    <li><a href="#" onclick="event.preventDefault()">컴플라이언스</a></li>
                 </ul>
             </div>
         </div>
@@ -605,18 +605,18 @@ $(document).ready(function() {
         <div class="ft-top">
             <div class="inner ft-top__inner">
                 <ul class="brand-li">
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_01.png" alt="SIGNIEL"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_02.png" alt="LOTTE HOTELS"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_03.png" alt="L7 HOTELS"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_04.png" alt="LOTTE City Hotels"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_05.png" alt="LOTTE RESORT"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_01.png" alt="SIGNIEL"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_02.png" alt="LOTTE HOTELS"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_03.png" alt="L7 HOTELS"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_04.png" alt="LOTTE City Hotels"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_05.png" alt="LOTTE RESORT"></a></li>
                 </ul>
                 <ul class="sns-li">
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_01.png" alt="유튜브"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_02.png" alt="인스타그램"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_03.png" alt="페이스북"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_04.png" alt="네이버 블로그"></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_05.png" alt="트립어드바이저"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_01.png" alt="유튜브"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_02.png" alt="인스타그램"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_03.png" alt="페이스북"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_04.png" alt="네이버 블로그"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_05.png" alt="트립어드바이저"></a></li>
                 </ul>
             </div>
         </div>
@@ -636,54 +636,54 @@ $(document).ready(function() {
                 <ul class="ft-menu">
                     <li>
                         <ul>
-                            <li><a href="javascript:void(0);">롯데호텔 소개</a></li>
-                            <li><a href="javascript:void(0);">호텔 찾기</a></li>
-                            <li><a href="javascript:void(0);">브랜드 찾기</a></li>
-                            <li><a href="javascript:void(0);">수상</a></li>
-                            <li><a href="javascript:void(0);">갤러리</a></li>
-                            <li><a href="javascript:void(0);">ART COLLECTION</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데호텔 소개</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">호텔 찾기</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">브랜드 찾기</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">수상</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">갤러리</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">ART COLLECTION</a></li>
                         </ul>
                     </li>
                     <li>
                         <ul>
-                            <li><a href="javascript:void(0);">고객의 소리</a></li>
-                            <li><a href="javascript:void(0);">지점별 연락처</a></li>
-                            <li><a href="javascript:void(0);">준법 HOTLINE</a></li>
-                            <li><a href="javascript:void(0);">컴플라이언스</a></li>
-                            <li><a href="javascript:void(0);">채용</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">고객의 소리</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">지점별 연락처</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">준법 HOTLINE</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">컴플라이언스</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">채용</a></li>
                         </ul>
                     </li>
                     <li>
                         <ul>
-                            <li><a href="javascript:void(0);">서비스 아카데미</a></li>
-                            <li><a href="javascript:void(0);">시니어 레지던스  VL</a></li>
-                            <li><a href="javascript:void(0);">신규 개발</a></li>
-                            <li><a href="javascript:void(0);">임직원</a></li>
-                            <li><a href="javascript:void(0);">사이트맵</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">서비스 아카데미</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">시니어 레지던스  VL</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">신규 개발</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">임직원</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">사이트맵</a></li>
                         </ul>
                     </li>
                 </ul>
                 <div class="ft-site">
                     <ul class="link-li">
-                        <li><a href="javascript:void(0);">개인정보처리방침</a></li>
-                        <li><a href="javascript:void(0);">사이트 이용약관</a></li>
-                        <li><a href="javascript:void(0);">약관 및 정책</a></li>
-                        <li><a href="javascript:void(0);">쿠키 설정</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">개인정보처리방침</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">사이트 이용약관</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">약관 및 정책</a></li>
+                        <li><a href="#" onclick="event.preventDefault()">쿠키 설정</a></li>
                     </ul>
                     <div class="family">
-                        <a href="javascript:void(0);">패밀리 사이트</a>
+                        <a href="#" onclick="event.preventDefault()">패밀리 사이트</a>
                         <ul>
-                            <li><a href="javascript:void(0);">㈜호텔롯데</a></li>
-                            <li><a href="javascript:void(0);">롯데지주</a></li>
-                            <li><a href="javascript:void(0);">롯데건설</a></li>
-                            <li><a href="javascript:void(0);">롯데글로벌로지스</a></li>
-                            <li><a href="javascript:void(0);">롯데기공</a></li>
-                            <li><a href="javascript:void(0);">롯데렌탈</a></li>
-                            <li><a href="javascript:void(0);">롯데이네오스화학</a></li>
-                            <li><a href="javascript:void(0);">롯데면세점제주</a></li>
-                            <li><a href="javascript:void(0);">롯데멤버스(L.POINT)</a></li>
-                            <li><a href="javascript:void(0);">롯데물산</a></li>
-                            <li><a href="javascript:void(0);">롯데스카이힐CC</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">㈜호텔롯데</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데지주</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데건설</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데글로벌로지스</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데기공</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데렌탈</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데이네오스화학</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데면세점제주</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데멤버스(L.POINT)</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데물산</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">롯데스카이힐CC</a></li>
                         </ul>
                     </div>
                 </div>

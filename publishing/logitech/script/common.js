@@ -12,14 +12,14 @@ $(document).ready(function() {
     // header
     $('header').append(`
         <div class="inner">
-            <a class="menu-view__btn" href="javascript:void(0);"></a>
+            <a class="menu-view__btn" href="#" onclick="event.preventDefault()"></a>
             <h1 class="hd-logo">
                 <a href="/portfolio_2024/publishing/logitech/page/index.html">
                     <img src="/portfolio_2024/publishing/logitech/images/common/logo_wh.svg" alt="logitech G">
                     <img src="/portfolio_2024/publishing/logitech/images/common/logo_bk.svg" alt="logitech G">
                 </a>
             </h1>
-            <a class="hd-sch__btn" href="javascript:void(0);"></a>
+            <a class="hd-sch__btn" href="#" onclick="event.preventDefault()"></a>
         </div>
         <div class="menu-view">
             <button class="menu-view__close" type="button"></button>
@@ -108,10 +108,10 @@ $(document).ready(function() {
                                         <figcaption>시리즈 구매하기</figcaption>
                                     </figure>
                                     <ul>
-                                        <li><a href="javascript:void(0);">PRO 시리즈</a></li>
-                                        <li><a href="javascript:void(0);">ASTRO 시리즈</a></li>
-                                        <li><a href="javascript:void(0);">시뮬레이션 레이싱</a></li>
-                                        <li><a href="javascript:void(0);">게임, 스트리밍 및 제작</a></li>
+                                        <li><a href="#" onclick="event.preventDefault()">PRO 시리즈</a></li>
+                                        <li><a href="#" onclick="event.preventDefault()">ASTRO 시리즈</a></li>
+                                        <li><a href="#" onclick="event.preventDefault()">시뮬레이션 레이싱</a></li>
+                                        <li><a href="#" onclick="event.preventDefault()">게임, 스트리밍 및 제작</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ $(document).ready(function() {
                                         <figcaption>커뮤니티</figcaption>
                                     </figure>
                                     <ul>
-                                        <li><a href="javascript:void(0);">Logitech G 챌린지</a></li>
+                                        <li><a href="#" onclick="event.preventDefault()">Logitech G 챌린지</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -224,19 +224,19 @@ $(document).ready(function() {
                             <div class="inner">
                                 <ul class="dep2-li wide">
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="#" onclick="event.preventDefault()">
                                             <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_01.png" alt=""></div>
                                             지원 센터
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="#" onclick="event.preventDefault()">
                                             <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_02.png" alt=""></div>
                                             제품 등록
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);">
+                                        <a href="#" onclick="event.preventDefault()">
                                             <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_03.png" alt=""></div>
                                             Logi ID 생성
                                         </a>
@@ -342,30 +342,30 @@ $(document).ready(function() {
                     <li>
                         <p>로지텍 G</p>
                         <ul>
-                            <li><a href="javascript:void(0);">소개</a></li>
-                            <li><a href="javascript:void(0);">연락처</a></li>
-                            <li><a href="javascript:void(0);">채용</a></li>
-                            <li><a href="javascript:void(0);">파트너 개발자 랩</a></li>
-                            <li><a href="javascript:void(0);">사이트맵</a></li>
-                            <li><a href="javascript:void(0);">투자자</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">소개</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">연락처</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">채용</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">파트너 개발자 랩</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">사이트맵</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">투자자</a></li>
                         </ul>
                     </li>
                     <li>
                         <p>약관</p>
                         <ul>
-                            <li><a href="javascript:void(0);">이용약관</a></li>
-                            <li><a href="javascript:void(0);">웹 개인정보 보호정책</a></li>
-                            <li><a href="javascript:void(0);">제품 개인정보 보호정책</a></li>
-                            <li><a href="javascript:void(0);">쿠키 설정</a></li>
-                            <li><a href="javascript:void(0);">이메일 설정</a></li>
-                            <li><a href="javascript:void(0);">이메일 등록 페이지</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">이용약관</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">웹 개인정보 보호정책</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">제품 개인정보 보호정책</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">쿠키 설정</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">이메일 설정</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">이메일 등록 페이지</a></li>
                         </ul>
                     </li>
                     <li>
                         <p>지속 가능성</p>
                         <ul>
-                            <li><a href="javascript:void(0);">지속 가능성</a></li>
-                            <li><a href="javascript:void(0);">재활용</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">지속 가능성</a></li>
+                            <li><a href="#" onclick="event.preventDefault()">재활용</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -373,10 +373,10 @@ $(document).ready(function() {
             <div class="ft-btm">
                 <p class="copy">© 2023 로지텍. All rights reserved</p>
                 <ul class="sns">
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_01.svg" alt=""></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_02.svg" alt=""></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_03.svg" alt=""></a></li>
-                    <li><a href="javascript:void(0);"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_04.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_01.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_02.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_03.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_04.svg" alt=""></a></li>
                 </ul>
             </div>
         </div>
