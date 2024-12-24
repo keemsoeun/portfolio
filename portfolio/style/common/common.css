@@ -833,8 +833,10 @@
 .detail-img__itm:nth-child(odd) {
   background: #f9f9f9;
 }
-.detail-img__itm .sec-tit span {
+.detail-img__itm .sec-tit {
   margin-bottom: 1rem;
+}
+.detail-img__itm .sec-tit span {
   padding: 0 0.75rem;
   font-size: 1rem;
   font-weight: 300;
@@ -868,6 +870,9 @@
   .detail-img__itm .col {
     display: flex;
     gap: 0.5rem;
+  }
+  .detail-img__itm .sec-tit {
+    margin-bottom: 0.5rem;
   }
   .detail-img__itm .sec-tit span {
     font-size: 0.875rem;

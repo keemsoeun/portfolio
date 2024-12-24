@@ -5,8 +5,8 @@
         background: $background-light;
     }
     .sec-tit {
+        margin-bottom: rem(16);
         span {
-            margin-bottom: rem(16);
             padding: 0 rem(12);
             font-size: rem(16);
             font-weight: 300;
@@ -42,6 +42,7 @@
             gap: rem(8);
         }
         .sec-tit {
+            margin-bottom: rem(8);
             span {
                 font-size: rem(14);
             }
