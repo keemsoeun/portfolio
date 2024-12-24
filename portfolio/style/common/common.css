@@ -965,14 +965,6 @@
   align-items: center;
 }
 
-@media (max-width: 480px) {
-  .detail-sub .col {
-    display: block;
-  }
-  .detail-sub .img-area {
-    margin-bottom: 0.75rem;
-  }
-}
 .detail-grid {
   overflow: hidden;
 }

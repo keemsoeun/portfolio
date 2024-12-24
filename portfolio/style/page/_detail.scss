@@ -153,16 +153,6 @@
         align-items: center;
     }
 }
-@include tablet {
-    .detail-sub {
-        .col {
-            display: block;
-        }
-        .img-area {
-            margin-bottom: rem(12);
-        }
-    }
-}
 
 // grid
 .detail-grid {
