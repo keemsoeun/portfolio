@@ -931,14 +931,12 @@
   .detail-tit .btn {
     margin-top: 1.75rem;
   }
+  .detail-tit__tit {
+    font-size: 1.75rem;
+  }
   .detail-tit__desc {
     margin-top: 1.5rem;
     padding-top: 1.25rem;
-  }
-}
-@media (max-width: 380px) {
-  .detail-tit__tit {
-    font-size: 1.75rem;
   }
 }
 .detail-top .mo {

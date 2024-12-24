@@ -106,14 +106,12 @@
             margin-top: rem(28);
         }
     }
+    .detail-tit__tit {
+        font-size: rem(28);
+    }
     .detail-tit__desc {
         margin-top: rem(24);
         padding-top: rem(20);
-    }
-}
-@include mobile {
-    .detail-tit__tit {
-        font-size: rem(28);
     }
 }
 
