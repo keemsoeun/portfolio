@@ -51,16 +51,14 @@
         }
     }
 }
-.visual-tit__desc {
-    width: min(rem(415), 100%);
-    padding-bottom: rem(20);
-    line-height: 1.4;
-    font-size: rem(18);
-    font-weight: 500;
-    color: $label-neutral;
+.visual-arrow {
+    display: inline-block;
+    width: rem(48);
+    height: rem(48);
+    background: url(../../images/common/arrow_down_bk_ico.svg) center /cover no-repeat;
     filter: blur(10px);
     opacity: 0;
-    animation: visualBlur forwards ease 1s .8s;
+    animation: visualBlur forwards ease 1s .6s;
 }
 @keyframes visualBlur {
     0% {filter: blur(10px); opacity: 0;}
@@ -92,9 +90,8 @@
             }
         }
     }
-    .visual-tit__desc {
-        width: min(rem(600), 100%);
-        margin-top: rem(28);
+    .visual-arrow {
+        display: none;
     }
 }
 @include laptop {
@@ -121,9 +118,6 @@
     }
 }
 @include tablet {
-    .visual-tit__desc {
-        font-size: rem(16);
-    }
     .visual-btm {
         font-size: rem(14);
     }
