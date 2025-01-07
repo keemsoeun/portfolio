@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Walker</title>
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/common.css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <a class="header-btn prev" href="./index.html"></a>
+                <h2>배터리</h2>
+                <a class="header-btn notice" href="./my/my.html"></a>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <img src="../images/nav_home_ico.svg">
+                            <p>홈</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./battery.html">
+                            <img src="../images/nav_battery_ico.svg">
+                            <p>배터리</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./my/my.html">
+                            <img src="../images/nav_my_ico.svg">
+                            <p>내정보</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./customer/customer.html">
+                            <img src="../images/nav_customer_ico.svg">
+                            <p>고객센터</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./setting.html">
+                            <img src="../images/nav_setting_ico.svg">
+                            <p>설정</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <div class="battery">
+                    <div class="walker">
+                        <img src="../images/walker_ico.svg">
+                        <span>보행보조기 1</span>
+                    </div>
+                    <div class="pie">
+                        <div>
+                            <p class="stats-tit type2">잔여 배터리</p>
+                            <p class="value"><strong>68</strong><span>%</span></p>
+                        </div>
+                    </div>
+                    <div class="stats-wrap">
+                        <div class="stats">
+                            <p class="stats-tit type2">이동 가능 거리</p>
+                            <p class="value"><strong>5.13</strong><span>km</span></p>
+                        </div>
+                        <div class="stats">
+                            <p class="stats-tit type2">이동 가능 시간</p>
+                            <p class="value"><strong>05:08</strong></p>
+                        </div>
+                    </div>
+                     <div class="distance">
+                        <ul class="circle">
+                            <li class="on">5km</li>
+                            <li class="on">10km</li>
+                            <li class="on">15km</li>
+                            <li>20km</li>
+                            <li>25km</li>
+                        </ul>
+                        <ul class="line">
+                            <li class="on"></li>
+                            <li class="on"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <span class="current" style="left: 50%;">이동가능</span>
+                     </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>

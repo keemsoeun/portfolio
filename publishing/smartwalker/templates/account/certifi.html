@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Walker</title>
+
+    <link rel="stylesheet" href="../../style/reset.css">
+    <link rel="stylesheet" href="../../style/common.css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../../script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <a class="header-btn prev" href="./terms.html"></a>
+                <h2>회원가입</h2>
+            </header>
+            <main class="pd0">
+                <div class="page-tit__wrap">
+                    <h3 class="page-tit">본인인증</h3>
+                </div>
+                <div class="form-list">
+                    <div class="form-item">
+                        <div class="txt-form">
+                            <p class="label">이름</p>
+                            <input type="text" placeholder="이름 입력">
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="txt-form">
+                            <p class="label">생년월일</p>
+                            <div class="birth type1">
+                                <input type="text" maxlength="6" placeholder="생년월일 6자리" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                                <span>-</span>
+                                <input type="text" maxlength="1" placeholder="0" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                                <ul class="blank">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="txt-form">
+                            <p class="label">휴대폰 번호</p>
+                            <div class="phone">
+                                <div class="select">
+                                    <a class="current" href="javascript:void(0);"><span>통신사</span><img src="../../images/arrow_bottom_ico.svg"></a>
+                                    <div class="select-list">
+                                        <ul>
+                                            <li><a href="javascript:void(0);">SKT</a></li>
+                                            <li><a href="javascript:void(0);">KT</a></li>
+                                            <li><a href="javascript:void(0);">LG U+</a></li>
+                                            <li><a href="javascript:void(0);">알뜰폰</a></li>
+                                        </ul>
+                                        <span class="select-close"></span>
+                                    </div>
+                                    <span class="select-bg"></span>
+                                </div>
+                                <input type="text" maxlength="11" placeholder="휴대폰 번호 입력" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                            </div>
+                        </div>
+                        <a class="btn border" href="javascript:void(0);" onclick="notification()">휴대폰 인증</a>
+                    </div>
+                    <div class="form-item">
+                        <div class="txt-form">
+                            <p class="label">인증번호</p>
+                            <input type="text" maxlength="4" placeholder="인증번호 4자리 입력" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-bottom">
+                    <a class="btn blue" href="./info.html">다음</a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- notification -->
+    <div class="notification">
+        <span><img src="../../images/complete_ico.svg"></span>
+        <p>입력하신 번호로 인증번호가 발송되었습니다.</p>
+    </div>
+
+    <!-- 임시 -->
+    <script>
+        function notification() {
+            $('.notification').addClass('on');
+            setTimeout(() => $('.notification').removeClass('on'), 5000);
+        }
+    </script>
+</body>

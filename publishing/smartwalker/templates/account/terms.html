@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Walker</title>
+
+    <link rel="stylesheet" href="../../style/reset.css">
+    <link rel="stylesheet" href="../../style/common.css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../../script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <a class="header-btn prev" href="./login.html"></a>
+                <h2>회원가입</h2>
+            </header>
+            <main class="pd0">
+                <div class="page-tit__wrap">
+                    <h3 class="page-tit">약관동의</h3>
+                </div>
+                <div class="all-chk">
+                    <input type="checkbox" id="all-chk">
+                    <label for="all-chk"><span>모두 동의합니다.</span></label>
+                </div>
+                <ul class="terms-list">
+                    <li>
+                        <div class="checkbox">
+                            <input type="checkbox" id="chk1">
+                            <label for="chk1"><span>서비스 이용약관</span><span class="essential">필수</span></label>
+                        </div>
+                        <a class="terms-more" href="javascript:void(0);" onclick="modal()"></a>
+                    </li>
+                    <li>
+                        <div class="checkbox">
+                            <input type="checkbox" id="chk2">
+                            <label for="chk2"><span>개인정보수집/이용 동의</span><span class="essential">필수</span></label>
+                        </div>
+                        <a class="terms-more" href="javascript:void(0);"></a>
+                    </li>
+                    <li>
+                        <div class="checkbox">
+                            <input type="checkbox" id="chk3">
+                            <label for="chk3"><span>위치기반 서비스 이용약관 동의</span><span class="essential">필수</span></label>
+                        </div>
+                        <a class="terms-more" href="javascript:void(0);"></a>
+                    </li>
+                </ul>
+                <div class="btn-bottom">
+                    <a class="btn blue" href="./certifi.html">다음</a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-top">
+                <h4 class="modal-tit">서비스 이용약관</h4>
+                <span class="modal-close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="terms-txt">
+                    지방자치단체는 주민의 복리에 관한 사무를 처리하고 재산을 관리하며, 법령의 범위안에서 자치에 관한 규정을 제정할 수 있다. 대통령은 내우·외환·천재·지변 또는 중대한 재정·경제상의 위기에 있어서 국가의 안전보장 또는 공공의 안녕질서를 유지하기 위하여 긴급한 조치가 필요하고 국회의 집회를 기다릴 여유가 없을 때에 한하여 최소한으로 필요한 재정·경제상의 처분을 하거나 이에 관하여 법률의 효력을 가지는 명령을 발할 수 있다.
+                    <br/><br/>
+                    이 헌법시행 당시의 법령과 조약은 이 헌법에 위배되지 아니하는 한 그 효력을 지속한다. 지방의회의 조직·권한·의원선거와 지방자치단체의 장의 선임방법 기타 지방자치단체의 조직과 운영에 관한 사항은 법률로 정한다.
+                    <br/><br/>
+                    모든 국민은 법률이 정하는 바에 의하여 납세의 의무를 진다. 이 헌법중 공무원의 임기 또는 중임제한에 관한 규정은 이 헌법에 의하여 그 공무원이 최초로 선출 또는 임명된 때로부터 적용한다.
+                    <br/><br/>
+                    저작자·발명가·과학기술자와 예술가의 권리는 법률로써 보호한다. 공무원은 국민전체에 대한 봉사자이며, 국민에 대하여 책임을 진다. 대통령의 국법상 행위는 문서로써 하며, 이 문서에는 국무총리와 관계 국무위원이 부서한다. 군사에 관한 것도 또한 같다.
+                    <br/><br/>
+                    국가유공자·상이군경 및 전몰군경의 유가족은 법률이 정하는 바에 의하여 우선적으로 근로의 기회를 부여받는다. 모든 국민의 재산권은 보장된다. 그 내용과 한계는 법률로 정한다.
+                    <br/><br/>
+                    제안된 헌법개정안은 대통령이 20일 이상의 기간 이를 공고하여야 한다. 대통령은 법률이 정하는 바에 의하여 사면·감형 또는 복권을 명할 수 있다. 대통령이 제1항의 기간내에 공포나 재의의 요구를 하지 아니한 때에도 그 법률안은 법률로서 확정된다.
+                    <br/><br/>
+                    재산권의 행사는 공공복리에 적합하도록 하여야 한다. 법률안에 이의가 있을 때에는 대통령은 제1항의 기간내에 이의서를 붙여 국회로 환부하고, 그 재의를 요구할 수 있다. 국회의 폐회중에도 또한 같다.
+                    <br/><br/>
+                    이 헌법시행 당시의 대법원장과 대법원판사가 아닌 법관은 제1항 단서의 규정에 불구하고 이 헌법에 의하여 임명된 것으로 본다. 국가는 모성의 보호를 위하여 노력하여야 한다.
+                    <br/><br/>
+                    각급 선거관리위원회의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 공무원인 근로자는 법률이 정하는 자에 한하여 단결권·단체교섭권 및 단체행동권을 가진다.
+                    <br/><br/>
+                    나는 헌법을 준수하고 국가를 보위하며 조국의 평화적 통일과 국민의 자유와 복리의 증진 및 민족문화의 창달에 노력하여 대통령으로서의 직책을 성실히 수행할 것을 국민 앞에 엄숙히 선서합니다.
+                </div>
+            </div>
+            <div class="modal-bottom">
+                <a class="btn blue" href="javascript:void(0);">서비스 이용약관 동의</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 임시 -->
+    <script>
+        function modal() {
+            $('.modal').addClass('on');
+        }
+    </script>
+</body>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Walker</title>
+
+    <link rel="stylesheet" href="../../style/reset.css">
+    <link rel="stylesheet" href="../../style/common.css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../../script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <a class="header-btn prev" href="./login.html"></a>
+            </header>
+            <main class="pd0">
+                <div class="page-tit__wrap">
+                    <h3 class="page-tit">아이디/비밀번호 찾기</h3>
+                </div>
+                <div class="tab">
+                    <ul class="tab-btn">
+                        <li><a href="javascript:void(0);" rel="id">아이디 찾기</a></li>
+                        <li><a href="javascript:void(0);" rel="password">비밀번호 찾기</a></li>
+                    </ul>
+                    <div class="tab-cont">
+                        <div class="tab-item" id="id">
+                            <div class="form-list">
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">이름</p>
+                                        <input type="text" placeholder="이름 입력">
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">휴대폰 번호</p>
+                                        <div class="phone">
+                                            <div class="select">
+                                                <a class="current" href="javascript:void(0);"><span>통신사</span><img src="../../images/arrow_bottom_ico.svg"></a>
+                                                <div class="select-list">
+                                                    <ul>
+                                                        <li><a href="javascript:void(0);">SKT</a></li>
+                                                        <li><a href="javascript:void(0);">KT</a></li>
+                                                        <li><a href="javascript:void(0);">LG U+</a></li>
+                                                        <li><a href="javascript:void(0);">알뜰폰</a></li>
+                                                    </ul>
+                                                    <span class="select-close"></span>
+                                                </div>
+                                                <span class="select-bg"></span>
+                                            </div>
+                                            <input type="text" maxlength="11" placeholder="휴대폰 번호 입력" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                                        </div>
+                                    </div>
+                                    <a class="btn border" href="javascript:void(0);" onclick="notification()">휴대폰 인증</a>
+                                </div>
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">인증번호</p>
+                                        <input type="text" maxlength="4" placeholder="인증번호 4자리 입력" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-bottom">
+                                <a class="btn blue" href="javascript:void(0);" onclick="confirm()">아이디 찾기</a>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="password">
+                            <div class="form-list">
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">아이디</p>
+                                        <input type="text" placeholder="아이디 입력">
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">이름</p>
+                                        <input type="text" placeholder="이름 입력">
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">휴대폰 번호</p>
+                                        <div class="phone">
+                                            <div class="select">
+                                                <a class="current" href="javascript:void(0);"><span>통신사</span><img src="../../images/arrow_bottom_ico.svg"></a>
+                                                <div class="select-list">
+                                                    <ul>
+                                                        <li><a href="javascript:void(0);">SKT</a></li>
+                                                        <li><a href="javascript:void(0);">KT</a></li>
+                                                        <li><a href="javascript:void(0);">LG U+</a></li>
+                                                        <li><a href="javascript:void(0);">알뜰폰</a></li>
+                                                    </ul>
+                                                    <span class="select-close"></span>
+                                                </div>
+                                                <span class="select-bg"></span>
+                                            </div>
+                                            <input type="text" maxlength="11" placeholder="휴대폰 번호 입력" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                                        </div>
+                                    </div>
+                                    <a class="btn border" href="javascript:void(0);" onclick="notification()">휴대폰 인증</a>
+                                </div>
+                                <div class="form-item">
+                                    <div class="txt-form">
+                                        <p class="label">인증번호</p>
+                                        <input type="text" maxlength="4" placeholder="인증번호 4자리 입력" onKeyup="this.value=this.value.replace(/[^-0-9]/g,'');"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-bottom">
+                                <a class="btn blue" href="./edit_password.html">비밀번호 재설정</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal confirm find-id">
+        <div class="modal-container">
+            <div class="modal-body">
+                <div class="img-wrap">
+                    <img src="../../images/walking_img_01.png">
+                </div>
+                <strong>
+                    김보행님의 아이디는 <br/>
+                    <span>id1234</span>입니다.
+                </strong>
+            </div>
+            <div class="modal-bottom">
+                <a class="btn blue" href="./login.html">로그인</a>
+                <a class="btn sky" href="javascript:void(0);" onclick="tabPassword()">비밀번호 찾기</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- notification -->
+    <div class="notification">
+        <span><img src="../../images/complete_ico.svg"></span>
+        <p>입력하신 번호로 인증번호가 발송되었습니다.</p>
+    </div>
+
+    <!-- 임시 -->
+    <script>
+        function confirm() {
+            $('.confirm').addClass('on');
+        }
+        function tabPassword() {
+            $('#id, .modal').removeClass('on');
+            $('#password').addClass('on');
+            $('.tab-btn li').first().find('a').removeClass('on');
+            $('.tab-btn li').last().find('a').addClass('on');
+        }
+        function notification() {
+            $('.notification').addClass('on');
+            setTimeout(() => $('.notification').removeClass('on'), 5000);
+        }
+    </script>
+</body>

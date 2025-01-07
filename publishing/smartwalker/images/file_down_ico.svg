@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_485" data-name="사각형 485" width="14.957" height="15" fill="#5d7dff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_257" data-name="그룹 257" transform="translate(-307 -465)">
+    <g id="사각형_484" data-name="사각형 484" transform="translate(307 465)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="15" height="15" stroke="none"/>
+      <rect x="0.5" y="0.5" width="14" height="14" fill="none"/>
+    </g>
+    <g id="그룹_256" data-name="그룹 256" transform="translate(307 465)">
+      <g id="그룹_255" data-name="그룹 255" clip-path="url(#clip-path)">
+        <path id="패스_391" data-name="패스 391" d="M14.207,70.4a.75.75,0,0,0-.75.75v4.957a.751.751,0,0,1-.75.75H2.251a.751.751,0,0,1-.75-.75V71.223a.75.75,0,0,0-1.5,0v4.883a2.253,2.253,0,0,0,2.251,2.251H12.706a2.253,2.253,0,0,0,2.251-2.251V71.149a.75.75,0,0,0-.75-.75" transform="translate(0 -63.357)" fill="#5d7dff"/>
+        <path id="패스_392" data-name="패스 392" d="M37.393,10.022l.006.006.036.034.019.017.043.033.016.012c.018.012.036.024.055.034l.008,0a.749.749,0,0,0,.728,0l.008,0c.019-.011.037-.022.055-.034l.016-.012.042-.033.019-.017.035-.034.007-.006,3.343-3.545a.75.75,0,0,0-1.092-1.029l-2.047,2.17V.751a.75.75,0,0,0-1.5,0V7.618l-2.047-2.17a.75.75,0,0,0-1.092,1.029Z" transform="translate(-30.461 -0.001)" fill="#5d7dff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Walker</title>
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/common.css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../script/common.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <a class="header-btn prev" href="./index.html"></a>
+                <h2>나의 활동량</h2>
+                <a class="header-btn notice" href="./my/my.html"></a>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <img src="../images/nav_home_ico.svg">
+                            <p>홈</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./battery.html">
+                            <img src="../images/nav_battery_ico.svg">
+                            <p>배터리</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./my/my.html">
+                            <img src="../images/nav_my_ico.svg">
+                            <p>내정보</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./customer/customer.html">
+                            <img src="../images/nav_customer_ico.svg">
+                            <p>고객센터</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./setting.html">
+                            <img src="../images/nav_setting_ico.svg">
+                            <p>설정</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <div class="activity">
+                    <div class="activity-top">
+                        <p>
+                            <span>홍길동</span>님, 오늘은 <br/>
+                            <span><strong>5.13</strong>km</span>를 걸었어요.
+                        </p>
+                        <div class="img-wrap"><img src="../images/walking_img_02.png"></div>
+                    </div>
+                    <div class="stats-wrap type2">
+                        <div class="stats">
+                            <span class="tag type1">오늘 총 이동 거리</span>
+                            <div class="value"><strong>5.13</strong><span>km</span></div>
+                        </div>
+                        <div class="stats">
+                            <span class="tag type1">소모 칼로리</span>
+                            <div class="value"><strong>154</strong><span>kcal</span></div>
+                        </div>
+                        <div class="stats">
+                            <span class="tag type1">이동 시간</span>
+                            <div class="value"><strong>3:18</strong></div>
+                        </div>
+                        <div class="stats">
+                            <span class="tag type1">이동 속도</span>
+                            <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                        </div>
+                    </div>
+                    <a class="btn blue w100" href="./history.html">활동이력 보기</a>
+                    <span class="section-cut"></span>
+                    <div class="battery">
+                        <span class="stats-tit type1">배터리 잔량</span>
+                        <div class="value"><strong>50</strong><span>%</span></div>
+                        <a class="btn sky small" href="./battery.html">배터리 보기</a>
+                        <div class="progress">
+                            <div class="progressbar">
+                                <span class="current" style="width: 50%;"></span>
+                            </div>
+                            <div class="bottom-txt">
+                                <span>0%</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Walker</title>
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/common.css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="../script/common.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css"/>
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header>
+                <a class="header-btn prev" href="./index.html"></a>
+                <h2>활동 이력</h2>
+                <a class="header-btn share" href="javascript:void(0);"></a>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <img src="../../images/nav_home_ico.svg">
+                            <p>홈</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./battery.html">
+                            <img src="../../images/nav_battery_ico.svg">
+                            <p>배터리</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./my/my.html">
+                            <img src="../../images/nav_my_ico.svg">
+                            <p>내정보</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./customer/customer.html">
+                            <img src="../../images/nav_customer_ico.svg">
+                            <p>고객센터</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./setting.html">
+                            <img src="../../images/nav_setting_ico.svg">
+                            <p>설정</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="history">
+                <div class="tab">
+                    <ul class="tab-btn">
+                        <li><a href="javascript:void(0);" rel="day">일</a></li>
+                        <li><a href="javascript:void(0);" rel="week">주</a></li>
+                        <li><a href="javascript:void(0);" rel="month">월</a></li>
+                    </ul>
+                    <div class="tab-cont">
+                        <div class="tab-item" id="day">
+                            <div class="history-date">
+                                <div class="date-month">
+                                    <a class="prev" href="javascript:void(0);"></a>
+                                    <div class="current">
+                                        <span class="year">2023</span>년
+                                        <span class="month">6</span>월
+                                    </div>
+                                    <a class="next" href="javascript:void(0);"></a>
+                                </div>
+                                <div class="date-list date-day">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>목</span>
+                                                <strong>1</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>금</span>
+                                                <strong>2</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>토</span>
+                                                <strong>3</strong>
+                                            </a>
+                                        </li>
+                                        <li class="current">
+                                            <a href="javascript:void(0);">
+                                                <span>일</span>
+                                                <strong>4</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>월</span>
+                                                <strong>5</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>화</span>
+                                                <strong>6</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>수</span>
+                                                <strong>7</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>목</span>
+                                                <strong>8</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>금</span>
+                                                <strong>9</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>토</span>
+                                                <strong>10</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>일</span>
+                                                <strong>11</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>월</span>
+                                                <strong>12</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>화</span>
+                                                <strong>13</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>수</span>
+                                                <strong>14</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>목</span>
+                                                <strong>15</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>금</span>
+                                                <strong>16</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>토</span>
+                                                <strong>17</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>일</span>
+                                                <strong>18</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>월</span>
+                                                <strong>19</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>화</span>
+                                                <strong>20</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>수</span>
+                                                <strong>21</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>목</span>
+                                                <strong>22</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>금</span>
+                                                <strong>23</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>토</span>
+                                                <strong>24</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>일</span>
+                                                <strong>25</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>월</span>
+                                                <strong>26</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>화</span>
+                                                <strong>27</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>수</span>
+                                                <strong>28</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>목</span>
+                                                <strong>29</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <span>금</span>
+                                                <strong>30</strong>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="history-wrap">
+                                <div class="history-top">
+                                    <div class="top-txt">
+                                        <p>
+                                            홍길동님의 <br/>
+                                            <span>2023년 6월 15일 목요일</span> <br/>
+                                            활동 이력입니다.<br/>
+                                        </p>
+                                        <div class="img-wrap"><img src="../images/walking_img_02.png"></div>
+                                    </div>
+                                    <div class="stats-wrap type2">
+                                        <div class="stats">
+                                            <span class="tag type1">이동 거리</span>
+                                            <div class="value"><strong>5.13</strong><span>km</span></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">소모 칼로리</span>
+                                            <div class="value"><strong>154</strong><span>kcal</span></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">이동 시간</span>
+                                            <div class="value"><strong>3:18</strong></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">이동 속도</span>
+                                            <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="section-cut"></span>
+
+                                <div class="chart-wrap">
+                                    <div class="chart" id="dayChart"></div>
+                                </div>
+
+                                <div class="chart-detail">
+                                    <div class="tab">
+                                        <ul class="chart-detail__btn">
+                                            <li><a href="javascript:void(0);" rel="day1">1시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day2">2시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day3">3시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day4">4시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day5">5시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day6">6시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day7">7시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day7">8시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day7">9시</a></li>
+                                            <li><a href="javascript:void(0);" rel="day7">10시</a></li>
+                                        </ul>
+                                        <div class="tab-cont">
+                                            <div class="tab-item" id="day1">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>5.13</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>154</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>3:18</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item" id="day2">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>2.45</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>85</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>1:54</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item" id="day3">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>2.45</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>104</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>32:14</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="btn blue w100" href="javascript:void(0);">내려받기</a>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="week">
+                            <div class="history-date">
+                                <div class="date-month">
+                                    <a class="prev" href="javascript:void(0);"></a>
+                                    <div class="current">
+                                        <span class="year">2023</span>년
+                                        <span class="month">6</span>월
+                                    </div>
+                                    <a class="next" href="javascript:void(0);"></a>
+                                </div>
+                                <div class="date-list date-week">
+                                    <ul>
+                                        <li class="current">
+                                            <a href="javascript:void(0);">
+                                                <strong>1일-4일</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <strong>5일-11일</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <strong>12일-18일</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <strong>19일-26일</strong>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <strong>26일-30일</strong>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="history-wrap">
+                                <div class="history-top">
+                                    <div class="top-txt">
+                                        <p>
+                                            홍길동님의 <br/>
+                                            <span>2023년 6월 1일~4일</span> <br/>
+                                            활동 이력입니다.<br/>
+                                        </p>
+                                        <div class="img-wrap"><img src="../images/walking_img_03.png"></div>
+                                    </div>
+                                    <div class="stats-wrap type2">
+                                        <div class="stats">
+                                            <span class="tag type1">이동 거리</span>
+                                            <div class="value"><strong>5.13</strong><span>km</span></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">소모 칼로리</span>
+                                            <div class="value"><strong>154</strong><span>kcal</span></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">이동 시간</span>
+                                            <div class="value"><strong>3:18</strong></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">이동 속도</span>
+                                            <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="section-cut"></span>
+                                <div class="chart-wrap">
+                                    <div class="chart" id="weekChart"></div>
+                                </div>
+                                <div class="chart-detail">
+                                    <div class="tab">
+                                        <ul class="chart-detail__btn">
+                                            <li><a href="javascript:void(0);" rel="week1">1일</a></li>
+                                            <li><a href="javascript:void(0);" rel="week1">2일</a></li>
+                                            <li><a href="javascript:void(0);" rel="week1">3일</a></li>
+                                            <li><a href="javascript:void(0);" rel="week1">4일</a></li>
+                                        </ul>
+                                        <div class="tab-cont">
+                                            <div class="tab-item" id="week1">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>5.13</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>154</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>3:18</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item" id="week2">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>2.45</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>85</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>1:54</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item" id="week3">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>2.45</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>104</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>32:14</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="btn blue w100" href="javascript:void(0);">내려받기</a>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="month">
+                            <div class="history-date">
+                                <div class="date-month">
+                                    <a class="prev" href="javascript:void(0);"></a>
+                                    <div class="current">
+                                        <span class="year">2023</span>년
+                                        <span class="month">6</span>월
+                                    </div>
+                                    <a class="next" href="javascript:void(0);"></a>
+                                </div>
+                            </div>
+                            <div class="history-wrap">
+                                <div class="history-top">
+                                    <div class="top-txt">
+                                        <p>
+                                            홍길동님의 <br/>
+                                            <span>2023년 6월</span> <br/>
+                                            활동 이력입니다.<br/>
+                                        </p>
+                                        <div class="img-wrap"><img src="../images/walking_img_04.png"></div>
+                                    </div>
+                                    <div class="stats-wrap type2">
+                                        <div class="stats">
+                                            <span class="tag type1">오늘 총 이동 거리</span>
+                                            <div class="value"><strong>5.13</strong><span>km</span></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">소모 칼로리</span>
+                                            <div class="value"><strong>154</strong><span>kcal</span></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">이동 시간</span>
+                                            <div class="value"><strong>3:18</strong></div>
+                                        </div>
+                                        <div class="stats">
+                                            <span class="tag type1">이동 속도</span>
+                                            <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="section-cut"></span>
+                                <div class="chart-wrap">
+                                    <div id="monthChart"></div>
+                                </div>
+                                <div class="chart-detail">
+                                    <div class="tab">
+                                        <ul class="chart-detail__btn">
+                                            <li><a href="javascript:void(0);" rel="month1">1일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month2">2일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month3">3일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month4">4일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month5">5일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month6">6일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month7">7일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month8">8일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month9">9일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month10">10일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month11">11일</a></li>
+                                            <li><a href="javascript:void(0);" rel="month12">12일</a></li>
+                                        </ul>
+                                        <div class="tab-cont">
+                                            <div class="tab-item" id="month1">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>5.13</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>154</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>3:18</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item" id="month2">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>2.45</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>85</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>1:54</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-item" id="month3">
+                                                <div class="stats-wrap">
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 거리</span>
+                                                        <div class="value"><strong>2.45</strong><span>km</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">소모 칼로리</span>
+                                                        <div class="value"><strong>104</strong><span>kcal</span></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 시간</span>
+                                                        <div class="value"><strong>32:14</strong></div>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <span class="tag type1">이동 속도</span>
+                                                        <div class="value"><strong>0.0</strong><span>m/min</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="btn blue w100" href="javascript:void(0);">내려받기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        // tab
+        $('.chart-detail__btn').each(function() {
+            $(this).find('li').first().addClass('on');
+        });
+        $('.chart-detail__btn a').on('click', function() {
+            $(this).parents('.chart-detail__btn').parent('.tab').find('li').removeClass('on');
+            $(this).parent('li').addClass('on');
+            var currentHistory = $(this).attr('rel');
+            $(this).parents('.chart-detail__btn').parent('.tab').children('.tab-cont').children('.tab-item').removeClass('on');
+            $(this).parents('.chart-detail__btn').parent('.tab').children('.tab-cont').children('#' + currentHistory).addClass('on');
+        });
+    </script>
+
+
+    <script>
+        var dayChart = c3.generate({
+            size: {
+                width: 1000,
+                height: 220,
+            },
+            bindto: '#dayChart',
+            data: {
+                columns: [
+                    ['걸음 수', 0, 650, 1500, 1800, 2100, 2700, 2320, 2800, 2500, 2700, 1800, 1500, 1300, 1600, 1800, 1300, 2700, 2320, 1500, 1400, 1200, 2700, 1000, 2800, 1300, 2100, 1800, 2900, 2700, 1200, 2700,],
+                ],
+				colors: {
+					'걸음 수': '#fff'
+				},
+            },
+			axis: {
+				x: {
+					type: 'category',
+                    min: 1,
+				},
+				y: {
+					max: 3000,
+					min: 500,
+					padding: {
+						top: 0,
+						bottom: 0,
+					},
+					tick: {
+						count: 6,
+					}
+				},
+			},
+			grid: {
+				x: {
+                    show: true,
+				},
+			},
+            point: {
+                r: 4,
+            },
+			tooltip: {
+				show: false,
+			},
+			legend: {
+				show: false,
+			},
+        });
+
+
+        var weekChart = c3.generate({
+            size: {
+                height: 220,
+            },
+            bindto: '#weekChart',
+            data: {
+                columns: [
+                    ['걸음 수', 0, 850, 1500, 2000, 1800],
+                ],
+				colors: {
+					'걸음 수': '#fff'
+				},
+            },
+			axis: {
+				x: {
+					type: 'category',
+                    min: 1,
+				},
+				y: {
+					max: 3000,
+					min: 500,
+					padding: {
+						top: 0,
+						bottom: 0,
+					},
+					tick: {
+						count: 6,
+					}
+				},
+			},
+			grid: {
+				x: {
+                    show: true,
+				},
+			},
+            point: {
+                r: 4,
+            },
+			tooltip: {
+				show: false,
+			},
+			legend: {
+				show: false,
+			},
+        });
+
+        var monthChart = c3.generate({
+            size: {
+                width: 1000,
+                height: 220,
+            },
+            bindto: '#monthChart',
+            data: {
+				columns: [
+					['걸음 수', 1500, 1300, 1600, 1800, 2100, 2700, 2320, 2800, 2500, 2700, 1800, 1500, 1300, 1600, 1800, 1300, 2700, 2320, 1500, 1400, 1200, 2700, 1000, 2800, 1300, 2100, 1800, 2900, 2700, 1200, 2700,],
+				],
+				type: 'bar',
+				colors: {
+					'걸음 수': '#D8DEF3'
+				}
+            },
+			axis: {
+				x: {
+					type: 'category',
+                    min: 1,
+				},
+				y: {
+					max: 3000,
+					min: 500,
+					padding: {
+						top: 0,
+						bottom: 0,
+					},
+					tick: {
+						count: 6,
+					}
+				},
+			},
+			grid: {
+				x: {
+					show: true,
+				},
+			},
+			bar: {
+                width: 10,
+			},
+			tooltip: {
+				show: false
+			},
+			legend: {
+				show: false
+			},
+        });
+    </script>
+</body>
