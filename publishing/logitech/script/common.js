@@ -14,9 +14,9 @@ $(document).ready(function() {
         <div class="inner">
             <a class="menu-view__btn" href="#" onclick="event.preventDefault()"></a>
             <h1 class="hd-logo">
-                <a href="/portfolio_2024/publishing/logitech/page/index.html">
-                    <img src="/portfolio_2024/publishing/logitech/images/common/logo_wh.svg" alt="logitech G">
-                    <img src="/portfolio_2024/publishing/logitech/images/common/logo_bk.svg" alt="logitech G">
+                <a href="/portfolio/publishing/logitech/page/index.html">
+                    <img src="/portfolio/publishing/logitech/images/common/logo_wh.svg" alt="logitech G">
+                    <img src="/portfolio/publishing/logitech/images/common/logo_bk.svg" alt="logitech G">
                 </a>
             </h1>
             <a class="hd-sch__btn" href="#" onclick="event.preventDefault()"></a>
@@ -35,76 +35,76 @@ $(document).ready(function() {
                 <ul class="menu-view__li">
                     <li>
                         <div class="dep1">
-                            <a href="/portfolio_2024/publishing/logitech/page/product.html">제품</a>
+                            <a href="/portfolio/publishing/logitech/page/product.html">제품</a>
                             <button class="dep1-arrow" type="button"></button>
                         </div>
                         <div class="dep2">
                             <div class="inner">
                                 <ul class="dep2-li">
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">게이밍 마우스 및 마우스패드</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">게이밍 마우스 및 마우스패드</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">게이밍 마우스</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">게이밍 마우스패드</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">게이밍 마우스</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">게이밍 마우스패드</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">게이밍 키보드</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">게이밍 키보드</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">무선 키보드</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">블루투스 키보드</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">유선 키보드</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">모든 게이밍 키보드</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">무선 키보드</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">블루투스 키보드</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">유선 키보드</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">모든 게이밍 키보드</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">게이밍 헤드셋 및 오디오</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">게이밍 헤드셋 및 오디오</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">PC 헤드셋</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">콘솔 헤드셋</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">모든 오디오 제품</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">PC 헤드셋</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">콘솔 헤드셋</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">모든 오디오 제품</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">레이싱 휠 및 시뮬레이션</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">레이싱 휠 및 시뮬레이션</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">레이싱 휠</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">시뮬레이션</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">레이싱 휠</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">시뮬레이션</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">스트리밍</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">스트리밍</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">마이크</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">카메라 및 조명</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">마이크</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">카메라 및 조명</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">클라우드 게이밍</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">클라우드 게이밍</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">게임패드 및 컨트롤러</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">게임패드 및 컨트롤러</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">게이밍 가구</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">게이밍 가구</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">데스크톱</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">레이싱</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">데스크톱</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">레이싱</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/product.html">액세서리</a>
+                                        <a href="/portfolio/publishing/logitech/page/product.html">액세서리</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">키보드 액세서리</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">오디오 액세서리</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">마이크 액세서리</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/product.html">케이블 + 케이스</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">키보드 액세서리</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">오디오 액세서리</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">마이크 액세서리</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/product.html">케이블 + 케이스</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                                 <div class="dep2-lft">
                                     <figure>
-                                        <img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_lft_img_01.png" alt="">
+                                        <img src="/portfolio/publishing/logitech/images/common/header/dep2_lft_img_01.png" alt="">
                                         <figcaption>시리즈 구매하기</figcaption>
                                     </figure>
                                     <ul>
@@ -119,57 +119,57 @@ $(document).ready(function() {
                     </li>
                     <li>
                         <div class="dep1">
-                            <a href="/portfolio_2024/publishing/logitech/page/light.html">둘러보기</a>
+                            <a href="/portfolio/publishing/logitech/page/light.html">둘러보기</a>
                             <button class="dep1-arrow" type="button"></button>
                         </div>
                         <div class="dep2">
                             <div class="inner">
                                 <ul class="dep2-li">
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/light.html">게이밍 마우스 및 마우스패드</a>
+                                        <a href="/portfolio/publishing/logitech/page/light.html">게이밍 마우스 및 마우스패드</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">HERO 센서</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSPEED</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">POWERPLAY</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTFORCE</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">HERO 센서</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSPEED</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">POWERPLAY</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTFORCE</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/light.html">게이밍 키보드</a>
+                                        <a href="/portfolio/publishing/logitech/page/light.html">게이밍 키보드</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSPEED</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">기계식 스위치</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSPEED</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">기계식 스위치</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/light.html">게이밍 헤드셋 및 오디오</a>
+                                        <a href="/portfolio/publishing/logitech/page/light.html">게이밍 헤드셋 및 오디오</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">PRO-G 게이밍 오디오</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">Blue Vo!ce</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSPEED</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTFORM(ILP)</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">PRO-G 게이밍 오디오</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">Blue Vo!ce</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSPEED</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTFORM(ILP)</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/light.html">스트리밍</a>
+                                        <a href="/portfolio/publishing/logitech/page/light.html">스트리밍</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">Blue Vo!ce</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">LIGHTSYNC</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">Blue Vo!ce</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/light.html">레이싱 휠</a>
+                                        <a href="/portfolio/publishing/logitech/page/light.html">레이싱 휠</a>
                                         <ul class="dep3-li">
-                                            <li><a href="/portfolio_2024/publishing/logitech/page/light.html">TRUEFORCE</a></li>
+                                            <li><a href="/portfolio/publishing/logitech/page/light.html">TRUEFORCE</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                                 <div class="dep2-lft">
                                     <figure>
-                                        <img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_lft_img_02.png" alt="">
+                                        <img src="/portfolio/publishing/logitech/images/common/header/dep2_lft_img_02.png" alt="">
                                         <figcaption>커뮤니티</figcaption>
                                     </figure>
                                     <ul>
@@ -181,33 +181,33 @@ $(document).ready(function() {
                     </li>
                     <li>
                         <div class="dep1">
-                            <a href="/portfolio_2024/publishing/logitech/page/ghub.html">소프트웨어</a>
+                            <a href="/portfolio/publishing/logitech/page/ghub.html">소프트웨어</a>
                             <button class="dep1-arrow" type="button"></button>
                         </div>
                         <div class="dep2">
                             <div class="inner">
                                 <ul class="dep2-li wide">
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/ghub.html">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu3_img_01.png" alt=""></div>
+                                        <a href="/portfolio/publishing/logitech/page/ghub.html">
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu3_img_01.png" alt=""></div>
                                             G HUB
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/ghub.html">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu3_img_02.png" alt=""></div>
+                                        <a href="/portfolio/publishing/logitech/page/ghub.html">
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu3_img_02.png" alt=""></div>
                                             Streamlabs
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/ghub.html">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu3_img_03.png" alt=""></div>
+                                        <a href="/portfolio/publishing/logitech/page/ghub.html">
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu3_img_03.png" alt=""></div>
                                             Mixline
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/portfolio_2024/publishing/logitech/page/ghub.html">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu3_img_04.png" alt=""></div>
+                                        <a href="/portfolio/publishing/logitech/page/ghub.html">
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu3_img_04.png" alt=""></div>
                                             ASTRO 시리즈 소프트웨어
                                         </a>
                                     </li>
@@ -225,19 +225,19 @@ $(document).ready(function() {
                                 <ul class="dep2-li wide">
                                     <li>
                                         <a href="#" onclick="event.preventDefault()">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_01.png" alt=""></div>
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu4_img_01.png" alt=""></div>
                                             지원 센터
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" onclick="event.preventDefault()">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_02.png" alt=""></div>
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu4_img_02.png" alt=""></div>
                                             제품 등록
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" onclick="event.preventDefault()">
-                                            <div class="img-area"><img src="/portfolio_2024/publishing/logitech/images/common/header/dep2_menu4_img_03.png" alt=""></div>
+                                            <div class="img-area"><img src="/portfolio/publishing/logitech/images/common/header/dep2_menu4_img_03.png" alt=""></div>
                                             Logi ID 생성
                                         </a>
                                     </li>
@@ -324,7 +324,7 @@ $(document).ready(function() {
         <div class="inner">
             <div class="ft-cont">
                 <div class="ft-left">
-                    <div class="logo"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_logo.svg" alt="logitech G"></div>
+                    <div class="logo"><img src="/portfolio/publishing/logitech/images/common/footer/ft_logo.svg" alt="logitech G"></div>
                     <div class="news-letter">
                         <form>
                             <div class="form">
@@ -373,10 +373,10 @@ $(document).ready(function() {
             <div class="ft-btm">
                 <p class="copy">© 2023 로지텍. All rights reserved</p>
                 <ul class="sns">
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_01.svg" alt=""></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_02.svg" alt=""></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_03.svg" alt=""></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/logitech/images/common/footer/ft_sns_04.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/logitech/images/common/footer/ft_sns_01.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/logitech/images/common/footer/ft_sns_02.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/logitech/images/common/footer/ft_sns_03.svg" alt=""></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/logitech/images/common/footer/ft_sns_04.svg" alt=""></a></li>
                 </ul>
             </div>
         </div>

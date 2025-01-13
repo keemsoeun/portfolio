@@ -45,32 +45,32 @@ $(document).ready(function() {
             </div>
             <div class="hd-btm">
                 <h1>
-                    <a href="/portfolio_2024/publishing/lottehotels/page/index.html">
-                        <img src="/portfolio_2024/publishing/lottehotels/images/common/gnb_logo_wh.png" alt="LOTTE HOTELS">
-                        <img src="/portfolio_2024/publishing/lottehotels/images/common/gnb_logo_color.png" alt="LOTTE HOTELS">
+                    <a href="/portfolio/publishing/lottehotels/page/index.html">
+                        <img src="/portfolio/publishing/lottehotels/images/common/gnb_logo_wh.png" alt="LOTTE HOTELS">
+                        <img src="/portfolio/publishing/lottehotels/images/common/gnb_logo_color.png" alt="LOTTE HOTELS">
                     </a>
                 </h1>
                 <nav class="gnb-pc">
                     <ul class="dep1-li">
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="/portfolio_2024/publishing/lottehotels/page/about.html">호텔 소개</a>
+                            <a class="dep1-link" href="/portfolio/publishing/lottehotels/page/about.html">호텔 소개</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>호텔 소개</span></div>
                                     <ul class="dep2-li">
-                                        <li class="dep2-itm underline"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">롯데호텔 월드 소개</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">롯데호텔 월드 위치</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">주요명소</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">공지사항</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">갤러리</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">Art Experience</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">자주 묻는 질문</a></li>
+                                        <li class="dep2-itm underline"><a href="/portfolio/publishing/lottehotels/page/about.html">롯데호텔 월드 소개</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">롯데호텔 월드 위치</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">주요명소</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">공지사항</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">갤러리</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">Art Experience</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">자주 묻는 질문</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="/portfolio_2024/publishing/lottehotels/page/rooms.html">객실</a>
+                            <a class="dep1-link" href="/portfolio/publishing/lottehotels/page/rooms.html">객실</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>객실</span></div>
@@ -78,12 +78,12 @@ $(document).ready(function() {
                                         <li class="dep2-itm underline">
                                             <p>디럭스</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">디럭스 룸</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">디럭스 룸</a></li>
                                                 <li class="dep3-itm">
-                                                    <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">레지덴셜 룸</a>
+                                                    <a href="/portfolio/publishing/lottehotels/page/rooms.html">레지덴셜 룸</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">레지덴셜 룸</a></li>
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">레지덴셜 주니어 패밀리 트윈 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">레지덴셜 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">레지덴셜 주니어 패밀리 트윈 룸</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -91,47 +91,47 @@ $(document).ready(function() {
                                         <li class="dep2-itm">
                                             <p>클럽 플로어</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">클럽 플로어 룸</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">클럽 플로어 룸</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm wd50">
                                             <p>스위트</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">주니어 스위트 룸</a></li>
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">디럭스 스위트 룸</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">주니어 스위트 룸</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">디럭스 스위트 룸</a></li>
                                                 <li class="dep3-itm">
-                                                    <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">온돌 스위트 룸</a>
+                                                    <a href="/portfolio/publishing/lottehotels/page/rooms.html">온돌 스위트 룸</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">주니어 스위트 온돌 룸</a></li>
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">디럭스 스위트 온돌 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">주니어 스위트 온돌 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">디럭스 스위트 온돌 룸</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">프리미어 스위트 룸</a></li>
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">프레지덴셜 스위트 룸</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">프리미어 스위트 룸</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">프레지덴셜 스위트 룸</a></li>
                                             </ul>
                                         </li>
                                         <li class="dep2-itm wd100">
                                             <p>캐릭터</p>
                                             <ul class="dep3-li">
                                                 <li class="dep3-itm">
-                                                    <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">브레드이발소 룸</a>
+                                                    <a href="/portfolio/publishing/lottehotels/page/rooms.html">브레드이발소 룸</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">브레드이발소 패밀리 트윈 룸</a></li>
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">브레드이발소 더불 소파베드 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">브레드이발소 패밀리 트윈 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">브레드이발소 더불 소파베드 룸</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dep3-itm">
-                                                    <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">카카오프렌즈 룸</a>
+                                                    <a href="/portfolio/publishing/lottehotels/page/rooms.html">카카오프렌즈 룸</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">카카오프렌즈 패밀리 트윈 룸</a></li>
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">카카오프렌즈 스위트 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">카카오프렌즈 패밀리 트윈 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">카카오프렌즈 스위트 룸</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dep3-itm">
-                                                    <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">로티로리 룸</a>
+                                                    <a href="/portfolio/publishing/lottehotels/page/rooms.html">로티로리 룸</a>
                                                     <ul class="dep4-li">
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">로티로리 패밀리 트윈 룸</a></li>
-                                                        <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">로티로리 스위트 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">로티로리 패밀리 트윈 룸</a></li>
+                                                        <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">로티로리 스위트 룸</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -141,22 +141,22 @@ $(document).ready(function() {
                             </div>
                         </li>
                         <li class="dep1-itm">
-                            <a class="dep1-link" href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">스페셜 오퍼</a>
+                            <a class="dep1-link" href="/portfolio/publishing/lottehotels/page/specialoffer.html">스페셜 오퍼</a>
                             <div class="dep2">
                                 <div class="inner dep2-inner">
                                     <div class="dep1-tit"><span>스페셜 오퍼</span></div>
                                     <ul class="dep2-li">
-                                        <li class="dep2-itm underline"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">객실 프로모션</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">식음 프로모션</a></li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">호텔 이벤트</a></li>
+                                        <li class="dep2-itm underline"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">객실 프로모션</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">식음 프로모션</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">호텔 이벤트</a></li>
                                         <li class="dep2-itm">
                                             <p>파트너십</p>
                                             <ul class="dep3-li">
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">항공사 마일리지</a></li>
-                                                <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">L.POINT</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">항공사 마일리지</a></li>
+                                                <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">L.POINT</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">헤온 베딩 시스템</a></li>
+                                        <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">헤온 베딩 시스템</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -311,13 +311,13 @@ $(document).ready(function() {
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">롯데호텔 월드 소개</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">롯데호텔 월드 위치</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">주요명소</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">공지사항</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">갤러리</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">Art Experience</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/about.html">자주 묻는 질문</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">롯데호텔 월드 소개</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">롯데호텔 월드 위치</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">주요명소</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">공지사항</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">갤러리</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">Art Experience</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/about.html">자주 묻는 질문</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -330,12 +330,12 @@ $(document).ready(function() {
                                     <li class="dep2-itm">
                                         <p>디럭스</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">디럭스 룸</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">디럭스 룸</a></li>
                                             <li class="dep3-itm">
                                                 <a href="">레지덴셜 룸</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">레지덴셜 룸</a></li>
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">레지덴셜 주니어 패밀리 트윈 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">레지덴셜 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">레지덴셜 주니어 패밀리 트윈 룸</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -343,48 +343,48 @@ $(document).ready(function() {
                                     <li class="dep2-itm">
                                         <p>클럽 플로어</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">클럽 플로어 룸</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">클럽 플로어 룸</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>스위트</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">주니어 스위트 룸</a></li>
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">디럭스 스위트 룸</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">주니어 스위트 룸</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">디럭스 스위트 룸</a></li>
                                             <li class="dep3-itm">
                                                 <a href="">온돌 스위트 룸</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">주니어 스위트 온돌 룸</a></li>
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">디럭스 스위트 온돌 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">주니어 스위트 온돌 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">디럭스 스위트 온돌 룸</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">프리미어 스위트 룸</a></li>
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">프레지덴셜 스위트 룸</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">프리미어 스위트 룸</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/rooms.html">프레지덴셜 스위트 룸</a></li>
                                         </ul>
                                     </li>
                                     <li class="dep2-itm">
                                         <p>캐릭터</p>
                                         <ul class="dep3-li">
                                             <li class="dep3-itm">
-                                                <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">브레드이발소 룸</a>
+                                                <a href="/portfolio/publishing/lottehotels/page/rooms.html">브레드이발소 룸</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">브레드이발소 패밀리 트윈 룸</a></li>
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">브레드이발소 더불 소파베드 룸</a></li>
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">브레드이발소 주니어 스위트 패밀리 트윈 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">브레드이발소 패밀리 트윈 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">브레드이발소 더불 소파베드 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">브레드이발소 주니어 스위트 패밀리 트윈 룸</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dep3-itm">
-                                                <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">카카오프렌즈 룸</a>
+                                                <a href="/portfolio/publishing/lottehotels/page/rooms.html">카카오프렌즈 룸</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">카카오프렌즈 패밀리 트윈 룸</a></li>
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">카카오프렌즈 스위트 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">카카오프렌즈 패밀리 트윈 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">카카오프렌즈 스위트 룸</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dep3-itm">
-                                                <a href="/portfolio_2024/publishing/lottehotels/page/rooms.html">로티로리 룸</a>
+                                                <a href="/portfolio/publishing/lottehotels/page/rooms.html">로티로리 룸</a>
                                                 <ul class="dep4-li">
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">로티로리 패밀리 트윈 룸</a></li>
-                                                    <li class="dep4-itm"><a href="/portfolio_2024/publishing/lottehotels/page/detail.html">로티로리 스위트 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">로티로리 패밀리 트윈 룸</a></li>
+                                                    <li class="dep4-itm"><a href="/portfolio/publishing/lottehotels/page/detail.html">로티로리 스위트 룸</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -398,17 +398,17 @@ $(document).ready(function() {
                         <div class="dep2">
                             <div class="inner dep2-inner">
                                 <ul class="dep2-li">
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">객실 프로모션</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">식음 프로모션</a></li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">호텔 이벤트</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">객실 프로모션</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">식음 프로모션</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">호텔 이벤트</a></li>
                                     <li class="dep2-itm">
                                         <p>파트너십</p>
                                         <ul class="dep3-li">
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">항공사 마일리지</a></li>
-                                            <li class="dep3-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">L.POINT</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">항공사 마일리지</a></li>
+                                            <li class="dep3-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">L.POINT</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dep2-itm"><a href="/portfolio_2024/publishing/lottehotels/page/specialoffer.html">헤온 베딩 시스템</a></li>
+                                    <li class="dep2-itm"><a href="/portfolio/publishing/lottehotels/page/specialoffer.html">헤온 베딩 시스템</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -605,25 +605,25 @@ $(document).ready(function() {
         <div class="ft-top">
             <div class="inner ft-top__inner">
                 <ul class="brand-li">
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_01.png" alt="SIGNIEL"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_02.png" alt="LOTTE HOTELS"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_03.png" alt="L7 HOTELS"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_04.png" alt="LOTTE City Hotels"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_brand_logo_05.png" alt="LOTTE RESORT"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_brand_logo_01.png" alt="SIGNIEL"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_brand_logo_02.png" alt="LOTTE HOTELS"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_brand_logo_03.png" alt="L7 HOTELS"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_brand_logo_04.png" alt="LOTTE City Hotels"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_brand_logo_05.png" alt="LOTTE RESORT"></a></li>
                 </ul>
                 <ul class="sns-li">
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_01.png" alt="유튜브"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_02.png" alt="인스타그램"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_03.png" alt="페이스북"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_04.png" alt="네이버 블로그"></a></li>
-                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_sns_logo_05.png" alt="트립어드바이저"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_sns_logo_01.png" alt="유튜브"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_sns_logo_02.png" alt="인스타그램"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_sns_logo_03.png" alt="페이스북"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_sns_logo_04.png" alt="네이버 블로그"></a></li>
+                    <li><a href="#" onclick="event.preventDefault()"><img src="/portfolio/publishing/lottehotels/images/common/ft_sns_logo_05.png" alt="트립어드바이저"></a></li>
                 </ul>
             </div>
         </div>
         <div class="ft-btm">
             <div class="inner ft-btm__inner">
                 <div class="ft-info">
-                    <div class="ft-logo"><a href=""><img src="/portfolio_2024/publishing/lottehotels/images/common/ft_logo_wh.png" alt="LOTTE HOTELS&RESORTS"></a></div>
+                    <div class="ft-logo"><a href=""><img src="/portfolio/publishing/lottehotels/images/common/ft_logo_wh.png" alt="LOTTE HOTELS&RESORTS"></a></div>
                     <div class="info-li">
                         <p>㈜호텔롯데</p>
                         <span><b>TEL</b>+82-2-771-1000</span>

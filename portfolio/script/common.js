@@ -2,12 +2,12 @@ $(document).ready(function() {
     // header
     $('header').append(`
         <div class="inner">
-            <h1><a href="/portfolio_2024/index.html">KEEMSOEUN PORTFOLIO</a></h1>
+            <h1><a href="/portfolio/index.html">KEEMSOEUN PORTFOLIO</a></h1>
             <nav class="gnb">
                 <ul class="gnb-li">
-                    <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="/portfolio_2024/portfolio/page/about.html">ABOUT</a></li>
-                    <li><a href="/portfolio_2024/portfolio/page/contact.html">CONTACT</a></li>
+                    <li><a href="/portfolio/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="/portfolio/portfolio/page/about.html">ABOUT</a></li>
+                    <li><a href="/portfolio/portfolio/page/contact.html">CONTACT</a></li>
                 </ul>
             </nav>
             <button type="button" class="menu-view__btn">MENU</button>
@@ -23,10 +23,10 @@ $(document).ready(function() {
             </div>
             <div class="menu-view__menu">
                 <ul>
-                    <li><a href="/portfolio_2024/index.html">HOME</a></li>
-                    <li><a href="/portfolio_2024/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="/portfolio_2024/portfolio/page/about.html">ABOUT</a></li>
-                    <li><a href="/portfolio_2024/portfolio/page/contact.html">CONTACT</a></li>
+                    <li><a href="/portfolio/index.html">HOME</a></li>
+                    <li><a href="/portfolio/portfolio/page/portfolio/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="/portfolio/portfolio/page/about.html">ABOUT</a></li>
+                    <li><a href="/portfolio/portfolio/page/contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="menu-view__btm">
@@ -51,8 +51,8 @@ $(document).ready(function() {
                         <span>
                             GMAIL.COM
                             <i>
-                                <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
-                                <img src="/portfolio_2024/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="">
+                                <img src="/portfolio/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="이메일 복사하기">
+                                <img src="/portfolio/portfolio/images/common/arrow_top_right_wh_ico.svg" alt="">
                             </i>
                         </span>
                     </button>
@@ -63,8 +63,8 @@ $(document).ready(function() {
                 </div>
                 <div class="ft-top__rgt">
                     <button type="button" class="top-btn" aria-label="맨 위로 이동">
-                        <img src="/portfolio_2024/portfolio/images/common/arrow_top_wh_ico.svg" alt="">
-                        <img src="/portfolio_2024/portfolio/images/common/arrow_top_wh_ico.svg" alt="">
+                        <img src="/portfolio/portfolio/images/common/arrow_top_wh_ico.svg" alt="">
+                        <img src="/portfolio/portfolio/images/common/arrow_top_wh_ico.svg" alt="">
                     </button>
                 </div>
             </div>
