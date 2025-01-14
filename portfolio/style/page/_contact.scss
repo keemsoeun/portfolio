@@ -1,10 +1,10 @@
 .contact-area {
-    min-height: 100vh;
-    padding-top: 142px;
+    padding: 142px 0 160px;
 }
 .btn-li {
     margin-bottom: rem(40);
     li {
+        overflow: hidden;
         &:not(:last-of-type) {
             margin-bottom: rem(20);
         }
@@ -15,7 +15,9 @@
             line-height: 1;
             font-size: rem(100);
             font-weight: 700;
+            transform: translateY(100%);
             transition: opacity ease .2s;
+            animation: btnList forwards ease .8s;
             &::after {
                 content: '';
                 position: absolute;
@@ -26,14 +28,32 @@
                 background: $color-primary-strong;
             }
         }
+        &:nth-of-type(2) {
+            button {
+                animation-delay: .2s !important;
+            }
+        }
+        &:nth-of-type(3) {
+            button {
+                animation-delay: .4s !important;    
+            }
+        }
     }
+}
+@keyframes btnList {
+    0% {transform: translateY(100%);}
+    100% {transform: translateY(0%);}
 }
 .contact-txt__copy {
     margin-bottom: rem(24);
-    padding-left: rem(28);
-    font-size: rem(20);
-    font-weight: 600;
-    background: url(../../images/common/copy_primary_ico.svg) 0 50%/ rem(22) rem(22) no-repeat;
+    span {
+        display: inline-block;
+        padding: rem(4) rem(6) rem(4) rem(32);
+        font-size: rem(20);
+        font-weight: 500;
+        background: url(../../images/common/copy_primary_ico.svg) rem(4) 50%/ rem(22) rem(22) no-repeat, #000;
+        color: $color-primary-normal;
+    }
 }
 .contact-txt__li {
     li {
@@ -47,6 +67,11 @@
             font-weight: 500;
             color: $label-alternative;
         }
+    }
+}
+@include desktop {
+    .contact-area {
+        padding: 142px 0 220px;
     }
 }
 @include laptop {
