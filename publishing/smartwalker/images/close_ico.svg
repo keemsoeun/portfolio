@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-  <g id="그룹_113" data-name="그룹 113" transform="translate(6441 5011)">
-    <g id="사각형_329" data-name="사각형 329" transform="translate(-6441 -5011)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
-      <rect width="30" height="30" stroke="none"/>
-      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
-    </g>
-    <path id="합치기_1" data-name="합치기 1" d="M10,10.667.667,20,0,19.333,9.333,10,0,.667.667,0,10,9.333,19.333,0,20,.667,10.667,10,20,19.334,19.333,20Z" transform="translate(-6436 -5006)" fill="#949db5"/>
-  </g>
-</svg>

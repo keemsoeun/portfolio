@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="그룹_160" data-name="그룹 160" transform="translate(-40 -695)">
-    <circle id="타원_74" data-name="타원 74" cx="10" cy="10" r="10" transform="translate(40 695)" fill="#fff"/>
-    <path id="타원_74_-_윤곽선" data-name="타원 74 - 윤곽선" d="M10,2a8,8,0,1,0,8,8,8.009,8.009,0,0,0-8-8m0-2A10,10,0,1,1,0,10,10,10,0,0,1,10,0Z" transform="translate(40 695)" fill="#5d7dff"/>
-    <path id="패스_222" data-name="패스 222" d="M1.053-9.9H-1.053l.178,6.932H.875ZM-1.135-1.025A1.134,1.134,0,0,0,.014.123,1.153,1.153,0,0,0,1.148-1.025,1.141,1.141,0,0,0,.014-2.16,1.122,1.122,0,0,0-1.135-1.025Z" transform="translate(50.136 709.898)" fill="#5d7dff"/>
-  </g>
-</svg>
